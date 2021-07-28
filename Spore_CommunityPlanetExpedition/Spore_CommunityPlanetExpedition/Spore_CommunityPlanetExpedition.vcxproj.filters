@@ -11,6 +11,12 @@
     <Filter Include="Internal">
       <UniqueIdentifier>{d62ad12d-69d8-4933-8342-03043c9adc22}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Spore_CommunityPlanetExpedition\IUpdatables">
+      <UniqueIdentifier>{88bbcbf9-e281-4bc0-a7b9-123e9436424a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spore_CommunityPlanetExpedition\Cheats">
+      <UniqueIdentifier>{3d792999-9a62-4c45-abef-a0fa07289ed7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -20,7 +26,10 @@
       <Filter>Internal</Filter>
     </ClInclude>
     <ClInclude Include="PlanetScriptOverrider.h">
-      <Filter>Spore_CommunityPlanetExpedition</Filter>
+      <Filter>Spore_CommunityPlanetExpedition\IUpdatables</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportTerrainScript.h">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -31,7 +40,10 @@
       <Filter>Internal</Filter>
     </ClCompile>
     <ClCompile Include="PlanetScriptOverrider.cpp">
-      <Filter>Spore_CommunityPlanetExpedition</Filter>
+      <Filter>Spore_CommunityPlanetExpedition\IUpdatables</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportTerrainScript.cpp">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

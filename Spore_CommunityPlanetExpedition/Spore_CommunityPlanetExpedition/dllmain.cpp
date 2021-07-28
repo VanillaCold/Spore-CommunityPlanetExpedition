@@ -1,6 +1,7 @@
 // dllmain.cpp : Defines the entry point for the DLL application.
 #include "stdafx.h"
 #include "PlanetScriptOverrider.h"
+#include "ExportTerrainScript.h"
 
 void Initialize()
 {
@@ -12,6 +13,7 @@ void Initialize()
 	//  - Add new space tools
 	//  - Change materials
 	App::AddUpdateFunction(new PlanetScriptOverrider());
+	CheatManager.AddCheat("ExportTerrainScript", new ExportTerrainScript());
 }
 
 void Dispose()
