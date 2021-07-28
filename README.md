@@ -14,6 +14,7 @@ Special thanks to those who have helped in creating this mod:
 - Flame - creating planets and props
 - Sommy - creating planets and props
 - Metalblaze/ERROR - creating planets
+- 0KepOnline - creating planets
 - Alespill - creating planets
 - AmberPebbles - creating planets
 - Cozmi - creating planets
