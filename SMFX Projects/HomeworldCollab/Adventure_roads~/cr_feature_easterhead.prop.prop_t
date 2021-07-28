@@ -1,0 +1,24 @@
+key parent 0x15BA5969.prop
+string16 description "CG Feature Easter Il Head"
+keys modelEffect
+	0x1B287746
+end
+float modelEffectRange 240
+floats modelLODDistances
+	200
+	1000
+	1920
+end
+vector3 modelLevelParams (4, 0, 0.5)
+key modelMeshHull feature_easterhead-hull
+key modelMeshLOD0 feature_easterhead
+key modelMeshLOD1 feature_easterhead_LOD1
+colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
+vector3 modelPaintDecalParams (12, 0, 0.8)
+key modelPaintDecalTexture 0xAC284CED
+uint32 modelSound hash(amb_easter_head_lp)
+bool modelUsesDeadColor true
+float obstacleBaseCollisionRadius 7
+float obstacleCanopyCollisionRadius 4
+float obstacleCollisionHeight 18
+float obstacleObjectExclusionRadius 45

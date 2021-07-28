@@ -71,6 +71,9 @@ void PlanetScriptOverrider::Update()
 				OverrideProplist->GetProperty(0x03A23F99, prop); //0x03A23F99 is terrainScriptPlanetInfo
 				propList->SetProperty(0x03A23F99, prop);
 
+				OverrideProplist->GetProperty(0x073137BB, prop); //0x073137BB is terrainThemeFloraGlobalDensity
+				propList->SetProperty(0x073137BB, prop);
+
 				OverrideProplist->GetProperty(0x03A23F98, prop); //0x03A23F98 is terrainScriptWTALevels
 				propList->SetProperty(0x03A23F98, prop);
 

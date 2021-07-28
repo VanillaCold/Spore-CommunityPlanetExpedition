@@ -107,6 +107,8 @@ void ExportTerrainScript::OnShopperAccept(const vector<ResourceKey>& selection)
 			pRecord->GetStream()->SetPosition(0);
 			auto size = pRecord->GetStream()->GetSize();
 			char* buffer = new char[size];
+
+
 			pRecord->GetStream()->Read(buffer, size);
 			pRecord->Close();
 

@@ -1,0 +1,30 @@
+key parent 0x15BA5969.prop
+string16 description "CG Feature Temple"
+keys modelEffect
+	0x8623BF34
+	0x74123CB7
+end
+float modelEffectRange 1200
+floats modelLODDistances
+	180
+	600
+	920
+end
+vector3 modelLevelParams (65, 0, 1)
+key modelMeshHull 0xCA0F99BB
+key modelMeshLOD0 0xF51D4849
+key modelMeshLOD1 0xFFE3671A
+key modelMeshLOD2 0xFFE36719
+colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
+vector3 modelPaintDecalParams (25, 0, 0.8)
+key modelPaintDecalTexture feature_temple
+float modelPlacementSpacingRing 70
+vector3 modelRotation (0, 0, 270)
+uint32 modelSound hash(amb_temple_lp)
+#vector3 modelStampParams (100, 0, 0.3)
+#key modelStampTexture 0x69A68923
+bool modelUsesDeadColor true
+float obstacleBaseCollisionRadius 9
+float obstacleCanopyCollisionRadius 10
+float obstacleCollisionHeight 40
+float obstacleObjectExclusionRadius 65

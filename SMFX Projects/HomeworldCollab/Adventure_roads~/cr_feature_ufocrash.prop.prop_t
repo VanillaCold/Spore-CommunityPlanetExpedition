@@ -1,0 +1,24 @@
+key parent 0x15BA5969.prop
+string16 description "CG Feature UFO Crash"
+keys modelEffect
+	cr_feature_ufocrash
+end
+float modelEffectRange 240
+transforms modelEffectTransforms
+	-offset (0, 0, 0) -scale 1 -rotateXYZ 0 -0 0
+end
+vector3 modelLevelParams (50, 0, 0.5)
+key modelMeshHull feature_ufocrash-hull
+key modelMeshLOD0 feature_ufocrash
+colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
+vector3 modelPaintDecalParams (35, 0, 0.8)
+key modelPaintDecalTexture 0x8DD6F7D6
+vector3 modelStampParams (35, 0, 0.07)
+key modelStampTexture 0xCC48AFC1
+bool modelUsesDeadColor true
+float obstacleBaseCollisionRadius 18
+float obstacleCanopyCollisionRadius 10
+float obstacleCollisionHeight 10
+float obstacleObjectExclusionRadius 55
+float terraformClearFloraRadius 10
+uint32 terrainScriptModelType 0x153f84a3

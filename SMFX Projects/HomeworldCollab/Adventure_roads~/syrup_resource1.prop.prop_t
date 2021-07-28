@@ -1,0 +1,30 @@
+key parent 0x15BA5969.prop
+string16 description "Geyser Resource Object"
+float modelBoundingRadius 10
+keys modelEffect
+	0x6E58A2F9
+end
+float modelEffectRange 400
+transforms modelEffectTransforms
+	-offset (0, 0, 0) -scale 1 -rotateXYZ 0 -0 0
+end
+keys modelEffectWorld
+	0xD0A45522
+end
+floats modelLODDistances
+	480
+	1000
+	5000
+end
+vector3 modelLevelParams (10, 0, 0.8)
+colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
+vector3 modelPaintDecalParams (11, 0, 0.8)
+key modelPaintDecalTexture 0x3813E774
+float modelPlacementSpacingRing 30
+#vector3 modelStampParams (11, 0, 0.03)
+#key modelStampTexture 0x745BF41F
+bool modelUsesDeadColor true
+float obstacleBaseCollisionRadius 5
+float obstacleObjectExclusionRadius 15
+float terraformClearFloraRadius 8
+bool terrainScriptModelIsResource true
