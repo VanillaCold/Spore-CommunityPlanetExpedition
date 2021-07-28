@@ -71,7 +71,7 @@ void ExportTerrainScript::OnShopperAccept(const ResourceKey& selection)
 			cAssetMetadataPtr metadata;
 			Pollinator::GetMetadata(selection.instanceID, selection.groupID, metadata);
 			string16 name = metadata->GetName();
-
+			name += metadata->GetAuthor();
 
 
 			Resource::IPFRecord* pRecord;
