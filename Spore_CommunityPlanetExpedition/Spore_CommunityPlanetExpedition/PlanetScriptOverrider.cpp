@@ -29,7 +29,6 @@ void PlanetScriptOverrider::Update()
 			
 			if (IsDoneAlready == 0 && result == u"Gameplay Theme")
 			{
-				SporeDebugPrint(to_string(PlanetIDs.size()).c_str());
 				SporeDebugPrint("Overrided planet script: %u", IDs[i]);
 				RandomNumberGenerator rng(IDs[i]);
 				rng.seed = IDs[i] * IDs[i];
