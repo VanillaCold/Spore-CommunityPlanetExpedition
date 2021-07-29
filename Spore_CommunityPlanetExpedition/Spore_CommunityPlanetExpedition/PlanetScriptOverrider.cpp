@@ -22,12 +22,17 @@ void PlanetScriptOverrider::Update()
 		{
 			PropertyListPtr propList;
 			bool IsDoneAlready = 0;
+			bool isAlreadyGenerated = 0;
 			PropManager.GetPropertyList(IDs[i],0x4084A100,propList);
 			App::Property::GetBool(propList.get(), id("PlanetOverrider-IsAlreadyDone"), IsDoneAlready);
+
+			size_t countUseless; ResourceKey* keyUseless;
+
+			isAlreadyGenerated = App::Property::GetArrayKey(propList.get(), 0x043B29E1, countUseless, keyUseless); //terrainModelFootprints
 			string16 result;
 			App::Property::GetString16(propList.get(), 0x00B2CCCA, result);
 			
-			if (IsDoneAlready == 0 && result == u"Gameplay Theme")
+			if (IsDoneAlready == 0 && isAlreadyGenerated == false)
 			{
 				SporeDebugPrint("Overrided planet script: %u", IDs[i]);
 				RandomNumberGenerator rng(IDs[i]);
