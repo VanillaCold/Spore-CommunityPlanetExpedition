@@ -11,7 +11,7 @@ floats modelLODDistances
 	1000
 	5000
 end
-vector3 modelLevelParams (60, 0, 1)
+#vector3 modelLevelParams (60, 0, 1)
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
 vector3 modelPaintDecalParams (45, 0, 0.8)
 key modelPaintDecalTexture decal_potatoeye_resource_pile

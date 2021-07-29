@@ -10,7 +10,7 @@ floats modelLODDistances
 	600
 	920
 end
-vector3 modelLevelParams (65, 0, 1)
+#vector3 modelLevelParams (65, 0, 1)
 key modelMeshHull 0xCA0F99BB
 key modelMeshLOD0 0xF51D4849
 key modelMeshLOD1 0xFFE3671A

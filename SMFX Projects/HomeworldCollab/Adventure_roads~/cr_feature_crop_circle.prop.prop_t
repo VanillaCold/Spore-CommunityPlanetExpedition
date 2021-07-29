@@ -4,7 +4,7 @@ keys modelEffect
 	cr_feature_crop_circle
 end
 float modelEffectRange 240
-vector3 modelLevelParams (35, 0, 0.7)
+#vector3 modelLevelParams (35, 0, 0.7)
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
 vector3 modelPaintDecalParams (25, 0, 0.8)
 key modelPaintDecalTexture 0x758AC76D

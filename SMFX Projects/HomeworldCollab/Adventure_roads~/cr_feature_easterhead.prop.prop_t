@@ -9,7 +9,7 @@ floats modelLODDistances
 	1000
 	1920
 end
-vector3 modelLevelParams (4, 0, 0.5)
+#vector3 modelLevelParams (4, 0, 0.5)
 key modelMeshHull feature_easterhead-hull
 key modelMeshLOD0 feature_easterhead
 key modelMeshLOD1 feature_easterhead_LOD1
