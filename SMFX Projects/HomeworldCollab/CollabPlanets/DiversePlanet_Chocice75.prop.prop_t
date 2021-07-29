@@ -1978,7 +1978,7 @@ keys terrainScriptModels
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
-	Adventure_roads~!EP1_Road_Dirt_Plaza.prop
+	Adventure_roads~!Road_Desert_Plaza.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
@@ -2080,7 +2080,7 @@ keys terrainScriptModels
 	Adventure_roads~!EP1_Road_Dirt_Straight.prop
 	Adventure_roads~!EP1_Road_Dirt_Straight.prop
 	Adventure_roads~!EP1_Road_Dirt_Curve.prop
-	Adventure_roads~!EP1_Road_Dirt_Plaza.prop
+	Adventure_roads~!Road_Desert_Plaza.prop
 	Adventure_roads~!cr_feature_meteorite.prop
 	Adventure_roads~!syrup_resource1.prop
 	Adventure_roads~!fossil_massiverock2.prop
