@@ -1,0 +1,26 @@
+key parent 0x15BA5969.prop
+string16 description "Small Skull by Dashik42"
+#keys modelEffect
+#	0xFF2F9B23
+#end
+#float modelEffectRange 240
+#floats modelLODDistances
+#	100
+#	500
+#	900
+#	999
+#end
+#vector3 modelLevelParams (40, 0, 0.5)
+key modelMeshHull PlanetProps_Models!SmallSkull_LOD0.rw4
+key modelMeshLOD0 PlanetProps_Models!SmallSkull_LOD0.rw4
+key modelMeshLOD1 PlanetProps_Models!SmallSkull_LOD1.rw4
+key modelMeshLOD2 PlanetProps_Models!SmallSkull_LOD2.rw4
+colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
+vector3 modelPaintDecalParams (45, 0, 0.8)
+#key modelPaintDecalTexture 0x3CD176AB
+float modelScale 2.0
+#vector3 modelStampParams (45, 0, 0.12)
+#key modelStampTexture 0xB102A2D0
+bool modelUsesDeadColor false
+bool rockObstacleAllowed false
+uint32 terrainScriptModelType hash(volcano)

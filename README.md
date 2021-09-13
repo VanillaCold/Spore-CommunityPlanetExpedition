@@ -24,3 +24,4 @@ when the mod is finished, it'll be made available in this repo's Releases page a
 - Scratchybird - creating planets
 - Pink - creating planets
 - LucasTheGreat - creating planets
+- Dashik42 - creating props
