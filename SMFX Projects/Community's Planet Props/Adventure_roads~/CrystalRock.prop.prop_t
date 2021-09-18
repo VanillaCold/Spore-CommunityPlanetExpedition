@@ -1,0 +1,16 @@
+key parent 0x15BA5969.prop
+string16 description "Crystal (Rock) by FlameFireFlower"
+vector3 modelLevelParams (40, 0, 0.5)
+key modelMeshLOD0 PlanetProps_Models!CrystalRock
+colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
+vector3 modelPaintDecalParams (45, 0, 0.8)
+float modelScale 2.5
+vector3 modelStampParams (45, 0, 0.12)
+bool modelUsesDeadColor false
+float obstacleBaseCollisionRadius 35
+float obstacleCanopyCollisionRadius 15
+float obstacleCollisionHeight 44
+float modelPlacementSpacingRing 70
+float obstacleObjectExclusionRadius 45
+bool rockObstacleAllowed false
+uint32 terrainScriptModelType hash(volcano)

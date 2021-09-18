@@ -28,5 +28,9 @@ int32s palettePagePartItemRows
 end
 keys palettePagePartItems
 	Adventure_brushes~!SmallSkull
+	Adventure_Brushes~!CrystalBoulder
+	Adventure_Brushes~!CrystalPebble
+	Adventure_Brushes~!CrystalRock
+	Adventure_Brushes~!CrystalStone
 end
 key palettePagePartParentPage communitypage2
