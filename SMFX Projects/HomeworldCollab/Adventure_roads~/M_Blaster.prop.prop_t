@@ -1,0 +1,18 @@
+key parent 0x15BA5969.prop
+string16 description "Blaster by Maxis"
+key modelMeshLOD0 MaxisPlanetProps_Models!Blaster
+colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
+vector3 modelPaintDecalParams (45, 0, 0.8)
+bool modelUsesDeadColor false
+float obstacleBaseCollisionRadius 35
+float obstacleCanopyCollisionRadius 15
+float obstacleCollisionHeight 44
+float modelPlacementSpacingRing 70
+float obstacleObjectExclusionRadius 45
+bool rockObstacleAllowed false
+uint32 terrainScriptModelType hash(volcano)
+floats modelLODDistances
+	15000
+	40000
+	200000
+end

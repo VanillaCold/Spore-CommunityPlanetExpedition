@@ -28,3 +28,8 @@ bool rockObstacleAllowed false
 #float terraformClearFloraRadius 30
 #uint32 terrainScriptModelType hash(volcano)
 uint32 terrainScriptModelType hash(volcano)
+floats modelLODDistances
+	15000
+	40000
+	200000
+end

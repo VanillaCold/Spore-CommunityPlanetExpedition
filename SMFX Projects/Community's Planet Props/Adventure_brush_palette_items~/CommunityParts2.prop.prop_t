@@ -32,5 +32,12 @@ keys palettePagePartItems
 	Adventure_Brushes~!CrystalPebble
 	Adventure_Brushes~!CrystalRock
 	Adventure_Brushes~!CrystalStone
+	Adventure_Brushes~!M_AlienSkeleton
+	Adventure_Brushes~!M_Blaster
+	Adventure_Brushes~!M_Monolith
+	Adventure_Brushes~!M_WildlifeSanctuary
+	Adventure_Brushes~!M_WallSegment
+	Adventure_Brushes~!M_IceHill
+	Adventure_Brushes~!M_Hammer
 end
 key palettePagePartParentPage communitypage2

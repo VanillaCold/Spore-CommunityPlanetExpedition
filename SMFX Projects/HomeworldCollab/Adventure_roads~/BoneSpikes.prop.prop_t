@@ -28,3 +28,8 @@ float obstacleObjectExclusionRadius 45
 bool rockObstacleAllowed false
 #uint32 terrainScriptModelType hash(volcano)
 uint32 terrainScriptModelType hash(volcano)
+floats modelLODDistances
+	15000
+	40000
+	200000
+end

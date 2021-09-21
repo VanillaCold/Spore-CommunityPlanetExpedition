@@ -22,3 +22,8 @@ float modelScale 2.5
 bool modelUsesDeadColor false
 bool rockObstacleAllowed false
 uint32 terrainScriptModelType hash(volcano)
+floats modelLODDistances
+	15000
+	40000
+	200000
+end

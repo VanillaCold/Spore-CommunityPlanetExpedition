@@ -11,6 +11,7 @@ arizona_massiverock1_LOD2
 ObenSku
 communityc
 auto_Adventure_brush_palette~_communitybrushes
+spacegame_tools
 ObenSkul
 communitypage
 BulbPlant
@@ -61,6 +62,7 @@ BoneRib
 auto_Adventure_brushes~_FloraDirtPlaza
 LargeFossilRock
 c
+SG_colonytool_preserve
 B
 Opl
 ce_grasper_insect_04
@@ -94,6 +96,7 @@ auto_Adventure_brush_palette_category~_communitycategory
 Adventure_brush_palette_category~	0x406b6edc
 Adventure_brush_palette_pages~	0x406b6cdc
 MassiveTentaclePile1
+EP1_StaticObjectTemplate
 MassiveTentacleRock1
 MassiveTentacleRock2
 OBu
@@ -108,7 +111,8 @@ Plan
 OBulb
 communityca
 auto_Adventure_brush_palette_pages~_ChocPages
-Planet
+definitions~	0x2e9c426
+planet
 Flora_Road_Dirt_Curve
 BoneHand
 IO
@@ -139,6 +143,7 @@ auto_Adventure_roads~_Flora_Plaza_Old_03
 auto_Adventure_roads~_Flora_Plaza_Old_02
 auto_Adventure_roads~_Flora_Plaza_Old_01
 Pla
+special
 BoneSpik
 SpiceGeyser
 BoneRibs
@@ -159,12 +164,14 @@ Volcano2
 PlanetProp
 PlanetProps_PN
 ScenarioMode
+SG_colonytool_preserve_LOD1
 OpenS
 sporemaster
 names
 PlanetP
 auto_Adventure_roads~_Flora_Road_Dirt_Straight
 OB
+ToolTemplate
 Ol
 auto_Adventure_brushes~_OpenSkull
 MassivePickleRock
@@ -182,6 +189,7 @@ OpenSkul
 planet_settings~	0x243ad2b
 BoneRo
 Adventure_brushes~	0x406b0100
+spacetools~	0x30608f0b
 auto_Adventure_brushes~_test
 BoneRi
 MassiveOrganicRock
@@ -190,10 +198,12 @@ choccategory
 SpringPl
 BulbPlan
 auto_Adventure_brush_palette_pages~_communitypage
+placeObject
 Flora_Road_Dirt_Straight
 commun
 EP1_Plaza_Old_01
 StoneArch
+social_panel_bottom~	0x8630adb1
 PlanetProps_Modes
 EP1_Plaza_Old_02
 EP1_Plaza_Old_03
@@ -249,12 +259,17 @@ uB
 EpicFootprint
 Spri
 auto_Adventure_roads~_BoneHand
+EP1_SG_colonytool_preserve
 EP1_Road_Dirt_4way
 EP1_Plaza_Decorative_01
 BoneSp
 BoneSs
 ep1_terrain_brushes
+CivicObjects
 MassiveCoralRock
+SmallSkull_LOD2
+SmallSkull_LOD0
+SmallSkull_LOD1
 Feature_Meteorite-hull
 communitycategory
 SpiralVent

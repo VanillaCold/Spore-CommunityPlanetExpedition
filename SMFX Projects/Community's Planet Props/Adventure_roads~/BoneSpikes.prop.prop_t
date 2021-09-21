@@ -4,11 +4,11 @@ string16 description "BoneSpikes by FlameFireFlower"
 #	0xFF2F9B23
 #end
 #float modelEffectRange 240
-#floats modelLODDistances
-#	200
-#	1000
-#	1920
-#end
+floats modelLODDistances
+	15000
+	40000
+	200000
+end
 vector3 modelLevelParams (40, 0, 0.5)
 #key modelMeshHull PlanetProps_Models!BoneSpikes.rw4
 key modelMeshLOD0 PlanetProps_Models!BoneSpikes.rw4

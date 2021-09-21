@@ -39,7 +39,5 @@ keys palettePagePartItems
 	Adventure_Brushes~!MangroveTree
 	Adventure_Brushes~!FloraDesertPlaza
 	Adventure_Brushes~!FloraSnowPlaza
-	#Adventure_Brushes~!Tribe
-	#Adventure_brushes~!Brush_Homeworld_Potato
 end
 key palettePagePartParentPage communitypage
