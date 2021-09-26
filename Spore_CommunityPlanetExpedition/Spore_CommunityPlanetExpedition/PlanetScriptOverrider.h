@@ -15,6 +15,9 @@ public:
 	PlanetScriptOverrider();
 	~PlanetScriptOverrider();
 
+	void OverrideHomeworldScripts();
+	void OverrideRegularScripts();
+
 	void Update() override;
 	int AddRef() override;
 	int Release() override;
