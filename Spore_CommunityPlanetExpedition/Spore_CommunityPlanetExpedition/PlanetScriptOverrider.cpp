@@ -56,8 +56,8 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 	if (IsCollabInstalled != 0)
 	{
 		SporeDebugPrint("Overrided planet script: %u", planetScriptKey.instanceID);
-		RandomNumberGenerator rng(0);
-		rng.seed = (planetScriptKey.instanceID + planetScriptKey.groupID) / 2;
+		RandomNumberGenerator rng(planetScriptKey.instanceID);
+		rng.seed = planetScriptKey.instanceID * planetScriptKey.instanceID;
 		int index = rng.RandomInt(PlanetIDs.size());
 
 		PropertyListPtr propList = planetPropList;
