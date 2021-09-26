@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include "PlanetScriptOverrider.h"
 #include "ExportTerrainScript.h"
+#include <Spore\Terrain\Sphere\cTerrainSphere.h>
 
 void Initialize()
 {
@@ -16,6 +17,16 @@ void Initialize()
 	CheatManager.AddCheat("ExportTerrainScript", new ExportTerrainScript());
 }
 
+member_detour(TerrainSphereGenerate_detour, Terrain::Sphere::cTerrainSphere, void(int*, int*, bool, bool, float)) {
+	void detoured(int * unused0, int* unused1, bool unk = false,
+		bool generateSingleStep = false, float generateTimeLimit = 10.0f) {
+		PlanetScriptOverrider::OverrideRegularScripts(this->mpPropList);
+
+		original_function(this, unused0, unused1, unk, generateSingleStep, generateTimeLimit);
+		
+	}
+};
+
 void Dispose()
 {
 	// This method is called when the game is closing
@@ -23,6 +34,7 @@ void Dispose()
 
 void AttachDetours()
 {
+	TerrainSphereGenerate_detour::attach(GetAddress(Terrain::Sphere::cTerrainSphere, Generate));
 	// Call the attach() method on any detours you want to add
 	// For example: cViewer_SetRenderType_detour::attach(GetAddress(cViewer, SetRenderType));
 }

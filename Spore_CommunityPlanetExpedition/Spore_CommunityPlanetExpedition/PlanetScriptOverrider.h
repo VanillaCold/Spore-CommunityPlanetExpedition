@@ -15,8 +15,8 @@ public:
 	PlanetScriptOverrider();
 	~PlanetScriptOverrider();
 
-	void OverrideHomeworldScripts();
-	void OverrideRegularScripts();
+	//void OverrideHomeworldScripts();
+	static void OverrideRegularScripts(PropertyListPtr planetPropList);
 
 	void Update() override;
 	int AddRef() override;
