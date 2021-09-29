@@ -52,7 +52,13 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 		default:
 		{
 			IsCollabInstalled = PropManager.GetAllListIDs(id("CollabStandardPlanets"), PlanetIDs);
-			groupIDToUse = id("CollabStandardPlanets");
+			RandomNumberGenerator rng(planetScriptKey.instanceID);
+			rng.seed = planetScriptKey.instanceID * planetScriptKey.instanceID;
+			if (rng.RandomFloat() > 0.125)
+				groupIDToUse = id("CollabStandardPlanets");
+			else
+				groupIDToUse = id("CollabPlanets");
+
 			break;
 		}
 	}
