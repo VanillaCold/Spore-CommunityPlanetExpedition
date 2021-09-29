@@ -14,6 +14,11 @@ PlanetScriptOverrider::~PlanetScriptOverrider()
 
 void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropList)
 {
+	if (Simulator::IsScenarioMode())
+	{
+		return;
+	}
+
 	vector<uint32_t> PlanetIDs;
 	uint32_t groupIDToUse;
 
@@ -68,9 +73,6 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 		OverrideProplist->GetProperty(0x02A907B5, prop); //0x02A907B5 is modelEffect
 		propList->SetProperty(0x02A907B5, prop);
 
-		OverrideProplist->GetProperty(0x04E13CB7, prop); //0x04E13CB7 is terrainThemeFlora
-		propList->SetProperty(0x04E13CB7, prop);
-
 		OverrideProplist->GetProperty(0x03A90C57, prop); //0x03A90C57 is terrainScriptModels
 		propList->SetProperty(0x03A90C57, prop);
 
@@ -94,12 +96,18 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 
 		OverrideProplist->GetProperty(0x7A6AA70B, prop); //0x7A6AA70B is terrainScriptEffectWaterLevels
 		propList->SetProperty(0x7A6AA70B, prop);
+		
+		if (planetScriptKey.groupID == 0x4084A100)
+		{
+			OverrideProplist->GetProperty(0x03A23F99, prop); //0x03A23F99 is terrainScriptPlanetInfo
+			propList->SetProperty(0x03A23F99, prop);
 
-		OverrideProplist->GetProperty(0x03A23F99, prop); //0x03A23F99 is terrainScriptPlanetInfo
-		propList->SetProperty(0x03A23F99, prop);
+			OverrideProplist->GetProperty(0x04E13CB7, prop); //0x04E13CB7 is terrainThemeFlora
+			propList->SetProperty(0x04E13CB7, prop);
 
-		OverrideProplist->GetProperty(0x073137BB, prop); //0x073137BB is terrainThemeFloraGlobalDensity
-		propList->SetProperty(0x073137BB, prop);
+			OverrideProplist->GetProperty(0x073137BB, prop); //0x073137BB is terrainThemeFloraGlobalDensity
+			propList->SetProperty(0x073137BB, prop);
+		}
 
 		OverrideProplist->GetProperty(0x03A23F98, prop); //0x03A23F98 is terrainScriptWTALevels
 		propList->SetProperty(0x03A23F98, prop);
