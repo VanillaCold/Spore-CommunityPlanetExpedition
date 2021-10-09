@@ -1,0 +1,35 @@
+int32s palettePagePartItemColumns
+	0
+	1
+	2
+	0
+	1
+	2
+	0
+	1
+	2
+	0
+	1
+	2
+end
+int32s palettePagePartItemRows
+	0
+	0
+	0
+	1
+	1
+	1
+	2
+	2
+	2
+	3
+	3
+	3
+end
+keys palettePagePartItems
+	Adventure_Brushes~!M_WallSegment
+	Adventure_Brushes~!M_HealingStaff
+	Adventure_Brushes~!M_FishSkeleton
+	Adventure_Brushes~!M_CreatureNest
+end
+key palettePagePartParentPage communitypage3
