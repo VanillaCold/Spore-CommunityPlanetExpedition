@@ -210,7 +210,7 @@ void PlanetScriptOverrider::OverrideHomeworldScripts()
 			string16 result;
 			App::Property::GetString16(propList.get(), 0x00B2CCCA, result);
 
-			if (IsDoneAlready)
+			if (IsDoneAlready && !isAlreadyGenerated)
 			{
 				PropertyListPtr OverrideProplist;
 				RandomNumberGenerator rng(IDs[i]);
