@@ -1,0 +1,60 @@
+key parent planetTerrainThemes~!ad_gear.prop
+keys modelEffect
+end
+uint32 modelEffectSeed 0x3e52ea74
+transforms modelEffectTransforms
+end
+floats terrainScriptEffectIntensities
+end
+uint32s terrainScriptEffectSeeds
+end
+floats terrainScriptEffectTimes
+	0
+end
+transforms terrainScriptModelTransforms
+end
+keys terrainScriptModels
+end
+vector3 terrainScriptPlanetInfo (12, 23, 500)
+vector3 terrainScriptWTALevels (-0.5, 0.5, 0.5)
+vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
+vector3 terrainThemeBeachColor (0.8705883, 0.7450981, 0.5019608)
+vector3 terrainThemeCliffColor (0.5272331, 0.466231, 0.3616558)
+keys terrainThemeFlora
+end
+int32s terrainThemeFloraBracketIndexes
+end
+floats terrainThemeFloraDensities
+end
+float terrainThemeFloraGlobalDensity 1
+vector3s terrainThemePlanetColors
+	(0.722342, 0.4705939, 0.3081401)
+	(0.8569973, 0.6608686, 0.5767621)
+	(0.7114455, 0.6440282, 0.4591934)
+	(0.6498824, 0.6775689, 0.3584146)
+	(0.5547339, 0.6551711, 0.2352773)
+	(0.4539215, 0.6439834, 0.1401624)
+	(0.4986666, 0.6383755, 0.2409132)
+	(0.4257815, 0.6383588, 0.1625602)
+	(0.4537423, 0.6495464, 0.2521065)
+	(0.3697815, 0.5655912, 0.2017311)
+	(0.4536248, 0.5431935, 0.3193446)
+	(0.3696863, 0.5431935, 0.2689132)
+end
+floats terrainThemePlanetColorsList
+	0
+	0.0322581
+	0.0967742
+	0.1935484
+	0.2258064
+	0.2903226
+	0.3548387
+	0.483871
+	0.516129
+	0.6774193
+	0.8064516
+	0.8709677
+end
+uint32 terrainVersion 2
+uint32 terrainWaterType 11
+key visualStyle animations~
