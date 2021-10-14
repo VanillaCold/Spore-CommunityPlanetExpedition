@@ -11,10 +11,10 @@ when the mod is finished, it'll be made available in this repo's Releases page a
 
 
 # Credits  
-- Chocice75/VanillaCold - doing the mod's techincal mumbo-jumbo and creating planets
+- Chocice75/VanillaCold - doing the mod's techincal mumbo-jumbo, creating planets and creating props
 - Emd - creating the Spore ModAPI Development Kit and Sporemodder FX, which were used to create the mod
 - Mrs. White - assisting with making the planet overrider work better
-- Flame - creating planets and props
+- Flame - creating planets, terraforming stamps and props
 - Sommy - creating planets and props
 - Metalblaze/ERROR - creating planets
 - 0KepOnline - creating planets
@@ -26,4 +26,4 @@ when the mod is finished, it'll be made available in this repo's Releases page a
 - Pink - creating planets
 - LucasTheGreat - creating planets  
 - Dashik42 - creating props  
-- Dinoking - creating planets  
+- Dinoking - creating planets and props 
