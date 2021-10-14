@@ -33,5 +33,11 @@ keys palettePagePartItems
 	Adventure_Brushes~!M_CreatureNest
 	Adventure_Brushes~!FloraDeadPlaza
 	Adventure_Brushes~!TriangleHoles-Chocice75
+	Adventure_Brushes~!P_DGrass
+	Adventure_Brushes~!P_Grass
+	Adventure_Brushes~!P_Magma
+	Adventure_Brushes~!P_PurpleCC
+	Adventure_Brushes~!P_RedCC
+	Adventure_Brushes~!P_Toxic
 end
 key palettePagePartParentPage communitypage3
