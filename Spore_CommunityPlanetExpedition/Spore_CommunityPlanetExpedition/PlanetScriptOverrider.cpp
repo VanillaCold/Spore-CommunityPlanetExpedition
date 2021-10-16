@@ -54,7 +54,7 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 				App::Property* prop2;
 				OverrideProplist->GetProperty(0x03A90C57, prop);
 				propList->GetProperty(0x03A90C57, prop2);
-				if (prop != prop2)
+				if (prop->GetValue() != prop2->GetValue())
 				{
 					isAlreadyGenerated = 0;
 					isDoneAlready = 0;
@@ -222,7 +222,7 @@ void PlanetScriptOverrider::OverrideHomeworldScripts()
 				App::Property* prop2;
 				OverrideProplist->GetProperty(0x03A90C57, prop);
 				propList->GetProperty(0x03A90C57, prop2);
-				if (prop != prop2)
+				if (prop->GetValue() != prop2->GetValue())
 				{
 					isAlreadyGenerated = 0;
 					IsDoneAlready = 0;
