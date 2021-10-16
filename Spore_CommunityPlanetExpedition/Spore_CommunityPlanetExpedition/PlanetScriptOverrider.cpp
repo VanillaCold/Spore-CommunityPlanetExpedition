@@ -48,7 +48,7 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 			PropertyListPtr OverrideProplist;
 			PropManager.GetPropertyList(PlanetIDs[index], groupIDToUse, OverrideProplist);
 
-			if (isDoneAlready)
+			if (isDoneAlready && !isAlreadyGenerated)
 			{
 				App::Property* prop;
 				App::Property* prop2;
