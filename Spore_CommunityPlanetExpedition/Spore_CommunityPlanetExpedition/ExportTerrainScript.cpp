@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "ExportTerrainScript.h"
 #include <Spore/App/ScenarioMode.h>
+#include <Spore/Simulator/cScenarioResource.h>
 #include <sys/stat.h>
 #include <string>
 #include <filesystem>
@@ -21,9 +22,11 @@ void ExportTerrainScript::ParseLine(const ArgScript::Line& line)
 {
 	ResourceKey resource;
 	mode = 0;
+	bool currentPlanet = 0;
 	if (line.HasFlag("altName")) mode = 1;
+	if (line.HasFlag("currentPlanet")) currentPlanet = 1;
 
-	//if (!Simulator::IsSpaceGame()) 
+	if (!currentPlanet) 
 	{
 		Sporepedia::ShopperRequest request;
 		request.pMultiListener = this;
@@ -33,21 +36,22 @@ void ExportTerrainScript::ParseLine(const ArgScript::Line& line)
 		return;
 	}
 
-	/*/if (Simulator::IsSpaceGame())
-	{
+	//if (Simulator::IsSpaceGame())
+	/* {
 		if (Simulator::SpacePlayerData::Get()->mCurrentContext == Simulator::SpaceContext::kSpaceContextSolarSystem ||
 			Simulator::SpacePlayerData::Get()->mCurrentContext == Simulator::SpaceContext::kSpaceContextPlanet)
 		{
 			resource = Simulator::GetActivePlanetRecord()->mKey;
 		}
 		else return;
-	}
-	Resource::IPFRecord* pRecord;
+	}*/
+	//resource = //PlanetModel.mpTerrain->GetPropertyList()->writ
+	/*Resource::IPFRecord* pRecord;
 	auto dbpf = ResourceManager.GetDBPF(resource);
 	if (!dbpf || !dbpf->GetFile(resource, &pRecord)) {
 		App::ConsolePrintF("An error has occured - either the package doesn't exist or the terrain script doesn't exist.");
-		return;
-	}
+		//return;
+	}*/
 
 	string16 creationFolder;
 	if (!App::Thumbnail_cImportExport::Get()->GetFolderPath(TypeIDs::adventure, creationFolder)) return;
@@ -58,22 +62,25 @@ void ExportTerrainScript::ParseLine(const ArgScript::Line& line)
 
 	std::filesystem::create_directory(str.c_str());
 
-	pRecord->GetStream()->SetPosition(0);
+	/*->GetStream()->SetPosition(0);
 	auto size = pRecord->GetStream()->GetSize();
 	char* buffer = new char[size];
 	pRecord->GetStream()->Read(buffer, size);
-	pRecord->Close();
+	pRecord->Close();*/
 
-	string16 name = Simulator::Activ
-	name += u" - " + metadata->GetAuthor();
+	string16 name = u"Exported planet";
+	//name += u" - " + metadata->GetAuthor();
 
 	string16 path;
+	//auto scenario = (Simulator::cScenarioResource*)App::ScenarioMode::Get()->field_74;
+	//scenario->
 	path.sprintf(u"%ls%ls.prop", creationFolder.c_str(), Simulator::GetActivePlanetRecord()->mName.c_str());
 	intrusive_ptr<IO::FileStream> outputStream = new IO::FileStream(path.c_str());
 	outputStream->Open(IO::kAccessFlagReadWrite, IO::kCDCreateAlways);
-	outputStream->Write(buffer, size);
+	PlanetModel.mpTerrain->GetPropertyList()->Write(outputStream.get());
+	//outputStream->Write(buffer, size);
 	outputStream->Close();
-	delete[] buffer;*/
+	//delete[] buffer;
 }
 
 void ExportTerrainScript::OnShopperAccept(const vector<ResourceKey>& selection)
