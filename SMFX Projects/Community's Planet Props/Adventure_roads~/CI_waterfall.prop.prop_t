@@ -1,0 +1,11 @@
+key parent 0x15BA5969.prop
+string16 description "Waterfall"
+keys modelEffect
+	CI_waterfall
+end
+float modelEffectRange 120000000
+#colorRGB modelPaintDecalColor (0.5, 0.5, 0.5)
+#vector3 modelPaintDecalParams (25, 0, 0.75)
+#key modelPaintDecalTexture CPE_FireFlameFlower-Toxic.rw4
+bool rockObstacleAllowed false
+#uint32 terrainScriptModelType hash(volcano)

@@ -30,5 +30,9 @@ keys palettePagePartItems
 	Adventure_Brushes~!CaveMouth
 	Adventure_Brushes~!CavePit
 	Adventure_Brushes~!PineconeTree
+	Adventure_Brushes~!CaveTunnel
+	Adventure_Brushes~!CaveSplit
+	Adventure_Brushes~!Waterfall-Chocice75
+	Adventure_Brushes~!River-Chocice75
 end
 key palettePagePartParentPage communitypage4

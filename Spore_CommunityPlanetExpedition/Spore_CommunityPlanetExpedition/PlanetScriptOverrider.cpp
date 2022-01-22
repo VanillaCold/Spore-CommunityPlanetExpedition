@@ -165,6 +165,64 @@ void PlanetScriptOverrider::Update()
 	{
 		OverrideHomeworldScripts();
 	}
+
+	//return;
+
+	if (Simulator::IsCreatureGame() || Simulator::IsScenarioMode() && Simulator::cPlanetModel::Get() != nullptr)
+	{
+		intrusive_ptr<Graphics::Model>* model;
+		auto size = PlanetModel.mpTerrain->GetModels(model);
+
+		if (size <= 0) return;
+
+		for (int i = 0; size_t(i) < size; i++)
+		{
+			bool result;
+			bool result2 = App::Property::GetBool(model[i]->mpPropList.get(), id("CPEOverrideCollision"), result);
+			if (true || (result && result2))
+			{
+
+				//SporeDebugPrint("Model %u, collision mode %s", model[i]->GetPropList()->GetResourceKey().instanceID,  to_string(uint8_t(model[i]->mCollisionMode)).c_str());
+				//SporeDebugPrint("Model %u, flags %i", model[i]->GetPropList()->GetResourceKey().instanceID, model[i]->mFlags);
+				//SporeDebugPrint("Model %u, group flags %i", model[i]->GetPropList()->GetResourceKey().instanceID, model[i]->mGroupFlags);
+				//SporeDebugPrint("Model %u, unknown float %f", model[i]->GetPropList()->GetResourceKey().instanceID, model[i]->field_88);
+				//SporeDebugPrint("Model %u, unknown float 2 %f", model[i]->GetPropList()->GetResourceKey().instanceID, model[i]->field_8C);
+
+				//model[i]->field_88 = 1 - model[i]->field_88;
+
+				//model[i]->mFlags = model[i]->mFlags;//49185;
+				//model[i]->mFlags = 77108;
+
+				
+				//model[i]->mFlags = 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 + 8192 + 8192 * 2 + 8192 * 4 + 8192 * 8;
+				
+				//model[i]->mFlags = Graphics::kModelFlagOverrideBoundingBox + Graphics::kModelFlagHighRes + Graphics::kModelFlagOverrideBoundingRadius + 128 + Graphics::kModelFlagVisible;
+
+				//model[i]->mFlags = 770081;
+				
+				//model[i]->mCollisionMode = Graphics::CollisionMode::Lod0KDTree;
+				//auto owner = model[i]->GetOwner();
+				//model[i]->mDefaultBBox.lower = -model[i]->mTransform.GetOffset();
+				//model[i]->mDefaultBBox.upper = model[i]->mTransform.GetOffset();
+
+				//SporeDebugPrint("test");
+
+				//auto modelOwner = object_cast<Simulator::>(owner);
+				
+				/*if (owner)
+				{
+					App::ConsolePrintF("yeehaw!");
+				}*/
+
+				//auto test = (Simulator::cGameData*)model[i].get();
+				//if (object_cast<Simulator::cSpatialObject>(test->GetGameDataOwner()))
+				//{
+				//	App::ConsolePrintF("yeehaw");
+				//}
+			}
+		}
+	}
+
 }
 
 // For internal use, do not modify.

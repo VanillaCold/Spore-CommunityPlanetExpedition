@@ -1,11 +1,12 @@
 key parent Adventure_brushes~!0x61594689.prop
 texts spaceToolDescription
-	"Cave (Pit) - Chocice75"
+	"River"
 end
-key spaceToolImageID PlanetProps_PNGs!Cave_Pit.png
+key spaceToolImageID PlanetProps_PNGs!BoneHand.png
 float terraformBrushIntensityDefault 0.5
 vector2 terraformBrushIntensityRange (0.25, 2)
 float terraformBrushSizeDefault 1
-vector2 terraformBrushSizeRange (0.25, 20)
+vector2 terraformBrushSizeRange (-20, 20)
 key terraformMarkerModelID 0x079A8EE7!0x60B011BB.prop
-key terraformModelID Adventure_roads~!CavePit
+key terraformModelID CI_River
+#key terraformToolPreviewEffect 0x0DC7A13C

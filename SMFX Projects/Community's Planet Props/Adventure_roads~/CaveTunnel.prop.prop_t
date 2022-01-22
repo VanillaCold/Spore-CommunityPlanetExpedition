@@ -1,27 +1,22 @@
 key parent 0x15BA5969.prop
-string16 description "BulbPlant by FlameFireFlower"
+string16 description "CaveTunnel by Chocice75"
 #keys modelEffect
 #	0xFF2F9B23
 #end
 #float modelEffectRange 240
 floats modelLODDistances
-	15000
-	40000
-	200000
+	1500
+	4000
+	20000
 end
-key modelMeshHull PlanetProps_Models!BulbPlant.rw4
-key modelMeshLOD0 PlanetProps_Models!BulbPlant.rw4
-#key modelMeshLOD1 Feature_Meteorite_LOD1
+#vector3 modelLevelParams (40, 0, 0.5)
+key modelMeshLOD0 PlanetProps_Models!CaveTunnel.rw4
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
 vector3 modelPaintDecalParams (45, 0, 0.8)
 #key modelPaintDecalTexture 0x3CD176AB
 float modelScale 2.5
+#vector3 modelStampParams (45, 0, 0.12)
 #key modelStampTexture 0xB102A2D0
 bool modelUsesDeadColor false
-#float obstacleBaseCollisionRadius 4
-#float obstacleCanopyCollisionRadius 3
-#float obstacleCollisionHeight 4
-#float obstacleObjectExclusionRadius 45
 bool rockObstacleAllowed false
-#float terraformClearFloraRadius 30
 uint32 terrainScriptModelType hash(volcano)

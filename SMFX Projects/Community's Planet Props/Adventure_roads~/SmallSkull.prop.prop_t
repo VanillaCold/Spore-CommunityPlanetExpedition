@@ -10,7 +10,6 @@ string16 description "Small Skull by Dashik42"
 #	900
 #	999
 #end
-#vector3 modelLevelParams (40, 0, 0.5)
 key modelMeshLOD0 PlanetProps_Models!SmallSkull_LOD0.rw4
 key modelMeshLOD1 PlanetProps_Models!SmallSkull_LOD1.rw4
 key modelMeshLOD2 PlanetProps_Models!SmallSkull_LOD2.rw4

@@ -8,7 +8,6 @@ floats modelLODDistances
 	40000
 	40000
 end
-#vector3 modelLevelParams (40, 0, 0.5)
 key modelMeshLOD0 PlanetProps_Models!PineconeTree.rw4
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
 vector3 modelPaintDecalParams (45, 0, 0.8)
