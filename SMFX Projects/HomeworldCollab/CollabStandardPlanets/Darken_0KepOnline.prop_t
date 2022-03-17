@@ -1,7 +1,4 @@
-string8s description
-	"  DARKEN [T0]  "
-	" by 0KepOnline "
-end
+#Darken by 0KepOnline
 keys modelEffect
 	Quilted_hills_Global~
 	GO_blur_all~
