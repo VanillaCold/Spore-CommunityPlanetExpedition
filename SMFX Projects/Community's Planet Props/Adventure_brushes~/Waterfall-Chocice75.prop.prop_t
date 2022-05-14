@@ -2,7 +2,7 @@ key parent Adventure_brushes~!0x61594689.prop
 texts spaceToolDescription
 	"Waterfall"
 end
-key spaceToolImageID PlanetProps_PNGs!BoneHand.png
+key spaceToolImageID ci_thumbs~!EP1_EffectObject_Waterfall.png #PlanetProps_PNGs!BoneHand.png
 float terraformBrushIntensityDefault 0.5
 vector2 terraformBrushIntensityRange (0.25, 1)
 float terraformBrushSizeDefault 1

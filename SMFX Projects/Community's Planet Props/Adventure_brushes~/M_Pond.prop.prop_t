@@ -8,5 +8,5 @@ vector2 terraformBrushIntensityRange (0.25, 2)
 float terraformBrushSizeDefault 1
 vector2 terraformBrushSizeRange (-20, 20)
 key terraformMarkerModelID 0x079A8EE7!0x60B011BB.prop
-key terraformModelID CI_River
+key terraformModelID M_Pond
 #key terraformToolPreviewEffect 0x0DC7A13C
