@@ -1,0 +1,33 @@
+int32s palettePagePartItemColumns
+	0
+	1
+	2
+	0
+	1
+	2
+	0
+	1
+	2
+	0
+	1
+	2
+end
+int32s palettePagePartItemRows
+	0
+	0
+	0
+	1
+	1
+	1
+	2
+	2
+	2
+	3
+	3
+	3
+end
+keys palettePagePartItems
+	Adventure_Brushes~!S_Triangle-FireFlameFlower
+	Adventure_Brushes~!S_RTriangle-Chocice75
+end
+key palettePagePartParentPage communitypage5

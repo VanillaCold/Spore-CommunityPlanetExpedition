@@ -37,5 +37,7 @@ keys palettePagePartItems
 	Adventure_Brushes~!CoastalArch
 	Adventure_Brushes~!CoastalArchGrey
 	Adventure_Brushes~!M_Pond
+	Adventure_Brushes~!S_Circle-FireFlameFlower
+	Adventure_Brushes~!S_Square-FireFlameFlower
 end
 key palettePagePartParentPage communitypage4

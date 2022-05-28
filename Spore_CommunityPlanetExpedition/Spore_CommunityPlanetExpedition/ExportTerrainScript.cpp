@@ -70,6 +70,7 @@ void ExportTerrainScript::ParseLine(const ArgScript::Line& line)
 
 	string16 name = u"Exported planet";
 	//name += u" - " + metadata->GetAuthor();
+	string16 planetName = u"";
 
 	string16 path;
 	//auto scenario = (Simulator::cScenarioResource*)App::ScenarioMode::Get()->field_74;
