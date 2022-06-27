@@ -33,11 +33,11 @@ keys palettePagePartItems
 	Adventure_Brushes~!CrystalRock
 	Adventure_Brushes~!CrystalStone
 	Adventure_Brushes~!DeadTree
-	Adventure_Brushes~!M_AlienSkeleton
-	Adventure_Brushes~!M_Blaster
-	Adventure_Brushes~!M_Monolith
-	Adventure_Brushes~!M_WildlifeSanctuary
-	Adventure_Brushes~!M_IceHill
-	Adventure_Brushes~!M_Hammer
+	Adventure_Brushes~!FloraDeadPlaza
+	Adventure_Brushes~!TriangleHoles-Chocice75
+	Adventure_Brushes~!P_DGrass
+	Adventure_Brushes~!P_Grass
+	Adventure_Brushes~!P_Magma
+	Adventure_Brushes~!P_PurpleCC
 end
 key palettePagePartParentPage communitypage2

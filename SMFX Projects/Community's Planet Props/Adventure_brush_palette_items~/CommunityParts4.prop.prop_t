@@ -27,17 +27,9 @@ int32s palettePagePartItemRows
 	3
 end
 keys palettePagePartItems
-	Adventure_Brushes~!CaveMouth
-	Adventure_Brushes~!CavePit
-	Adventure_Brushes~!PineconeTree
-	Adventure_Brushes~!CaveTunnel
-	Adventure_Brushes~!CaveSplit
-	Adventure_Brushes~!Waterfall-Chocice75
-	Adventure_Brushes~!River-Chocice75
-	Adventure_Brushes~!CoastalArch
-	Adventure_Brushes~!CoastalArchGrey
-	Adventure_Brushes~!M_Pond
 	Adventure_Brushes~!S_Circle-FireFlameFlower
 	Adventure_Brushes~!S_Square-FireFlameFlower
+	Adventure_Brushes~!S_Triangle-FireFlameFlower
+	Adventure_Brushes~!S_RTriangle-Chocice75
 end
 key palettePagePartParentPage communitypage4

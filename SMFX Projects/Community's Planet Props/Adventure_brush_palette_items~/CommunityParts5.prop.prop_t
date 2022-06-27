@@ -27,7 +27,5 @@ int32s palettePagePartItemRows
 	3
 end
 keys palettePagePartItems
-	Adventure_Brushes~!S_Triangle-FireFlameFlower
-	Adventure_Brushes~!S_RTriangle-Chocice75
 end
 key palettePagePartParentPage communitypage5

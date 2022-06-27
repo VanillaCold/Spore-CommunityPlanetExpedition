@@ -1,7 +1,7 @@
-key paletteCategoryIcon ufotools~!0x813F6FE0.png #0xE6D8B938.png
+key paletteCategoryIcon ufotools~!0x75844E51.png #0xE6D8B938.png
 key paletteCategoryLayoutFile 0x32224E95
 texts paletteCategoryName
 	"Community's Planetary Expedition - Props (unsharable)"
 end
 key paletteCategoryParentCategory Adventure_brush_palette_category~!0xB200F474.prop
-uint32 paletteCategorySequenceNumber 400
+uint32 paletteCategorySequenceNumber 500

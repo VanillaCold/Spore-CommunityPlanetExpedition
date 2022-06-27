@@ -1,0 +1,43 @@
+int32s palettePagePartItemColumns
+	0
+	1
+	2
+	0
+	1
+	2
+	0
+	1
+	2
+	0
+	1
+	2
+end
+int32s palettePagePartItemRows
+	0
+	0
+	0
+	1
+	1
+	1
+	2
+	2
+	2
+	3
+	3
+	3
+end
+keys palettePagePartItems
+	Adventure_Brushes~!M_AlienSkeleton
+	Adventure_Brushes~!M_Blaster
+	Adventure_Brushes~!M_Monolith
+	Adventure_Brushes~!M_WildlifeSanctuary
+	Adventure_Brushes~!M_IceHill
+	Adventure_Brushes~!M_Hammer
+	Adventure_Brushes~!M_WallSegment
+	Adventure_Brushes~!M_HealingStaff
+	Adventure_Brushes~!M_FishSkeleton
+	Adventure_Brushes~!M_CreatureNest
+	Adventure_Brushes~!M_Fossil1
+	Adventure_Brushes~!M_Fossil5
+end
+key palettePagePartParentPage MaxisPage1

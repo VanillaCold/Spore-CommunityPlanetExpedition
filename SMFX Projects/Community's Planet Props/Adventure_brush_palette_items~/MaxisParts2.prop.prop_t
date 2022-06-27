@@ -1,0 +1,40 @@
+int32s palettePagePartItemColumns
+	0
+	1
+	2
+	0
+	1
+	2
+	0
+	1
+	2
+	0
+	1
+	2
+end
+int32s palettePagePartItemRows
+	0
+	0
+	0
+	1
+	1
+	1
+	2
+	2
+	2
+	3
+	3
+	3
+end
+keys palettePagePartItems
+	Adventure_Brushes~!M_Fossil8
+	Adventure_Brushes~!M_Fossil10
+	Adventure_Brushes~!M_Relic_1
+	Adventure_Brushes~!M_Relic_3
+	Adventure_Brushes~!M_Relic_4
+	Adventure_Brushes~!M_Relic_6
+	Adventure_Brushes~!M_Relic_7
+	Adventure_Brushes~!M_Relic_8
+	Adventure_Brushes~!M_Relic_9
+end
+key palettePagePartParentPage MaxisPage2

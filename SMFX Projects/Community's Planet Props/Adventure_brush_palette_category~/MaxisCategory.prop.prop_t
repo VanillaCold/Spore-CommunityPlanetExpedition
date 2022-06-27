@@ -1,0 +1,7 @@
+key paletteCategoryIcon ufotools~!0x777B4B4B.png #0xE6D8B938.png
+key paletteCategoryLayoutFile 0x32224E95
+texts paletteCategoryName
+	"Community's Planetary Expedition - Maxis-Made Props (unsharable)"
+end
+key paletteCategoryParentCategory Adventure_brush_palette_category~!0xB200F474.prop
+uint32 paletteCategorySequenceNumber 600

@@ -27,17 +27,17 @@ int32s palettePagePartItemRows
 	3
 end
 keys palettePagePartItems
-	Adventure_Brushes~!M_WallSegment
-	Adventure_Brushes~!M_HealingStaff
-	Adventure_Brushes~!M_FishSkeleton
-	Adventure_Brushes~!M_CreatureNest
-	Adventure_Brushes~!FloraDeadPlaza
-	Adventure_Brushes~!TriangleHoles-Chocice75
-	Adventure_Brushes~!P_DGrass
-	Adventure_Brushes~!P_Grass
-	Adventure_Brushes~!P_Magma
-	Adventure_Brushes~!P_PurpleCC
 	Adventure_Brushes~!P_RedCC
 	Adventure_Brushes~!P_Toxic
+	Adventure_Brushes~!CaveMouth
+	Adventure_Brushes~!CavePit
+	Adventure_Brushes~!PineconeTree
+	Adventure_Brushes~!CaveTunnel
+	Adventure_Brushes~!CaveSplit
+	Adventure_Brushes~!Waterfall-Chocice75
+	Adventure_Brushes~!River-Chocice75
+	Adventure_Brushes~!CoastalArch
+	Adventure_Brushes~!CoastalArchGrey
+	Adventure_Brushes~!M_Pond
 end
 key palettePagePartParentPage communitypage3
