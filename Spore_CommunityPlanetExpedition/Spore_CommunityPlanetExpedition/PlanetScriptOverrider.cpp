@@ -2,6 +2,7 @@
 #include <asyncinfo.h>
 #include "PlanetScriptOverrider.h"
 #include <Spore\Terrain\Sphere\cTerrainSphere.h>
+#include <Spore\App\IPropManager.h>
 
 PlanetScriptOverrider::PlanetScriptOverrider()
 {
@@ -18,7 +19,6 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 	{
 		return;
 	}
-
 	vector<uint32_t> PlanetIDs;
 	uint32_t groupIDToUse;
 	ResourceKey sourcePropList;
@@ -35,6 +35,7 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 
 
 	ResourceKey planetScriptKey = planetPropList->GetResourceKey();
+	ResourceKey parentKey;
 	switch (planetScriptKey.groupID)
 	{
 		case 0x4084A100:
@@ -42,9 +43,12 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 			IsCollabInstalled = PropManager.GetAllListIDs(id("CollabPlanets"), PlanetIDs);
 			groupIDToUse = id("CollabPlanets");
 
-			RandomNumberGenerator rng(planetScriptKey.instanceID);
+			App::Property::GetKey(planetPropList.get(),0x00B2CCCB,parentKey);
+
+			RandomNumberGenerator rng(planetScriptKey.instanceID * parentKey.instanceID);
 			rng.seed = planetScriptKey.instanceID * planetScriptKey.groupID / planetScriptKey.typeID;
 			int index = rng.RandomInt(PlanetIDs.size());
+
 
 			SporeDebugPrint("RNG seed is %u", rng.seed);
 
@@ -78,9 +82,9 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 		}
 		default:
 		{
-			
 			RandomNumberGenerator rng(planetScriptKey.instanceID);
-			rng.seed = planetScriptKey.instanceID * planetScriptKey.instanceID;
+			App::Property::GetKey(planetPropList.get(), 0x00B2CCCB, parentKey);
+			rng.seed = planetScriptKey.instanceID * parentKey.instanceID;
 			if (rng.RandomFloat() > 0.0625)
 			{
 				groupIDToUse = id("CollabStandardPlanets");
@@ -183,10 +187,10 @@ void PlanetScriptOverrider::OverrideRegularScripts(PropertyListPtr planetPropLis
 void PlanetScriptOverrider::Update()
 {
 	//OverrideRegularScripts();
-	if (GameModeManager.GetActiveModeID() == kGGEMode)
-	{
-		OverrideHomeworldScripts();
-	}
+	//if (GameModeManager.GetActiveModeID() == kGGEMode)
+	//{
+	//	OverrideHomeworldScripts();
+	///}
 
 	//return;
 
@@ -303,7 +307,13 @@ void PlanetScriptOverrider::OverrideHomeworldScripts()
 			{
 				PropertyListPtr OverrideProplist;
 				RandomNumberGenerator rng(IDs[i]);
-				rng.seed = IDs[i] * IDs[i];
+				//rng.seed = IDs[i] * IDs[i];
+
+				ResourceKey parentKey;
+
+				App::Property::GetKey(propList.get(), 0x00B2CCCB, parentKey);
+				rng.seed = IDs[i] * parentKey.instanceID;
+				
 				int index = rng.RandomInt(PlanetIDs.size());
 				PropManager.GetPropertyList(PlanetIDs[index], id("CollabPlanets"), OverrideProplist);
 

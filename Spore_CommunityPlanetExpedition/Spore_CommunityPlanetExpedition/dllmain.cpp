@@ -13,7 +13,7 @@ void Initialize()
 	//  - Add new game modes
 	//  - Add new space tools
 	//  - Change materials
-	App::AddUpdateFunction(new PlanetScriptOverrider());
+	//App::AddUpdateFunction(new PlanetScriptOverrider());
 
 	CheatManager.AddCheat("ExportTerrainScript", new ExportTerrainScript());
 }
