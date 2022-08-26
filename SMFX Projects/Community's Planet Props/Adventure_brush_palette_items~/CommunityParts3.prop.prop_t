@@ -35,9 +35,10 @@ keys palettePagePartItems
 	Adventure_Brushes~!CaveTunnel
 	Adventure_Brushes~!CaveSplit
 	Adventure_Brushes~!Waterfall-Chocice75
+	Adventure_Brushes~!Waterfall_Ground-Chocice75
+	Adventure_Brushes~!Waterfall_Small-Chocice75
 	Adventure_Brushes~!River-Chocice75
-	Adventure_Brushes~!CoastalArch
-	Adventure_Brushes~!CoastalArchGrey
-	Adventure_Brushes~!M_Pond
+	Adventure_Brushes~!RiverLarge-Chocice75
+
 end
 key palettePagePartParentPage communitypage3
