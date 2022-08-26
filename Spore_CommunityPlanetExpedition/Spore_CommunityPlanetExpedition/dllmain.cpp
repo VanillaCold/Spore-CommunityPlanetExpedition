@@ -25,6 +25,7 @@ member_detour(TerrainSphereGenerate_detour, Terrain::Sphere::cTerrainSphere, voi
 
 		original_function(this, unused0, unused1, unk, generateSingleStep, generateTimeLimit);
 
+		//PlanetScriptOverrider::OverrideRegularScripts(this->mpPropList);
 	}
 };
 
