@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Crichini_LucasTheGreatYT)
+uint32 CreatureScenario hash(Crichini_LucasTheGreatYT)
+bool FirstGroup true
+uint32 PlanetIcon hash(Crichini_LucasTheGreatYT)
+uint32 SpaceScenario hash(Crichini_LucasTheGreatYT)
+uint32 TribeScenario hash(Crichini_LucasTheGreatYT)
+string16 planetscriptDescription "Crichini_LucasTheGreatYT"
+uint32 terrainscript hash(Crichini_LucasTheGreatYT)
+bool 0xEA288A88 false

@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(RubyRavinePlanet_EdgyNightmeme)
+uint32 CreatureScenario hash(RubyRavinePlanet_EdgyNightmeme)
+bool FirstGroup true
+uint32 PlanetIcon hash(RubyRavinePlanet_EdgyNightmeme)
+uint32 SpaceScenario hash(RubyRavinePlanet_EdgyNightmeme)
+uint32 TribeScenario hash(RubyRavinePlanet_EdgyNightmeme)
+string16 planetscriptDescription "RubyRavinePlanet_EdgyNightmeme"
+uint32 terrainscript hash(RubyRavinePlanet_EdgyNightmeme)
+bool 0xEA288A88 false

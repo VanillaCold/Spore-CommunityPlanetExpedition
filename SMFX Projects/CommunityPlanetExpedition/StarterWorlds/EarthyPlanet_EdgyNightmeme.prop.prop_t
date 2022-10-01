@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(EarthyPlanet_EdgyNightmeme)
+uint32 CreatureScenario hash(EarthyPlanet_EdgyNightmeme)
+bool FirstGroup true
+uint32 PlanetIcon hash(EarthyPlanet_EdgyNightmeme)
+uint32 SpaceScenario hash(EarthyPlanet_EdgyNightmeme)
+uint32 TribeScenario hash(EarthyPlanet_EdgyNightmeme)
+string16 planetscriptDescription "EarthyPlanet_EdgyNightmeme"
+uint32 terrainscript hash(EarthyPlanet_EdgyNightmeme)
+bool 0xEA288A88 false

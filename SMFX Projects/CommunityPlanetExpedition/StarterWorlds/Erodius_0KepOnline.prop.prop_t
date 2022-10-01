@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Erodius_0KepOnline)
+uint32 CreatureScenario hash(Erodius_0KepOnline)
+bool FirstGroup true
+uint32 PlanetIcon hash(Erodius_0KepOnline)
+uint32 SpaceScenario hash(Erodius_0KepOnline)
+uint32 TribeScenario hash(Erodius_0KepOnline)
+string16 planetscriptDescription "Erodius_0KepOnline"
+uint32 terrainscript hash(Erodius_0KepOnline)
+bool 0xEA288A88 false

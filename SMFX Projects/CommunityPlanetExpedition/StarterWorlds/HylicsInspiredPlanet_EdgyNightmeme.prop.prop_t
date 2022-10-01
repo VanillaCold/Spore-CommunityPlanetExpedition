@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(HylicsInspiredPlanet_EdgyNightmeme)
+uint32 CreatureScenario hash(HylicsInspiredPlanet_EdgyNightmeme)
+bool FirstGroup true
+uint32 PlanetIcon hash(HylicsInspiredPlanet_EdgyNightmeme)
+uint32 SpaceScenario hash(HylicsInspiredPlanet_EdgyNightmeme)
+uint32 TribeScenario hash(HylicsInspiredPlanet_EdgyNightmeme)
+string16 planetscriptDescription "HylicsInspiredPlanet_EdgyNightmeme"
+uint32 terrainscript hash(HylicsInspiredPlanet_EdgyNightmeme)
+bool 0xEA288A88 false

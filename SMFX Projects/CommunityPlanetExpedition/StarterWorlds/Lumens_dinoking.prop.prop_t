@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Lumens_dinoking)
+uint32 CreatureScenario hash(Lumens_dinoking)
+bool FirstGroup true
+uint32 PlanetIcon hash(Lumens_dinoking)
+uint32 SpaceScenario hash(Lumens_dinoking)
+uint32 TribeScenario hash(Lumens_dinoking)
+string16 planetscriptDescription "Lumens_dinoking"
+uint32 terrainscript hash(Lumens_dinoking)
+bool 0xEA288A88 false
