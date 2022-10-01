@@ -25,9 +25,6 @@
     <ClInclude Include="stdafx.h">
       <Filter>Internal</Filter>
     </ClInclude>
-    <ClInclude Include="PlanetScriptOverrider.h">
-      <Filter>Spore_CommunityPlanetExpedition\IUpdatables</Filter>
-    </ClInclude>
     <ClInclude Include="ExportTerrainScript.h">
       <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
     </ClInclude>
@@ -38,9 +35,6 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Internal</Filter>
-    </ClCompile>
-    <ClCompile Include="PlanetScriptOverrider.cpp">
-      <Filter>Spore_CommunityPlanetExpedition\IUpdatables</Filter>
     </ClCompile>
     <ClCompile Include="ExportTerrainScript.cpp">
       <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
