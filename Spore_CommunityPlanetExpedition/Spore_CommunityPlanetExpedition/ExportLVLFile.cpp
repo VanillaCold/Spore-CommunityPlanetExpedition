@@ -44,8 +44,8 @@ void ExportLVLFile::ParseLine(const ArgScript::Line& line)
 
 			App::Property::GetString8(propList.get(), id("markerType"), markerType);
 			markerText += markerType;
-			markerText += "\n	position("+to_string(position.x)+", "+to_string(position.y)+", "+to_string(position.z) + ")";
-			markerText += "\n	orientation(" + to_string(orientation.x) + ", " + to_string(orientation.y) + ", " + to_string(orientation.z)+ ", " + to_string(orientation.w) + ")";
+			markerText += "\n	position ("+to_string(position.x)+", "+to_string(position.y)+", "+to_string(position.z) + ")";
+			markerText += "\n	orientation (" + to_string(orientation.x) + ", " + to_string(orientation.y) + ", " + to_string(orientation.z)+ ", " + to_string(orientation.w) + ")";
 
 			if (App::Property::GetUInt32(propList.get(), id("markerPropertyCount"), markerPropertyCount))
 			{
