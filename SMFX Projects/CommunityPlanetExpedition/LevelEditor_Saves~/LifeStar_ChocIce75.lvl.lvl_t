@@ -1,0 +1,135 @@
+marker CreatureArchetype -id kHerd~ avatar
+	position(-168.238510, -56.346252, -423.762909)
+	orientation(0.877047, 0.438174, -0.195027, 0.027514)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(-48.918091, 264.263275, -425.146240)
+	orientation(0.907281, 0.315400, 0.041984, 0.274956)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(-137.230270, 11.311340, 483.363861)
+	orientation(-0.006686, -0.138152, -0.033549, 0.989820)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(-358.289978, 286.197876, 205.717743)
+	orientation(-0.362203, -0.405158, 0.046545, 0.838147)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(149.292389, 350.140259, 328.198547)
+	orientation(-0.412689, -0.056422, -0.466565, 0.780270)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(316.462372, -162.241455, 309.047485)
+	orientation(-0.065384, 0.409576, -0.537572, 0.734159)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(242.788040, -357.272888, -269.210663)
+	orientation(-0.014266, 0.874216, -0.405808, 0.266199)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(-357.545105, -101.814491, -340.384338)
+	orientation(0.309037, 0.861479, -0.234722, -0.327499)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(-258.452393, 417.960632, -105.413506)
+	orientation(-0.443283, -0.639040, -0.250860, 0.576366)
+
+	propertyCount 10
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position(-263.964111, 150.946136, -402.392761)
+	orientation(0.485019, 0.814658, -0.005578, -0.317894)
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position(-219.572327, -386.034882, -238.188751)
+	orientation(0.673897, -0.531210, 0.076935, 0.507701)
+
+	propertyCount 10
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position(296.121033, 161.953461, 372.403168)
+	orientation(-0.194577, 0.302752, -0.065954, 0.930662)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position(313.921082, 208.628052, 332.458466)
+	orientation(-0.227399, 0.342852, 0.000841, 0.911450)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position(339.167725, 165.122879, 332.115051)
+	orientation(-0.186021, 0.367417, -0.014214, 0.911152)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position(145.415909, 107.479958, 467.341827)
+	orientation(-0.109984, 0.146942, -0.005923, 0.982994)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position(130.300125, 145.848694, 463.431885)
+	orientation(0.174793, 0.093748, 0.920927, -0.335489)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position(120.388611, 103.365837, 479.421844)
+	orientation(0.140853, 0.074051, 0.962274, -0.220694)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position(-63.859825, 183.763763, 477.970428)
+	orientation(-0.110087, 0.157391, 0.944266, 0.267340)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position(-398.570251, 5.224660, 302.642303)
+	orientation(-0.022640, -0.443998, 0.033887, 0.895101)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position(-388.424591, 205.292206, 255.867645)
+	orientation(-0.496637, -0.041466, 0.730131, 0.467484)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position(-402.376343, 100.195694, 265.782898)
+	orientation(-0.414118, -0.242267, 0.627820, 0.612907)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position(-387.949799, 69.384384, 262.111328)
+	orientation(-0.099030, -0.461846, 0.030180, 0.880898)
+end
+
+InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position(-391.934143, 64.751694, 257.217743)
+	orientation(-0.473272, -0.065260, 0.839062, 0.260250)
+end
+

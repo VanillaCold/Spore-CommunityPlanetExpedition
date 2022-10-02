@@ -1,0 +1,14 @@
+key parent planet_asset~!RockTemplate
+string16 description "BoneHand"
+colorRGBA modelColor (1, 1, 1, 1)
+key modelMeshHull PlanetProps_Models!BoneHand.rw4
+key modelMeshLOD0 PlanetProps_Models!BoneHand.rw4
+key modelMeshLOD1 PlanetProps_Models!BoneHand.rw4
+key modelMeshLOD2 PlanetProps_Models!BoneHand.rw4
+key obstacleAlphaModelID null
+float obstacleBaseCollisionRadius 10.5
+float obstacleBaseHideableRadius 0
+float obstacleCanopyCollisionRadius 6
+float obstacleCollisionHeight 9
+bool rockObstacleAllowed true
+bool rockPhysicsModelAllowed false

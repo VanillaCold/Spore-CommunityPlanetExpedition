@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include "ExportTerrainScript.h"
 #include <Spore\Terrain\Sphere\cTerrainSphere.h>
+#include "ExportLVLFile.h"
 
 void Initialize()
 {
@@ -15,6 +16,7 @@ void Initialize()
 	//App::AddUpdateFunction(new PlanetScriptOverrider());
 
 	CheatManager.AddCheat("ExportTerrainScript", new ExportTerrainScript());
+	CheatManager.AddCheat("ExportLVLFile", new ExportLVLFile());
 }
 
 member_detour(TerrainSphereGenerate_detour, Terrain::Sphere::cTerrainSphere, void(int*, int*, bool, bool, float)) {

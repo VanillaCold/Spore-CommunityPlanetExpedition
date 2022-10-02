@@ -1,9 +1,0 @@
-uint32 CivScenario hash(bumpy)
-uint32 CreatureScenario hash(bumpy)
-bool FirstGroup true
-uint32 PlanetIcon hash(bumpy)
-uint32 SpaceScenario hash(bumpy)
-uint32 TribeScenario hash(bumpy)
-string16 planetscriptDescription "Bumpy"
-uint32 terrainscript hash(bumpy)
-bool 0xEA288A88 false
