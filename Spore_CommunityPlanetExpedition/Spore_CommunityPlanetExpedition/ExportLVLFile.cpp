@@ -60,7 +60,7 @@ void ExportLVLFile::ParseLine(const ArgScript::Line& line)
 		}
 
 	}
-	SporeDebugPrint(markerText.c_str());
+	//SporeDebugPrint(markerText.c_str());
 
 	string16 creationFolder;
 	if (!App::Thumbnail_cImportExport::Get()->GetFolderPath(TypeIDs::adventure, creationFolder)) return;
@@ -75,15 +75,15 @@ void ExportLVLFile::ParseLine(const ArgScript::Line& line)
 	char* buffer = new char[size];
 
 
-	buffer = (char*)markerText.data();
+	//buffer = (char*)markerText.data();
 
 	string16 path;
 	path.sprintf(u"%ls%ls.lvl.lvl_t", creationFolder.c_str(), name.c_str());
 	intrusive_ptr<IO::FileStream> outputStream = new IO::FileStream(path.c_str());
 	outputStream->Open(IO::AccessFlags::Write, IO::CD::CreateAlways);
-	outputStream->Write(buffer, size);
+	outputStream->Write((char*)markerText.data(), size);
 	outputStream->Close();
-	delete[] buffer;
+	//delete[] buffer;
 
 	str.assign_convert(path);
 	App::ConsolePrintF("Exported to %s", str);

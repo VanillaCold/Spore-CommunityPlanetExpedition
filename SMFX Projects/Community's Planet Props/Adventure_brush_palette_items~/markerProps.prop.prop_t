@@ -33,5 +33,6 @@ keys palettePagePartItems
 	Adventure_Brushes~!A_Part2Marker
 	Adventure_Brushes~!A_Part3Marker
 	Adventure_Brushes~!A_Part4Marker
+	Adventure_Brushes~!A_EpicMarker
 end
 key palettePagePartParentPage markerpage

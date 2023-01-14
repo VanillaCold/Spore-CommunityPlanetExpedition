@@ -10,3 +10,4 @@ vector2 terraformBrushSizeRange (0.25, 10)
 key terraformMarkerModelID 0x079A8EE7!NewTest
 key terraformModelID A_OriginalNestMarker
 key terraformToolPreviewEffect A_NestSmall
+float terraformBrushComplexity 0

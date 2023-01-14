@@ -1,0 +1,745 @@
+marker CreatureArchetype -id kHerd~ avatar
+	position (354.929657, 189.918732, 318.338135)
+	orientation (-0.207065, 0.383379, -0.003502, 0.900074)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (77.282349, 359.827271, 357.614563)
+	orientation (-0.380556, 0.082075, 0.000788, 0.921108)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (6.592625, 497.682556, 128.414093)
+	orientation (-0.610644, 0.046945, 0.050149, 0.788920)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (132.096313, 495.651398, 26.731644)
+	orientation (-0.669608, 0.160010, -0.018778, 0.725031)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (447.114349, 151.227753, -194.346802)
+	orientation (-0.330819, 0.762188, -0.046327, 0.554511)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (333.253326, 377.912567, -104.245972)
+	orientation (-0.586181, 0.507636, -0.005663, 0.631400)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (252.864746, 161.220001, -416.722076)
+	orientation (-0.515358, 0.800152, -0.001414, 0.306856)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (109.048035, 353.914124, -356.002838)
+	orientation (0.909884, -0.136460, 0.058556, 0.387377)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-133.092209, 223.827393, -440.801849)
+	orientation (0.834689, 0.483515, -0.003009, 0.263627)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-505.001465, 87.771530, -18.528397)
+	orientation (-0.136833, -0.706639, 0.013319, 0.694090)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-356.715424, 365.735870, -29.325359)
+	orientation (-0.530430, -0.497290, 0.013555, 0.686413)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-238.711456, 315.436035, 328.058685)
+	orientation (-0.344255, -0.249621, 0.018501, 0.904895)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-241.014847, 68.115593, 448.279053)
+	orientation (-0.065640, -0.243305, -0.011538, 0.967657)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-339.666840, -18.212128, 384.911255)
+	orientation (0.007947, -0.353939, 0.029098, 0.934782)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (93.120934, -495.811188, -74.549072)
+	orientation (0.720611, 0.231976, -0.081971, 0.648219)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-28.427912, -294.793854, 419.695648)
+	orientation (0.302439, -0.001453, -0.086933, 0.949195)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (432.994934, -152.189285, -233.064865)
+	orientation (0.292207, 0.800626, 0.006255, 0.523043)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-153.136353, -328.205719, -364.353790)
+	orientation (0.819052, -0.428681, 0.017389, -0.380900)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-300.441803, -416.431641, -14.229878)
+	orientation (0.549318, -0.460544, 0.050667, 0.695401)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (168.070404, -231.134705, -426.838440)
+	orientation (0.952311, -0.092622, 0.192940, -0.217482)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-35.996777, 56.012814, -509.917358)
+	orientation (0.968927, -0.238687, -0.047110, 0.044603)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-310.388428, 107.876930, -392.689972)
+	orientation (0.398628, 0.851207, -0.035263, -0.339557)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-184.706741, -427.408295, 200.946365)
+	orientation (0.508262, -0.208677, -0.015315, 0.835398)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (62.989452, -458.130585, 210.351410)
+	orientation (0.535699, 0.077468, -0.005870, 0.840827)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-184.566010, -119.883224, 453.045898)
+	orientation (0.124296, -0.186572, -0.011337, 0.974481)
+
+	propertyCount 10
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (387.293579, 184.179260, 285.991516)
+	orientation (-0.203596, 0.425606, -0.002021, 0.881705)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (401.287354, 139.269257, 295.592621)
+	orientation (-0.163123, 0.433350, -0.023014, 0.886041)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (308.091736, 192.384186, 367.271332)
+	orientation (-0.192765, 0.327621, 0.024385, 0.924614)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (322.631622, 121.944550, 384.824097)
+	orientation (-0.132221, 0.331937, -0.016527, 0.933843)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (390.570190, 159.578964, 299.474213)
+	orientation (-0.171433, 0.425680, 0.004465, 0.888475)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (289.950439, 244.191650, 338.522217)
+	orientation (-0.264370, 0.311558, -0.003385, 0.912704)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (230.413788, 284.245331, 367.284149)
+	orientation (-0.301141, 0.234726, -0.017644, 0.924071)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (193.233139, 358.482544, 317.353363)
+	orientation (-0.390011, 0.201383, -0.015938, 0.898378)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (178.074127, 381.643738, 298.663147)
+	orientation (-0.419238, 0.187092, -0.014946, 0.888264)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (158.907043, 390.998230, 297.346985)
+	orientation (-0.428090, 0.169613, -0.007802, 0.887642)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (39.962536, 297.176880, 407.920441)
+	orientation (-0.309204, 0.039045, -0.007660, 0.950163)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (109.773331, 426.921844, 256.180664)
+	orientation (-0.485955, 0.112310, -0.021277, 0.866476)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (101.261696, 362.852783, 350.207703)
+	orientation (-0.386069, 0.102554, -0.011465, 0.916680)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (113.713608, 322.909302, 382.140900)
+	orientation (-0.338269, 0.114726, -0.010845, 0.933967)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (129.779861, 260.158661, 428.281219)
+	orientation (-0.264056, 0.128792, -0.008537, 0.955832)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (149.946289, 257.847198, 423.873688)
+	orientation (-0.261627, 0.150486, -0.004526, 0.953355)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (153.372360, 464.263306, 161.948303)
+	orientation (-0.560948, 0.167707, -0.023147, 0.810355)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (164.538834, 464.083862, 154.365677)
+	orientation (-0.567926, 0.166991, -0.044097, 0.804754)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (174.761108, 481.900208, 40.751682)
+	orientation (-0.643277, 0.215802, -0.017793, 0.734376)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (60.373234, 506.684906, 57.888691)
+	orientation (-0.661452, 0.078218, -0.000663, 0.745897)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (72.958931, 477.047424, 178.499176)
+	orientation (-0.566266, 0.076747, -0.013994, 0.820522)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (49.794174, 483.894745, 166.245789)
+	orientation (-0.578504, 0.060319, 0.001098, 0.813445)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (111.932396, 452.333862, 208.540558)
+	orientation (-0.530526, 0.119568, -0.017545, 0.839010)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (-15.198959, 335.011414, 381.517578)
+	orientation (-0.352168, -0.020870, -0.012963, 0.935614)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-175.051636, 351.176331, 321.038544)
+	orientation (-0.378878, -0.199589, -0.020262, 0.903441)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-203.396332, 337.949127, 325.019073)
+	orientation (-0.363996, -0.222583, -0.006374, 0.904391)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-211.173767, 376.644470, 272.794922)
+	orientation (-0.417670, -0.241872, -0.012181, 0.875729)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (-281.739502, 338.237091, 264.727142)
+	orientation (-0.377558, -0.315865, -0.001865, 0.870446)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-342.681458, 276.882690, 264.135040)
+	orientation (-0.308751, -0.384147, -0.002246, 0.870114)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-321.375275, 252.525726, 312.180420)
+	orientation (-0.271642, -0.350303, -0.005745, 0.896362)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-312.533203, 163.177048, 370.753571)
+	orientation (-0.172030, -0.328753, 0.000854, 0.928615)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-329.098816, 65.245735, 388.985840)
+	orientation (-0.066362, -0.342014, -0.003812, 0.937341)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (-235.751678, 80.706215, 448.456055)
+	orientation (-0.080479, -0.237617, -0.003161, 0.968014)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-247.337952, -18.385029, 449.830933)
+	orientation (0.015847, -0.248784, 0.010249, 0.968375)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-285.322235, -62.026295, 422.617920)
+	orientation (0.061827, -0.291222, 0.004642, 0.954644)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-304.418030, -54.525539, 410.144562)
+	orientation (0.054880, -0.312670, 0.003305, 0.948269)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (-186.935440, -111.166916, 454.295380)
+	orientation (0.113127, -0.190316, 0.000192, 0.975183)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-138.387024, -217.198837, 438.970764)
+	orientation (0.221447, -0.140367, -0.002256, 0.965015)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (74.878357, -341.489777, 369.124084)
+	orientation (0.362820, 0.073074, 0.015891, 0.928854)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (-96.842461, -306.428894, 400.779022)
+	orientation (0.318866, -0.090796, -0.027070, 0.943052)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-88.747978, -366.728333, 345.657959)
+	orientation (0.390613, -0.098349, 0.008438, 0.915248)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (77.363197, -429.039734, 260.432404)
+	orientation (0.488296, 0.071742, 0.028278, 0.869264)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (52.798645, -456.005798, 218.120850)
+	orientation (0.531907, 0.049896, 0.018375, 0.845132)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (103.018753, -493.936401, 90.394691)
+	orientation (0.631905, 0.111910, 0.023263, 0.766571)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (126.047745, -488.975128, -72.504295)
+	orientation (0.740315, 0.151646, 0.032891, 0.654106)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (216.217789, -458.685120, 61.445618)
+	orientation (0.613360, 0.252277, 0.037617, 0.747483)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (221.283096, -459.093842, 44.732040)
+	orientation (0.623555, 0.259733, 0.040141, 0.736279)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (189.362167, -454.622955, -108.293587)
+	orientation (0.742774, 0.235939, 0.054510, 0.624218)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (201.506577, -454.117310, -87.056931)
+	orientation (0.715702, 0.272159, 0.034875, 0.642249)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (191.359177, -458.962341, -85.090950)
+	orientation (0.713303, 0.274835, 0.017568, 0.644482)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (368.321533, 306.403625, 185.575806)
+	orientation (-0.345752, 0.447059, 0.029348, 0.824459)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (403.015778, 287.946716, 157.305420)
+	orientation (-0.335876, 0.485636, 0.012345, 0.806965)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (434.681610, 267.845520, 48.288422)
+	orientation (-0.339449, 0.581116, 0.017429, 0.739442)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (441.544189, 244.019867, -85.288635)
+	orientation (-0.322084, 0.692538, 0.044860, 0.643926)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (480.688965, 164.396362, -103.638710)
+	orientation (-0.224241, 0.741390, 0.022651, 0.632095)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (494.783386, 144.490402, -124.035889)
+	orientation (-0.209216, 0.757105, 0.008985, 0.618822)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (432.405151, 174.279343, -221.000336)
+	orientation (-0.257519, 0.804897, 0.039249, 0.533184)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (400.004761, 217.831345, -257.816559)
+	orientation (-0.375804, 0.777864, 0.024475, 0.503091)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (393.009552, 233.006760, -256.347595)
+	orientation (-0.381080, 0.774232, 0.039261, 0.503787)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (372.444733, 201.520294, -289.003265)
+	orientation (-0.380271, 0.798277, 0.023998, 0.466447)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (166.799759, 331.411835, -353.428864)
+	orientation (0.794425, -0.462336, -0.023923, 0.393143)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (164.849854, 367.495575, -322.084015)
+	orientation (0.821537, -0.370600, -0.000912, 0.433281)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (71.083107, 380.970337, -338.814606)
+	orientation (0.875173, -0.251330, -0.039292, 0.411536)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (55.649811, 324.272186, -394.827789)
+	orientation (0.919770, -0.195294, -0.013363, 0.340155)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (165.707657, 271.935852, -405.838745)
+	orientation (0.770421, -0.547551, -0.023038, 0.325744)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (196.340195, 180.941299, -435.476562)
+	orientation (-0.585370, 0.763938, 0.024618, 0.270435)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (314.030426, 141.596909, -373.772644)
+	orientation (-0.260504, 0.894318, 0.050819, 0.360208)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (292.910004, 155.131454, -391.538727)
+	orientation (-0.308272, 0.886898, 0.052281, 0.340069)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (183.496277, 88.701355, -470.869019)
+	orientation (-0.187176, 0.961159, 0.051740, 0.196119)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (148.632843, 109.062454, -477.386475)
+	orientation (-0.230642, 0.955632, 0.070711, 0.169030)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (250.030548, 50.236168, -449.099487)
+	orientation (-0.145874, 0.955777, 0.011953, 0.255087)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (268.090881, 57.516151, -437.007263)
+	orientation (-0.177597, 0.944455, 0.007041, 0.276432)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (139.855423, -32.905334, -486.650452)
+	orientation (0.456338, 0.878233, 0.035131, 0.138665)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (197.746246, -206.424240, -426.787292)
+	orientation (0.728950, 0.619724, 0.017248, -0.290305)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (15.670080, 17.982592, -552.465698)
+	orientation (0.108292, 0.993885, 0.017703, 0.012327)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (4.951119, 2.487793, -554.332581)
+	orientation (0.081212, 0.996684, 0.002599, 0.004269)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (28.964354, 11.855942, -556.133667)
+	orientation (0.065282, 0.997471, 0.012323, 0.025259)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (36.437965, 68.623703, -513.728943)
+	orientation (0.863200, -0.499264, -0.002718, 0.074933)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (-21.717112, 74.758148, -509.223816)
+	orientation (0.983005, -0.167210, -0.033043, 0.068195)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (-6.351891, -38.602066, -521.477234)
+	orientation (-0.198221, 0.979443, -0.034995, -0.013283)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-174.841614, 206.987030, -434.614166)
+	orientation (0.772412, 0.572433, -0.017495, 0.274581)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-94.815468, 233.167236, -442.068726)
+	orientation (0.857457, 0.446398, 0.023965, 0.254799)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-182.882919, 248.925385, -425.122375)
+	orientation (0.838506, 0.448786, -0.043797, 0.305909)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-97.296768, 221.597412, -448.072784)
+	orientation (0.885109, 0.395614, 0.001618, 0.245088)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (-236.625687, 115.647675, -434.602631)
+	orientation (0.349331, 0.897539, 0.022420, -0.268122)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-377.002930, 19.446486, -364.232208)
+	orientation (0.058424, 0.918563, -0.004684, -0.390905)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-440.232605, 99.500099, -261.129333)
+	orientation (0.061759, 0.864049, 0.075118, -0.493925)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-444.058929, -7.711045, -276.096985)
+	orientation (-0.010401, 0.873997, -0.002654, -0.485812)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-378.260620, 112.326027, -338.989075)
+	orientation (0.128784, 0.899577, 0.060908, -0.412876)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-514.302002, 30.095469, -23.017916)
+	orientation (-0.037152, -0.721760, -0.004853, 0.691129)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-514.919556, 20.271172, -5.467117)
+	orientation (-0.015522, -0.710678, -0.012315, 0.703238)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (-495.190674, 128.846283, 68.848000)
+	orientation (-0.127407, -0.645826, -0.044970, 0.751434)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-503.889740, 72.108200, 65.368004)
+	orientation (-0.120303, -0.649493, 0.030783, 0.750159)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-503.598846, 106.424316, -39.103275)
+	orientation (-0.115343, -0.724273, -0.034204, 0.678936)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-442.504425, 255.628586, 75.928741)
+	orientation (-0.299546, -0.580336, -0.035851, 0.756437)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (-451.254120, 241.278549, 71.243835)
+	orientation (-0.286425, -0.590773, -0.029839, 0.753696)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (-384.199890, 336.344940, 47.494801)
+	orientation (-0.385515, -0.552333, -0.080930, 0.734682)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (-356.469910, 366.428589, 22.975111)
+	orientation (-0.473668, -0.503180, -0.031778, 0.722107)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-365.297119, 358.365173, 0.988097)
+	orientation (-0.462270, -0.534173, -0.044178, 0.706409)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-393.953613, 329.625427, -69.142746)
+	orientation (-0.463551, -0.593146, -0.021957, 0.657888)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-409.795868, 307.539307, -70.178154)
+	orientation (-0.435562, -0.614929, -0.018088, 0.657131)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (-427.442078, 271.853638, -97.399612)
+	orientation (-0.416583, -0.648742, 0.002776, 0.636855)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-12.774670, 488.321838, -154.403534)
+	orientation (-0.803072, -0.075956, -0.040245, 0.589650)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (41.208614, 440.324829, -250.834671)
+	orientation (0.863868, 0.020166, 0.058581, 0.499893)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (29.046982, 504.470856, -55.231972)
+	orientation (-0.744360, -0.016009, -0.052698, 0.665503)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (439.451965, -114.181839, -246.900574)
+	orientation (-0.280300, 0.812583, -0.282770, 0.425655)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (439.232910, -158.254410, -217.302063)
+	orientation (0.241388, 0.807910, -0.029811, 0.536772)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (434.199554, -178.561798, -227.171158)
+	orientation (0.290889, 0.795718, -0.021077, 0.530823)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (425.709717, -148.888306, -246.034027)
+	orientation (0.242435, 0.825033, -0.025838, 0.509783)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (447.654510, -96.738548, -242.895355)
+	orientation (0.191011, 0.835334, 0.006171, 0.515454)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn2
+	position (411.242676, -81.601883, -300.817261)
+	orientation (0.246859, 0.854718, 0.038897, 0.454978)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (428.407166, -155.531967, -336.252106)
+	orientation (0.334236, 0.827724, 0.016011, 0.450447)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (38.215588, -505.131683, -39.580296)
+	orientation (0.733480, 0.030901, 0.022679, 0.678629)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
+	position (66.385506, -513.236511, 5.105782)
+	orientation (0.701341, 0.056460, 0.034310, 0.709757)
+end
+
