@@ -39,7 +39,7 @@ void ExportLVLFile::ParseLine(const ArgScript::Line& line)
 			string markerType;
 			
 			auto orientation = transform.GetRotation().ToQuaternion();
-			auto position = transform.GetOffset();
+			Vector3 position = transform.GetOffset();
 			uint32_t markerPropertyCount;
 
 			App::Property::GetString8(propList.get(), id("markerType"), markerType);
@@ -80,7 +80,7 @@ void ExportLVLFile::ParseLine(const ArgScript::Line& line)
 	string16 path;
 	path.sprintf(u"%ls%ls.lvl.lvl_t", creationFolder.c_str(), name.c_str());
 	intrusive_ptr<IO::FileStream> outputStream = new IO::FileStream(path.c_str());
-	outputStream->Open(IO::kAccessFlagReadWrite, IO::kCDCreateAlways);
+	outputStream->Open(IO::AccessFlags::Write, IO::CD::CreateAlways);
 	outputStream->Write(buffer, size);
 	outputStream->Close();
 	delete[] buffer;

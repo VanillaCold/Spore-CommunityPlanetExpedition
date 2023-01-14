@@ -1,7 +1,7 @@
 // dllmain.cpp : Defines the entry point for the DLL application.
 #include "stdafx.h"
 #include "ExportTerrainScript.h"
-#include <Spore\Terrain\Sphere\cTerrainSphere.h>
+#include <Spore\Terrain\cTerrainSphere.h>
 #include "ExportLVLFile.h"
 
 void Initialize()
@@ -19,7 +19,7 @@ void Initialize()
 	CheatManager.AddCheat("ExportLVLFile", new ExportLVLFile());
 }
 
-member_detour(TerrainSphereGenerate_detour, Terrain::Sphere::cTerrainSphere, void(int*, int*, bool, bool, float)) {
+member_detour(TerrainSphereGenerate_detour, Terrain::cTerrainSphere, void(int*, int*, bool, bool, float)) {
 	void detoured(int* unused0, int* unused1, bool unk = false,
 		bool generateSingleStep = false, float generateTimeLimit = 10.0f) {
 		//PlanetScriptOverrider::OverrideRegularScripts(this->mpPropList);
