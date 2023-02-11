@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(ShadowWastelandPlanet_EdgyNi)
+uint32 CreatureScenario hash(ShadowWastelandPlanet_EdgyNi)
+bool FirstGroup true
+uint32 PlanetIcon hash(ShadowWastelandPlanet_EdgyNi)
+uint32 SpaceScenario hash(ShadowWastelandPlanet_EdgyNi)
+uint32 TribeScenario hash(ShadowWastelandPlanet_EdgyNi)
+string16 planetscriptDescription "Shadow Wasteland Planet_EdgyNi"
+uint32 terrainscript hash(ShadowWastelandPlanet_EdgyNi)
+bool 0xEA288A88 false

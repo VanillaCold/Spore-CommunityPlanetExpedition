@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Shanth_)
+uint32 CreatureScenario hash(Shanth_)
+bool FirstGroup true
+uint32 PlanetIcon hash(Shanth_)
+uint32 SpaceScenario hash(Shanth_)
+uint32 TribeScenario hash(Shanth_)
+string16 planetscriptDescription "Shanth_"
+uint32 terrainscript hash(Shanth_)
+bool 0xEA288A88 false

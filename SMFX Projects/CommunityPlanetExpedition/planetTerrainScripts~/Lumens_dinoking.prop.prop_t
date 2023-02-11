@@ -1217,7 +1217,7 @@ keys terrainScriptModels
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 end
 vector3 terrainScriptPlanetInfo (2, 2, 500)
-vector3 terrainScriptWTALevels (0.4324643, 0.5, 1)
+vector3 terrainScriptWTALevels (0.4324643, 0.5, 0.5)
 vector3 terrainThemeAirColor (0, 0, 0)
 vector3 terrainThemeBeachColor (0.8627452, 0.9215687, 1)
 vector3 terrainThemeCliffColor (0.4618737, 0.4400872, 0.291939)

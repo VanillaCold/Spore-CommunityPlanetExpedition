@@ -106,33 +106,7 @@ marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
 	orientation (-0.860541, -0.045745, -0.004949, 0.507299)
 end
 
-marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
-	position (-161.172531, 472.863464, -69.237617)
-	orientation (-0.705084, -0.267390, -0.022316, 0.656401)
 
-	propertyCount 10
-end
-
-marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
-	position (-482.090637, 106.494698, -95.861351)
-	orientation (-0.199444, -0.745335, 0.028016, 0.635541)
-
-	propertyCount 10
-end
-
-marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
-	position (-476.711761, 157.498474, -3.964594)
-	orientation (-0.214210, -0.676804, -0.008848, 0.704253)
-
-	propertyCount 10
-end
-
-marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
-	position (-490.464203, 72.232666, 25.428066)
-	orientation (-0.149161, -0.672413, 0.052210, 0.723108)
-
-	propertyCount 10
-end
 
 marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
 	position (441.597229, -212.345352, 106.306961)
@@ -194,12 +168,7 @@ marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn1
 	orientation (-0.076197, -0.156698, -0.004298, 0.984694)
 end
 
-marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
-	position (-260.620544, 150.072296, 422.262177)
-	orientation (-0.149625, -0.265229, -0.008403, 0.952468)
 
-	propertyCount 10
-end
 
 marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
 	position (-319.516724, -41.026318, 407.381958)

@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Pordon_Scratc)
+uint32 CreatureScenario hash(Pordon_Scratc)
+bool FirstGroup true
+uint32 PlanetIcon hash(Pordon_Scratc)
+uint32 SpaceScenario hash(Pordon_Scratc)
+uint32 TribeScenario hash(Pordon_Scratc)
+string16 planetscriptDescription "Pordon_Scratc"
+uint32 terrainscript hash(Pordon_Scratc)
+bool 0xEA288A88 false
