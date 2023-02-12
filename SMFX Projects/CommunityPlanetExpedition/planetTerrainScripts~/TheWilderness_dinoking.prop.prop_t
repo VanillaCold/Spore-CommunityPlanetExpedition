@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "TheWilderness_dinoking"
 key parent planetTerrainThemes2~!GameplayTheme11.prop #The Wilderness by Dinokings
 keys modelEffect
 	GO_lower_all~
@@ -2784,3 +2787,4 @@ vector3 terrainThemeWaterColor (0.0745098, 0.7803922, 0.6627452)
 uint32 terrainVersion 2
 uint32 terrainWaterType 8
 key visualStyle animations~
+

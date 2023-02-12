@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "TheNuclearLandscape_Chocice75"
 key parent planetTerrainThemes~!ad_gear.prop #The Nuclear Landscape by Chocice75
 keys modelEffect
 	0x35D37172
@@ -1504,3 +1507,4 @@ vector3 terrainThemeWaterColor (0.254902, 0.3058824, 0.6)
 uint32 terrainVersion 2
 uint32 terrainWaterType 10
 key visualStyle animations~
+

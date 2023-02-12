@@ -3,6 +3,7 @@
 #include "ExportTerrainScript.h"
 #include <Spore\Terrain\cTerrainSphere.h>
 #include "ExportLVLFile.h"
+#include "PlanetType.h"
 
 void Initialize()
 {
@@ -17,6 +18,7 @@ void Initialize()
 
 	CheatManager.AddCheat("ExportTerrainScript", new ExportTerrainScript());
 	CheatManager.AddCheat("ExportLVLFile", new ExportLVLFile());
+	CheatManager.AddCheat("PlanetTerrainType", new PlanetType());
 }
 
 member_detour(TerrainSphereGenerate_detour, Terrain::cTerrainSphere, void(int*, int*, bool, bool, float)) {
@@ -24,7 +26,23 @@ member_detour(TerrainSphereGenerate_detour, Terrain::cTerrainSphere, void(int*, 
 		bool generateSingleStep = false, float generateTimeLimit = 10.0f) {
 		//PlanetScriptOverrider::OverrideRegularScripts(this->mpPropList);
 
+
+
 		original_function(this, unused0, unused1, unk, generateSingleStep, generateTimeLimit);
+
+		string16 planetName;
+
+		if (!App::Property::GetString16(this->mpPropList.get(), id("planet_name"), planetName))
+		{
+			planetName = u"Vanilla Planet";
+		}
+
+		string name; 
+		name.assign_convert(planetName);
+
+		name = "Planet type is: " + name;
+
+		App::ConsolePrintF(name.c_str());
 
 		//PlanetScriptOverrider::OverrideRegularScripts(this->mpPropList);
 	}
@@ -37,7 +55,7 @@ void Dispose()
 
 void AttachDetours()
 {
-	//TerrainSphereGenerate_detour::attach(GetAddress(Terrain::Sphere::cTerrainSphere, Generate));
+	TerrainSphereGenerate_detour::attach(GetAddress(Terrain::Sphere::cTerrainSphere, Generate));
 	
 	// Call the attach() method on any detours you want to add
 	// For example: cViewer_SetRenderType_detour::attach(GetAddress(cViewer, SetRenderType));

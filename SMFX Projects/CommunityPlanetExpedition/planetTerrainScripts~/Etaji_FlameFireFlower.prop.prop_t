@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Etaji_FlameFireFlower"
 key parent planetTerrainThemes~!ad_gear.prop #Etaji by FlameFireFlower
 keys modelEffect
 	0x35D37172
@@ -2850,3 +2853,4 @@ vector3 terrainThemeWaterColor (0.3803922, 0.509804, 0.6862745)
 uint32 terrainVersion 2
 uint32 terrainWaterType 5
 key visualStyle animations~
+

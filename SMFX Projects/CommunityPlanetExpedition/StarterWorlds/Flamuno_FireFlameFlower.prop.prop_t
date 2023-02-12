@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Flamuno_FireFlameFlower)
+uint32 CreatureScenario hash(Flamuno_FireFlameFlower)
+bool FirstGroup true
+uint32 PlanetIcon hash(Flamuno_FireFlameFlower)
+uint32 SpaceScenario hash(Flamuno_FireFlameFlower)
+uint32 TribeScenario hash(Flamuno_FireFlameFlower)
+string16 planetscriptDescription "Flamuno_FireFlameFlower"
+uint32 terrainscript hash(Flamuno_FireFlameFlower)
+bool 0xEA288A88 false

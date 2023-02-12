@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "RubyRavinePlanet_EdgyNightmeme"
 key parent planetTerrainThemes~!ad_gear.prop #Ruby Ravine Planet by EdgyNightmeme
 keys modelEffect
 	0x0EC9132A
@@ -922,6 +925,7 @@ floats terrainThemePlanetColorsList
 	0.9677419
 end
 vector3 terrainThemeWaterColor (1, 0.8470589, 0.0509804)
-#uint32 terrainVersion 2
+uint32 terrainVersion 2
 uint32 terrainWaterType 11
-#key visualStyle animations~
+key visualStyle animations~
+

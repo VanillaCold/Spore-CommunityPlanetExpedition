@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Kayon_FireFlameFlower)
+uint32 CreatureScenario hash(Kayon_FireFlameFlower)
+bool FirstGroup true
+uint32 PlanetIcon hash(Kayon_FireFlameFlower)
+uint32 SpaceScenario hash(Kayon_FireFlameFlower)
+uint32 TribeScenario hash(Kayon_FireFlameFlower)
+string16 planetscriptDescription "Kayon_FireFlameFlower"
+uint32 terrainscript hash(Kayon_FireFlameFlower)
+bool 0xEA288A88 false

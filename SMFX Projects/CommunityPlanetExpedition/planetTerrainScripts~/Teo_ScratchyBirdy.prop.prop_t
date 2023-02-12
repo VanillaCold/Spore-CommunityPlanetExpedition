@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Teo_ScratchyBirdy"
 key parent planetTerrainThemes~!ad_gear.prop #Teo by ScratchBirdy
 keys modelEffect
 	0x35D37172
@@ -1040,3 +1043,4 @@ vector3 terrainThemeWaterColor (0.1607843, 0.3607842, 0.7529413)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

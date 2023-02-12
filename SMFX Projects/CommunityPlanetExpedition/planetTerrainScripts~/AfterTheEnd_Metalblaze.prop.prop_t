@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "AfterTheEnd_Metalblaze"
 key parent planetTerrainThemes3~!0x90C12347.prop #AfterTheEnd by Metalblaze
 keys modelEffect
 	Patch1_lopsided_filter~
@@ -850,6 +853,9 @@ floats terrainThemePlanetColorsList
 	0.8064516
 end
 vector3 terrainThemeWaterColor (0.4431373, 0.3843138, 0.2627451)
+
 uint32 terrainVersion 2
 uint32 terrainWaterType 2
+
 key visualStyle animations~
+

@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Ledocap_FlameFireFlower"
 key parent planetTerrainThemes~!ad_gear.prop #Ledocap by FlameFireFlower
 keys modelEffect
 	0x35D37172
@@ -2904,3 +2907,4 @@ vector3 terrainThemeWaterColor (0.1921569, 0.9960785, 0.7333333)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

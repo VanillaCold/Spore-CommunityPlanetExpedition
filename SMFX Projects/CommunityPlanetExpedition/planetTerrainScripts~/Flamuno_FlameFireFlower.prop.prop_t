@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Flamuno_FlameFireFlower"
 key parent planetTerrainThemes~!ad_gear.prop #Flamuno by FlameFireFlower
 keys modelEffect
 	0x35D37172
@@ -1796,3 +1799,4 @@ vector3 terrainThemeWaterColor (0.0980392, 1, 0.8470589)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "PlanetSizedKatamari_EdgyNightmeme"
 key parent planetTerrainThemes~!ad_gear.prop
 keys modelEffect
 	0x648FB51F
@@ -524,3 +527,4 @@ vector3 terrainThemeWaterColor (0.0509804, 0.372549, 1)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

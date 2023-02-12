@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "BeautifulBlue_EdgyNightmeme"
 key parent planetTerrainThemes2~!GameplayTheme05.prop #Beautiful Blue by EdgyNightmeme
 keys modelEffect
 	GO_lower_all~
@@ -2806,3 +2809,4 @@ vector3 terrainThemeWaterColor (0.0509804, 0.1803922, 1)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

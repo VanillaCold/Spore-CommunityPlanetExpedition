@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Sectora_FireFlameFlower)
+uint32 CreatureScenario hash(Sectora_FireFlameFlower)
+bool FirstGroup true
+uint32 PlanetIcon hash(Sectora_FireFlameFlower)
+uint32 SpaceScenario hash(Sectora_FireFlameFlower)
+uint32 TribeScenario hash(Sectora_FireFlameFlower)
+string16 planetscriptDescription "Sectora_FireFlameFlower"
+uint32 terrainscript hash(Sectora_FireFlameFlower)
+bool 0xEA288A88 false

@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "EarthyPlanet_EdgyNightmeme"
 key parent planetTerrainThemes3~!0xEB9DC013.prop #EarthyPlanet by EdgyNightmeme
 keys modelEffect
 	GP_mountain_squiggles~
@@ -1155,3 +1158,4 @@ vector3 terrainThemeWaterColor (0.0509804, 0.372549, 1)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

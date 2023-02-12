@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(TheWitheringLandscape)
+uint32 CreatureScenario hash(TheWitheringLandscape)
+bool FirstGroup true
+uint32 PlanetIcon hash(TheWitheringLandscape)
+uint32 SpaceScenario hash(TheWitheringLandscape)
+uint32 TribeScenario hash(TheWitheringLandscape)
+string16 planetscriptDescription "TheWitheringLandscape"
+uint32 terrainscript hash(TheWitheringLandscape)
+bool 0xEA288A88 false

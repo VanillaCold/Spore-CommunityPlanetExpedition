@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "SpiralWorld_FlameFireFlower"
 key parent planetTerrainThemes~!ad_gear.prop #Spiral World by FlameFireFlower
 keys modelEffect
 	0x3487B4AF
@@ -1774,3 +1777,4 @@ vector3 terrainThemeWaterColor (0.027451, 0.1019608, 0.5764706)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(SpaceRocc_FireFlameFlower)
+uint32 CreatureScenario hash(SpaceRocc_FireFlameFlower)
+bool FirstGroup true
+uint32 PlanetIcon hash(SpaceRocc_FireFlameFlower)
+uint32 SpaceScenario hash(SpaceRocc_FireFlameFlower)
+uint32 TribeScenario hash(SpaceRocc_FireFlameFlower)
+string16 planetscriptDescription "SpaceRocc_FireFlameFlower"
+uint32 terrainscript hash(SpaceRocc_FireFlameFlower)
+bool 0xEA288A88 false

@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Marhree_FireFlameFlower)
+uint32 CreatureScenario hash(Marhree_FireFlameFlower)
+bool FirstGroup true
+uint32 PlanetIcon hash(Marhree_FireFlameFlower)
+uint32 SpaceScenario hash(Marhree_FireFlameFlower)
+uint32 TribeScenario hash(Marhree_FireFlameFlower)
+string16 planetscriptDescription "Marhree_FireFlameFlower"
+uint32 terrainscript hash(Marhree_FireFlameFlower)
+bool 0xEA288A88 false

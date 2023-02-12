@@ -1,0 +1,21 @@
+key parent planetTerrainThemes3~!AllPlanets.prop
+string16 description "TemplateTheme"
+bool terrainAllowUnderwaterModels true
+keys terrainScriptAmbientEffects
+	0x0A7DC62F
+	0x852AA314
+	0x4275F2E3
+end
+vector3 terrainScriptWTALevels (0.5, 0.5, 0.5)
+#<keys terrainThemeFlora
+	flora_editorModel~!FE_cube1_LtBig10.flr
+	flora_editorModel~!FE_cube2_Lt13.flr
+	flora_editorModel~!FE_cube3_Lt12.flr
+	flora_editorModel~!FE_cube1_Mp.flr
+	flora_editorModel~!FE_cube2_Mp1.flr
+	flora_editorModel~!FE_cube3_Mp2.flr
+	flora_editorModel~!FE_cube1_Sp.flr
+	flora_editorModel~!FE_cube2_Sp.flr
+	flora_editorModel~!FE_cube3_Sp2.flr
+end#>
+int32 weatherCloudType 5

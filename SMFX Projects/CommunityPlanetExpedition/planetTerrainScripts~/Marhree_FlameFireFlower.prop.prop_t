@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Marhree_FlameFireFlower"
 key parent planetTerrainThemes3~!0xEB9DC013.prop #Marhree by FlameFireFlower
 keys modelEffect
 	GO_high_dense_variation~
@@ -2003,3 +2006,4 @@ vector3 terrainThemeWaterColor (0.2078432, 0.2705882, 0.0235294)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

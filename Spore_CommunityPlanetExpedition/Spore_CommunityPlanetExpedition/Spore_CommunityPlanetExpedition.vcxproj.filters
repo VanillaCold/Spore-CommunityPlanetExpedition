@@ -34,6 +34,9 @@
     <ClInclude Include="ImportTerrainScript.h">
       <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
     </ClInclude>
+    <ClInclude Include="PlanetType.h">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -49,6 +52,9 @@
       <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
     </ClCompile>
     <ClCompile Include="ImportTerrainScript.cpp">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetType.cpp">
       <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
     </ClCompile>
   </ItemGroup>

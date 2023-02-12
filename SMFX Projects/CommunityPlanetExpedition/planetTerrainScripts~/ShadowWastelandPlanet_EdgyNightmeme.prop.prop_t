@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "ShadowWastelandPlanet_EdgyNightmeme"
 key parent planetTerrainThemes3~!EP1_Shaman_01.prop
 keys modelEffect
 	GO_high_dense_variation~
@@ -1217,3 +1220,4 @@ vector3 terrainThemeWaterColor (0, 0, 0)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

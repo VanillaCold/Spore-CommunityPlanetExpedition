@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Platyranth_SommySombrer"
 key parent planetTerrainThemes~!ad_gear.prop #Platyranth by SommySombrer
 keys modelEffect
 	0x35D37172
@@ -2865,3 +2868,4 @@ vector3 terrainThemeWaterColor (0.027451, 0.1019608, 0.5764706)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

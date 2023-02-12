@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Kayon_FlameFireFlower"
 key parent planetTerrainThemes3~!0x30FC456A.prop #Kayon by FlameFireFlower
 keys modelEffect
 	GO_high_dense_variation~
@@ -1635,3 +1638,4 @@ vector3 terrainThemeWaterColor (0.0470588, 0.3372549, 0.9058824)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

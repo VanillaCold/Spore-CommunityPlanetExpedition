@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "SpaceRocc_FlameFireFlower"
 key parent planetTerrainThemes~!mars.prop #Space Rocc by FlameFireFlower
 keys modelEffect
 	CC_mars~
@@ -1609,3 +1612,4 @@ vector3 terrainThemeWaterColor (0.2156863, 0.4039214, 0.7725491)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

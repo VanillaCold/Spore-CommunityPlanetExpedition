@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Arkilago_FlameFireFlower"
 key parent planetTerrainThemes~!ad_gear.prop #Arkilago by FlameFireFlower
 keys modelEffect
 	0x35D37172
@@ -2227,3 +2230,4 @@ vector3 terrainThemeWaterColor (0.0509804, 1, 0.3411765)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

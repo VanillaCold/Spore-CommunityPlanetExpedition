@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Hypernest_FireFlameFlower"
 key parent planetTerrainThemes3~!EP1_Bard_01.prop
 keys modelEffect
 	Patch1_lopsided_filter~
@@ -2075,3 +2078,4 @@ vector3 terrainThemeWaterColor (0.8039216, 0.7921569, 0.4745098)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

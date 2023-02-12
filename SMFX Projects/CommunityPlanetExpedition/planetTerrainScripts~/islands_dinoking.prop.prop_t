@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "islands_dinoking"
 key parent planetTerrainThemes3~!0x14E98A17.prop # Islands, by Dinoking
 keys modelEffect
 	GO_high_dense_variation~
@@ -1119,3 +1122,4 @@ vector3 terrainThemeWaterColor (0.34, 0.44, 0.58)
 uint32 terrainVersion 2
 uint32 terrainWaterType 9
 key visualStyle animations~
+

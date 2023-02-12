@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Jaglo_FlameFireFlower"
 key parent planetTerrainThemes3~!0x30FC456A.prop #Jaglo by FlameFireFlower
 keys modelEffect
 	GO_high_dense_variation~
@@ -1531,3 +1534,4 @@ vector3 terrainThemeWaterColor (1, 0.4039216, 0.0509804)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

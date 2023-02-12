@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "HylicsInspiredPlanet_EdgyNightmeme"
 key parent planetTerrainThemes3~!0xEB9DC013.prop #Hylics-Inspired Planet by EdgyNightmeme
 keys modelEffect
 	Patch1_lopsided_filter~
@@ -1275,3 +1278,4 @@ vector3 terrainThemeWaterColor (0.4588236, 0.6431373, 1)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "LapisLazuliPlanet_EdgyNightmeme"
 key parent planetTerrainThemes3~!0xEB9DC013.prop #Lapis Lazuli Planet by EdgyNightmeme
 keys modelEffect
 	Patch1_eaten_dunes~
@@ -791,3 +794,4 @@ vector3 terrainThemeWaterColor (0.0509804, 0.1803922, 1)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

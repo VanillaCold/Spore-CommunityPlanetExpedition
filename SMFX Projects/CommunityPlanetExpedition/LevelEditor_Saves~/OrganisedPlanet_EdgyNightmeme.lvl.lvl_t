@@ -1,0 +1,91 @@
+marker CreatureArchetype -id kHerd~ avatar
+	position (-5.633480, -382.170868, -550.744812)
+	orientation (0.940321, -0.163005, 0.046677, -0.295038)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-211.229813, -215.709991, -596.106018)
+	orientation (0.968317, -0.091743, -0.146125, -0.180535)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (32.458107, 174.114731, -634.657227)
+	orientation (-0.375565, 0.916815, 0.113979, 0.073556)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (319.345886, 107.247925, -584.010742)
+	orientation (0.808433, -0.528721, 0.160121, 0.203103)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (0.139881, 741.205444, -20.213039)
+	orientation (-0.658791, 0.282180, 0.274468, 0.641121)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-103.157104, 291.644257, 591.869995)
+	orientation (-0.217748, -0.097267, -0.077730, 0.968030)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-195.755920, -316.161499, 564.489685)
+	orientation (0.235906, -0.163720, 0.050076, 0.956576)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-306.052094, -581.151489, 25.862427)
+	orientation (0.614908, -0.319714, -0.003788, 0.720873)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (274.086609, -591.830322, -54.515629)
+	orientation (0.730151, 0.092344, 0.205175, 0.645178)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ avatar
+	position (608.645935, 160.413330, 190.807114)
+	orientation (0.451021, 0.389266, 0.721673, 0.352477)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ avatar
+	position (20.278378, 536.946533, -403.628845)
+	orientation (0.892438, 0.062105, 0.047827, 0.444308)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (550.820557, 268.697784, -266.565521)
+	orientation (0.709629, -0.442557, 0.290903, 0.464701)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (651.259338, -31.490707, 139.005295)
+	orientation (-0.087381, 0.622986, -0.145024, 0.763689)
+
+	propertyCount 10
+end
+
