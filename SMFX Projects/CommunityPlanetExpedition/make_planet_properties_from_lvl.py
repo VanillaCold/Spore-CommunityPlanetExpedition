@@ -21,11 +21,15 @@ for i in range(0,len(filenames)):
     file_test.write(filelist)
     file_test.close()
 
-    #file_test = open('StarterWorlds/AB_'+pname+"_2.prop.prop_t", 'w')
-    #file_test.write(filelist)
-    #file_test.close()
+    file_test = open('StarterWorlds/AB_'+pname+"_2222.prop.prop_t", 'w')
+    file_test.write(filelist)
+    file_test.close()
 
-    #file_test = open('StarterWorlds/YZ_'+pname+"_3.prop.prop_t", 'w')
-    #file_test.write(filelist)
-    #file_test.close()
+    file_test = open('StarterWorlds/YZ_'+pname+"_3333.prop.prop_t", 'w')
+    file_test.write(filelist)
+    file_test.close()
+
+    file_test = open('StarterWorlds/MN_'+pname+"_4444.prop.prop_t", 'w')
+    file_test.write(filelist)
+    file_test.close()
     

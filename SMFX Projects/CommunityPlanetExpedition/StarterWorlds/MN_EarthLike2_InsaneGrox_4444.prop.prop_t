@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(EarthLike2_InsaneGrox)
+uint32 CreatureScenario hash(EarthLike2_InsaneGrox)
+bool FirstGroup true
+uint32 PlanetIcon hash(EarthLike2_InsaneGrox)
+uint32 SpaceScenario hash(EarthLike2_InsaneGrox)
+uint32 TribeScenario hash(EarthLike2_InsaneGrox)
+string16 planetscriptDescription "EarthLike2_InsaneGrox"
+uint32 terrainscript hash(EarthLike2_InsaneGrox)
+bool 0xEA288A88 false

@@ -1,0 +1,1356 @@
+#Description added through Python script
+
+string16 planet_name "EarthLike2_InsaneGrox"
+key parent planetTerrainThemes3~!EP1_Scientist_01.prop
+keys modelEffect
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_large~
+	BR_mountain_sierra_small~
+	BR_mountain_sierra_small~
+	BR_mountain_sierra_small~
+	BR_mountain_sierra_small~
+	BR_mountain_sierra_small~
+	BR_mountain_sierra_small~
+	BR_mountain_sierra_small~
+	Patch1_lopsided_filter~
+	GO_lower_all_more~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	GO_raise_hills~
+	BR_raise_to_mid_land~
+	BR_raise_to_mid_land~
+	BR_raise_to_mid_land~
+	BR_raise_to_mid_land~
+	BR_raise_to_mid_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_beach~
+	BR_raise_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_lower_to_mid_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_raise_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_lower_to_low_land~
+	BR_raise_to_mid_land~
+	BR_raise_to_mid_land~
+	BR_raise_to_mid_land~
+	0xAD902F93
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Terra
+	EP1_TB_Oceans_Terra
+	EP1_TB_Oceans_Terra
+	EP1_TB_Oceans_Terra
+	EP1_TB_Oceans_Terra
+	EP1_TB_Oceans_Rift
+	EP1_TB_Oceans_Spiral
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Mountain_Ridges
+	0x050CE38D
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
+	EP1_TB_Oceans_Landmass
+	EP1_TB_River_Delta
+	EP1_TB_River_Basic_Fork
+	EP1_TB_River_Basic_Zigzag
+	EP1_TB_River_Gorge
+	EP1_TB_Oceans_Rift
+	EP1_TB_Oceans_Rift
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Ridges
+	0xAA80DEB5
+	EP1_TB_Mountain_WrinkledNubs
+	0x0D5F99A7
+	0x0D5F99A7
+	0x0D5F99A7
+	0x0D5F99A7
+	0x0D5F99A5
+	EP1_TB_Mountain_Ridges
+	0x0D5F99A4
+	0x0D5F99A7
+	EP1_TB_Continents_Hilly
+	0xFDBB08EF
+	0x4750C19F
+	EP1_TB_BasicTools_LowerBrush
+end
+uint32 modelEffectSeed 0xad0f7937
+transforms modelEffectTransforms
+	-offset (111.7276917, 183.5381165, 454.3471375) -scale 6 -rotateXYZ 21.9967289 -12.844286 -0.0000175
+	-offset (109.1394501, 179.2863464, 488.9948425) -scale 6 -rotateXYZ 20.1350746 -11.8351421 0
+	-offset (-20.5241394, -216.657486, 453.0332031) -scale 8.8799953 -rotateXYZ -25.5588531 2.3404188 -0.0000231
+	-offset (462.331665, -196.9370117, -8.1179209) -scale 8.8799953 -rotateXYZ -92.3605194 -66.9101868 92.5658188
+	-offset (486.3674622, -216.1345215, 25.9108887) -scale 8.8799953 -rotateXYZ -83.1637726 -65.8882828 82.5173874
+	-offset (337.6998901, 371.2363586, 27.257843) -scale 8.8799953 -rotateXYZ 85.8005753 -42.2149353 0.0000519
+	-offset (359.9606934, 396.4977722, 36.927494) -scale 8.8799953 -rotateXYZ 84.6791382 -42.1116295 -0.0000049
+	-offset (-287.1489868, 407.2290039, 65.6560669) -scale 8.8799953 -rotateXYZ 80.8412018 34.8432846 0.0000151
+	-offset (-304.8552246, 434.8062744, 71.2629929) -scale 8.8799953 -rotateXYZ 80.6922226 34.6792908 -0.0000187
+	-offset (-99.8996048, 54.5734558, -489.5330811) -scale 8.8799953 -rotateXYZ 173.638855 11.4649172 178.7306061
+	-offset (-358.6591797, -342.5203247, -81.5114441) -scale 8.8799953 -rotateXYZ -103.385994 45.5298729 -108.442421
+	-offset (-383.3511658, -360.7890015, -88.0265732) -scale 8.8799953 -rotateXYZ -103.7113571 45.9092941 -108.7624741
+	-offset (-394.3197021, -12.0786819, 311.3948364) -scale 8.8799953 -rotateXYZ -2.2213314 51.6808701 -1.7431242
+	-offset (-454.7355957, 76.3671112, -199.9609375) -scale 8.8799953 -rotateXYZ 159.0976562 64.7933044 160.9377594
+	-offset (8.2213135, -389.8056641, -317.1509094) -scale 6.3599982 -rotateXYZ -129.1322632 -0.9372616 115.2000046
+	-offset (42.1372643, -489.1775513, 107.3801346) -scale 5.2799978 -rotateXYZ -77.619278 -4.8092899 115.1999588
+	-offset (324.5646973, -147.7839355, 354.1445923) -scale 5.2799978 -rotateXYZ -22.6506844 -40.2241364 130.2819061
+	-offset (314.8891296, -200.0796051, -336.7695312) -scale 5.2799978 -rotateXYZ -149.2848358 -38.7944298 -85.216774
+	-offset (217.2569122, 245.8074951, -380.7609863) -scale 5.2799978 -rotateXYZ 147.154953 -25.6117821 115.1999741
+	-offset (228.560791, 260.7590942, -408.4465332) -scale 5.2799978 -rotateXYZ 147.4451599 -25.2514114 115.1999588
+	-offset (59.0575256, 429.6358643, -254.0197449) -scale 6.4799981 -rotateXYZ 120.5934601 -6.7481642 115.1999817
+	-offset (456.1322632, 134.7867889, 162.4089203) -scale 6.4799981 -rotateXYZ 39.6900177 -65.1697845 78.2129135
+	-offset (-129.536377, 450.8596497, 231.2263336) -scale 6.4799981 -rotateXYZ 62.8486977 14.3404951 115.1999512
+	-offset (66.2635956, -510.6535339, -52.5440102) -scale 6.4799981 -rotateXYZ -95.8748016 -7.3551006 115.1999664
+	-offset (243.9809875, -4.58075, -439.3780518) -scale 4.9199982 -rotateXYZ -179.4026947 -29.0415649 -65.0899811
+	-offset (-264.5950928, 169.2143402, 411.4243469) -scale 1.48 -rotateXYZ 22.3568325 30.7432785 127.073349
+	-offset (48.8301353, -76.5215149, 524.5583496) -scale 1.48 -rotateXYZ -8.2996759 -5.2628508 115.1999588
+	-offset (-233.5481415, -360.7015991, 291.3856201) -scale 1.48 -rotateXYZ -51.0676613 26.7330265 115.1999893
+	-offset (185.491333, -406.9837341, 229.2552338) -scale 1.48 -rotateXYZ -60.6073036 -21.6581154 115.1999588
+	-offset (257.0343323, -384.4327393, -196.8389435) -scale 1.48 -rotateXYZ -117.1135559 -30.7581692 -169.1999969
+	-offset (259.102478, -424.0835876, 74.9650574) -scale 1 -rotateXYZ -79.9754257 -31.0329189 -169.1999969
+	-offset (228.108017, -442.0552979, -75.8605194) -scale 1.6 -rotateXYZ -99.7376175 -26.9570732 -169.1999664
+	-offset (180.0747833, -465.411499, -117.9756775) -scale 1 -rotateXYZ -104.2240906 -20.5587254 -0.0000296
+	-offset (194.0353851, -490.7376709, -106.8195267) -scale 1 -rotateXYZ -102.2801361 -21.1239471 0.0000288
+	-offset (-359.8787842, 340.934906, -9.2704611) -scale 2 -rotateXYZ 91.5575638 46.5378265 -77.0545273
+	-offset (-313.0863647, 355.0872803, 98.9173431) -scale 2.5999999 -rotateXYZ 74.4336472 40.3437538 -169.2000275
+	-offset (-285.8526001, 325.9880066, 193.6591949) -scale 2.5999999 -rotateXYZ 59.2867775 37.0120697 -169.1999969
+	-offset (-277.8934021, 360.783783, 211.6594543) -scale 2.5999999 -rotateXYZ 59.6012993 33.5984421 -169.1999969
+	-offset (-366.2244873, 335.1229248, 59.166954) -scale 2.5999999 -rotateXYZ 79.9874268 47.1009102 -92.7504578
+	-offset (-283.7066956, 355.310791, 213.8184814) -scale 2.5999999 -rotateXYZ 58.9613953 34.3779221 -169.1999512
+	-offset (-270.84729, 320.337738, 266.7498169) -scale 2.5999999 -rotateXYZ 50.2153587 33.0131111 -169.2000122
+	-offset (-304.7095947, 409.8930359, -10.9378958) -scale 2 -rotateXYZ 91.5285263 36.6168823 -169.1999969
+	-offset (-299.1100464, 431.787384, 72.720253) -scale 2 -rotateXYZ 80.4401016 34.3372002 -169.2000427
+	-offset (-292.5443726, 408.1895447, 138.9121399) -scale 2 -rotateXYZ 71.205925 34.1559448 -169.1999817
+	-offset (-261.9188232, 356.5362854, 238.4485779) -scale 2 -rotateXYZ 56.2257385 31.4099712 -111.5999527
+	-offset (-358.1785889, 354.3112793, -1.345337) -scale 2 -rotateXYZ 90.2175293 45.3107834 -21.2939854
+	-offset (-306.180603, 382.8783875, -90.9431458) -scale 2 -rotateXYZ 103.3615723 37.8841209 -111.5999603
+	-offset (-219.5318146, 414.9246521, -118.1738815) -scale 2 -rotateXYZ 105.8973846 26.9693737 -111.5999985
+	-offset (-410.5910645, 151.3171844, -239.9306488) -scale 2 -rotateXYZ 147.7615662 55.3609467 40.9759789
+	-offset (-409.5264893, 80.8996353, -284.1141357) -scale 2 -rotateXYZ 164.1060791 54.1956291 55.3965645
+	-offset (-423.3633728, 18.4158611, -261.4937439) -scale 2 -rotateXYZ 175.9715576 58.2347336 64.9734573
+	-offset (-445.7715454, -46.917984, -211.3572083) -scale 2 -rotateXYZ -167.4841919 64.0950928 79.6922989
+	-offset (-436.5423889, -116.5017624, -210.4703369) -scale 2 -rotateXYZ -151.0341339 61.1424522 94.2638626
+	-offset (-402.213562, -159.4417877, -244.3543854) -scale 2 -rotateXYZ -146.8754272 54.0422859 96.2416382
+	-offset (-369.5019531, -194.7278137, -285.3321533) -scale 2 -rotateXYZ -145.6880188 46.9270821 94.8974991
+	-offset (-276.0408936, 159.6986694, -387.6434326) -scale 2 -rotateXYZ 157.6096802 33.361496 55.6350212
+	-offset (-300.4831238, 90.423996, -390.461792) -scale 2 -rotateXYZ 166.9611969 36.8595428 60.4913712
+	-offset (-300.2800293, 44.9906197, -398.5493774) -scale 2 -rotateXYZ 173.5593719 36.8213463 64.5295868
+	-offset (-260.5326538, 159.1838837, -400.250061) -scale 2 -rotateXYZ 158.3117371 31.1674576 56.7691689
+	-offset (-302.5923157, 97.3815842, -391.4841003) -scale 2 -rotateXYZ 166.0312195 36.872757 59.910778
+	-offset (-296.5112915, 86.8182602, -403.0751343) -scale 2 -rotateXYZ 167.8447723 35.721077 61.2325249
+	-offset (-300.9943237, 54.3972321, -405.7822571) -scale 2 -rotateXYZ 172.3647003 36.3228531 63.8599548
+	-offset (-283.054718, 38.4322968, -419.4324341) -scale 2 -rotateXYZ 174.7646637 33.9025269 65.4742661
+	-offset (-264.9831848, 21.3107758, -433.277771) -scale 2 -rotateXYZ 177.1841736 31.4182587 66.9313354
+	-offset (-270.9129028, 0.319366, -433.5094604) -scale 2 -rotateXYZ 179.9578094 32.0024948 68.3776474
+	-offset (-329.6882935, -26.4742432, -371.3390503) -scale 2 -rotateXYZ -175.9220734 41.5277405 71.106163
+	-offset (-286.4848633, -39.145874, -418.2120667) -scale 2 -rotateXYZ -174.6525421 34.2956352 71.4191284
+	-offset (-260.0332642, -101.75, -409.8509827) -scale 2 -rotateXYZ -166.0576019 31.6233673 75.8165436
+	-offset (-356.9776611, -81.2452316, -349.3895569) -scale 1 -rotateXYZ -166.9093628 44.861187 -170.6848297
+	-offset (91.2201309, 60.0341797, 490.3868713) -scale 2 -rotateXYZ 6.9795341 -10.4611549 -112.8733292
+	-offset (100.5692596, 112.1728516, 484.6967773) -scale 2 -rotateXYZ 13.0304689 -11.4281292 -111.5999603
+	-offset (86.9260025, 181.5747833, 469.7225952) -scale 2 -rotateXYZ 21.1343555 -9.7933474 -111.599968
+	-offset (85.4143372, 224.0209351, 464.8574829) -scale 2 -rotateXYZ 25.7300587 -9.3986835 -111.5999603
+	-offset (0.040989, 270.3305054, 450.3789368) -scale 1.4 -rotateXYZ 30.9734058 -0.0044806 -111.5999756
+	-offset (51.4282799, 179.0794067, 488.1029663) -scale 2 -rotateXYZ 20.1474895 -5.6491117 -111.5999756
+	-offset (38.3384895, 107.3710327, 504.8543396) -scale 2 -rotateXYZ 12.0066109 -4.2480311 -111.5999451
+	-offset (66.9725723, 29.0678406, 509.8027039) -scale 2 -rotateXYZ 3.2633381 -7.472055 -112.0247955
+	-offset (176.6896362, 114.854744, 479.4845886) -scale 2 -rotateXYZ 13.4706841 -19.7156906 -116.2199631
+	-offset (77.913681, 224.7122498, 474.5246887) -scale 2 -rotateXYZ 25.3400173 -8.4407978 -111.5999451
+	-offset (80.1134644, 266.3870239, 391.4412537) -scale 2 -rotateXYZ 34.2364235 -9.6034584 -111.5999756
+	-offset (201.0314941, -201.5968475, 407.7269287) -scale 2 -rotateXYZ -26.3096752 -23.8444786 -111.5999908
+	-offset (146.2071228, -224.1426392, 419.8337708) -scale 2 -rotateXYZ -28.0970573 -17.0774689 -111.6000061
+	-offset (108.7241592, -159.6674042, 472.6525574) -scale 2 -rotateXYZ -18.6655655 -12.2943192 -111.5999603
+	-offset (89.6859741, -89.9671783, 479.0793152) -scale 2 -rotateXYZ -10.6358252 -10.4251709 -111.5999527
+	-offset (121.5295639, -31.6825428, 478.4864807) -scale 2 -rotateXYZ -3.7882564 -14.2212133 -110.6680756
+	-offset (162.6717987, -3.170258, 476.6117249) -scale 2 -rotateXYZ -0.3810903 -18.8448257 -111.4768448
+	-offset (428.975708, -368.7453918, -19.1410217) -scale 1.52 -rotateXYZ -92.9714966 -49.2797241 -17.681921
+	-offset (460.3509827, -327.5306091, -33.6859741) -scale 1.52 -rotateXYZ -95.8721695 -54.4264259 -14.3933001
+	-offset (486.8278809, -282.2339478, -57.2113037) -scale 1.52 -rotateXYZ -101.4590912 -59.3943062 114.0527344
+	-offset (412.7875671, -374.7112732, -106.1181412) -scale 1.52 -rotateXYZ -105.8121033 -46.6664429 122.0733337
+	-offset (372.1132507, -342.6842957, -85.6976166) -scale 1.04 -rotateXYZ -104.0403824 -46.4906502 119.8246613
+	-offset (370.5132446, -343.8410645, -52.199707) -scale 1.04 -rotateXYZ -98.6323471 -46.812664 112.5617905
+	-offset (409.3768311, -310.3957825, -15.3036804) -scale 1.04 -rotateXYZ -92.8226166 -52.7965736 104.3421783
+	-offset (437.9312134, -262.8524475, -43.9792442) -scale 1.04 -rotateXYZ -99.498497 -58.6770897 111.881813
+	-offset (334.7040405, -349.1634216, -157.9967194) -scale 1.04 -rotateXYZ -114.3467941 -41.1319542 10.8000002
+	-offset (356.2678223, -342.504303, -140.8166351) -scale 0.44 -rotateXYZ -112.3494186 -43.8918571 131.4686584
+	-offset (359.480011, -344.1943054, -122.1466675) -scale 0.44 -rotateXYZ -109.5385971 -44.5457916 127.6347961
+	-offset (329.3361816, -346.2199707, -166.9277496) -scale 0.44 -rotateXYZ -115.7407379 -40.5913467 10.8000298
+	-offset (333.9328918, -322.7879028, -187.776413) -scale 0.92 -rotateXYZ -120.1879654 -41.8038521 141.911499
+	-offset (346.4737854, -303.5765076, -199.1273956) -scale 0.92 -rotateXYZ -123.2623825 -43.6611252 144.3340912
+	-offset (333.8525085, -323.2226562, -191.2248688) -scale 0.92 -rotateXYZ -120.6093826 -41.6359253 142.4839325
+	-offset (306.983551, -344.7923279, -194.3827209) -scale 0.92 -rotateXYZ -119.4128799 -37.7965088 10.8000135
+	-offset (277.5580444, -187.8953247, -367.1439819) -scale 0.92 -rotateXYZ -152.8977203 -33.9397812 174.8535004
+	-offset (277.1169434, -130.260849, -387.6210327) -scale 0.92 -rotateXYZ -161.4249725 -34.1245193 -179.876236
+	-offset (222.6340027, -135.0789337, -447.0399475) -scale 0.92 -rotateXYZ -163.1871338 -25.4885178 -176.6085968
+	-offset (188.4871063, -137.717392, -439.2937622) -scale 0.92 -rotateXYZ -162.5939178 -22.2652035 -175.9739838
+	-offset (182.3147583, -140.7536621, -446.0227661) -scale 0.92 -rotateXYZ -162.4855804 -21.2961674 -175.7383423
+	-offset (247.519989, -95.0571365, -423.9499817) -scale 0.92 -rotateXYZ -167.3622437 -29.6700726 -175.5332947
+	-offset (243.1080017, -110.9550781, -421.1680908) -scale 0.92 -rotateXYZ -165.2409821 -29.1693077 -176.5167999
+	-offset (224.2532349, -97.5203247, -436.9825134) -scale 0.92 -rotateXYZ -167.4195862 -26.6046562 -174.9072571
+	-offset (263.8938293, -165.0064087, -393.3990784) -scale 0.92 -rotateXYZ -157.2449646 -31.7406635 178.3567505
+	-offset (304.1653137, -152.2783203, -368.5352783) -scale 0.92 -rotateXYZ -157.5496674 -37.3358154 176.7315063
+	-offset (237.1633911, -216.0963745, -380.8217468) -scale 0.92 -rotateXYZ -150.4273376 -28.4417591 175.6768036
+	-offset (288.5772095, -72.605957, -401.1103516) -scale 1.4 -rotateXYZ -169.7398529 -35.2962494 -175.1708221
+	-offset (252.9330444, -206.8965454, -379.3383179) -scale 1.4 -rotateXYZ -151.3912811 -30.3433342 175.3953552
+	-offset (223.6977539, -182.9668732, -422.600647) -scale 1.2800001 -rotateXYZ -156.5895691 -25.9087658 -179.912323
+	-offset (337.479126, 399.9953003, -21.4862442) -scale 2 -rotateXYZ 93.0747223 -40.1139259 10.8000422
+	-offset (357.0827637, 403.9729004, 30.826479) -scale 2 -rotateXYZ 85.6363449 -41.391819 10.8000183
+	-offset (359.1644287, 392.6454468, 63.2001495) -scale 2 -rotateXYZ 80.8561172 -42.0853729 10.8000431
+	-offset (352.0274353, 386.368927, 92.4761658) -scale 2 -rotateXYZ 76.5396729 -41.5438271 10.8000221
+	-offset (338.1689148, 362.7010803, 119.4114151) -scale 2 -rotateXYZ 71.7769775 -41.5281296 10.8000145
+	-offset (347.4845886, 353.7678223, 134.895874) -scale 2 -rotateXYZ 69.1274948 -42.5451317 10.8000498
+	-offset (382.2392883, 341.1761169, 143.0397034) -scale 2 -rotateXYZ 67.2538681 -45.9362221 -48.9380646
+	-offset (372.6812744, 379.4845886, -68.1535416) -scale 2 -rotateXYZ 100.1814423 -44.0272064 10.8000784
+	-offset (393.7198486, 346.7615356, -105.0189438) -scale 2 -rotateXYZ 106.8492813 -47.3785477 -101.5709152
+	-offset (411.673584, 320.2322693, -103.4273376) -scale 2 -rotateXYZ 107.8992004 -50.7359123 -101.8436203
+	-offset (451.833252, 335.8076477, -0.408852) -scale 2 -rotateXYZ 90.0697556 -53.3798065 -79.2869034
+	-offset (443.6610107, 310.7793274, 72.2392044) -scale 2 -rotateXYZ 76.9142227 -54.2777023 -63.2228203
+	-offset (409.4458008, 315.5993042, 141.1764221) -scale 2 -rotateXYZ 65.8996582 -49.822216 -48.8521309
+	-offset (338.7765503, 404.7347412, -49.0155106) -scale 2 -rotateXYZ 96.90522 -39.7252808 10.7999887
+	-offset (341.4346313, 395.8483887, -17.7326775) -scale 2 -rotateXYZ 92.5649414 -40.7506142 10.8000116
+	-offset (349.3894043, 390.1865845, 81.3050232) -scale 2 -rotateXYZ 78.2294006 -41.2382431 10.800024
+	-offset (355.4353027, 351.6636963, 119.0544357) -scale 2 -rotateXYZ 71.2966537 -43.7517395 -53.1155663
+	-offset (216.9192352, 470.3735046, 50.0990295) -scale 2 -rotateXYZ 83.9204254 -24.6347656 10.8000383
+	-offset (261.7210083, 428.7988281, -18.2471409) -scale 2 -rotateXYZ 92.4366989 -31.3751163 10.8000402
+	-offset (257.882843, 387.1457825, 186.345993) -scale 2 -rotateXYZ 64.2969589 -30.972374 10.8000336
+	-offset (210.772644, 427.5248718, 129.6894073) -scale 2 -rotateXYZ 73.124855 -25.2568874 10.8000278
+	-offset (224.4266205, 445.9640808, 79.065567) -scale 2 -rotateXYZ 79.9464264 -26.3589363 10.8000145
+	-offset (273.6494141, 407.3097839, 117.4993896) -scale 2 -rotateXYZ 73.9083939 -32.8431511 10.7999916
+	-offset (283.1576538, 361.8192139, 212.0071869) -scale 2 -rotateXYZ 59.6319313 -34.0279541 10.8000364
+	-offset (216.9915771, 308.587738, 285.6165161) -scale 2 -rotateXYZ 47.2138748 -27.2962952 10.8000326
+	-offset (202.2042084, 341.0701904, 313.4750061) -scale 2 -rotateXYZ 47.4141388 -23.5810547 10.8000355
+	-offset (159.7949677, 474.1981201, -16.216568) -scale 2 -rotateXYZ 91.9586487 -18.6125965 10.7999964
+	-offset (133.4586182, 456.9931335, -93.2061386) -scale 2 -rotateXYZ 101.5276718 -15.9682274 10.8000364
+	-offset (178.0518341, 195.8675842, -427.4403687) -scale 2 -rotateXYZ 155.3811798 -20.7411022 10.7999849
+	-offset (200.2277222, 185.3870544, -427.3406982) -scale 2 -rotateXYZ 156.5480347 -23.2599144 -159.4787292
+	-offset (213.644043, 88.7689209, -450.8110352) -scale 2 -rotateXYZ 168.8604584 -24.9375591 -164.4539948
+	-offset (231.6693878, 62.8496666, -446.5273132) -scale 2 -rotateXYZ 171.9881134 -27.1922913 -165.5197296
+	-offset (246.2257233, 59.9084473, -440.6477661) -scale 2 -rotateXYZ 172.2577972 -28.9727707 -165.4321899
+	-offset (293.1810303, 98.6621017, -387.2515259) -scale 2 -rotateXYZ 165.7065735 -36.2654724 -160.6296692
+	-offset (311.467804, 130.34198, -375.40979) -scale 2 -rotateXYZ 160.8530579 -38.0885201 -157.1110535
+	-offset (335.9321289, 160.1020813, -371.0736694) -scale 2 -rotateXYZ 156.6618805 -39.7343483 -153.7811432
+	-offset (307.8518372, 222.9302979, -341.554718) -scale 2 -rotateXYZ 146.8678284 -37.0448151 -147.7348633
+	-offset (273.1397705, 224.984787, -365.2181396) -scale 2 -rotateXYZ 148.3657227 -32.4871979 -150.8918457
+	-offset (265.1070862, 213.5865631, -377.7268066) -scale 2 -rotateXYZ 150.5139008 -31.4224968 -152.7746735
+	-offset (277.6351929, 250.4075623, -363.9546509) -scale 2 -rotateXYZ 145.4713135 -32.1473694 -149.0926361
+	-offset (291.4562988, 234.7942047, -352.9567871) -scale 0.8 -rotateXYZ 146.3673553 -34.509697 -148.5496979
+	-offset (273.4321899, 229.275528, -361.242157) -scale 0.8 -rotateXYZ 147.5972748 -32.5814781 -150.3307343
+	-offset (198.3786011, 123.9074707, -457.1699829) -scale 0.8 -rotateXYZ 164.8353729 -22.7247639 -163.2228241
+	-offset (225.0601807, -32.2403603, -452.4963684) -scale 1.16 -rotateXYZ -175.9245758 -26.3867931 -171.0136719
+	-offset (279.2553711, -42.5328674, -430.3576355) -scale 1.16 -rotateXYZ -174.3556671 -32.8521843 -172.2689056
+	-offset (174.2554626, -6.6505742, -476.3028564) -scale 1.16 -rotateXYZ -179.2000275 -20.0932446 -169.474823
+	-offset (371.1337891, -330.7059937, -53.7887573) -scale 1 -rotateXYZ -99.2382584 -47.9249458 66.5451584
+	-offset (191.5002747, -0.193382, 461.8740234) -scale 1.5 -rotateXYZ -0.0239815 -22.5196438 -67.1671143
+	-offset (206.3091431, 355.110199, 285.1899414) -scale 1.5 -rotateXYZ 51.2320366 -24.3693943 -17.6310596
+	-offset (82.8293152, 492.380127, 26.4784889) -scale 1.5 -rotateXYZ 86.9219589 -9.5354347 -24.2957973
+	-offset (-217.0924377, 424.044342, -151.8462524) -scale 1.5 -rotateXYZ 109.7021179 25.7334614 -20.8411579
+	-offset (-453.8637695, 209.7794189, 0.5186809) -scale 1.5 -rotateXYZ 89.8586807 65.1932144 -34.4408875
+	-offset (-471.0024109, -157.7056274, 57.3205833) -scale 1.5 -rotateXYZ -70.0260773 70.391037 166.3736267
+	-offset (-39.6934357, -338.6336975, 365.7207642) -scale 1.3953501 -rotateXYZ -42.7977371 4.5533352 -0.75529
+	-offset (-296.0936279, -371.0073242, 157.1054382) -scale 1.4258988 -rotateXYZ -67.0494156 36.3122864 -19.7647305
+	-offset (247.1582642, 428.8685608, -70.6013031) -scale 1 -rotateXYZ 99.3485489 -29.6245918 -91.2121735
+	-offset (-27.4559937, 494.5093689, -68.60495) -scale 1 -rotateXYZ 97.8986969 3.147893 -83.8781586
+	-offset (-263.5480347, 404.0635986, -131.4344482) -scale 1 -rotateXYZ 108.0189896 31.8095436 -77.4244232
+	-offset (-449.8273621, 216.9402466, -24.3365364) -scale 1 -rotateXYZ 96.4011307 64.1129227 -85.5144043
+	-offset (403.9032288, -26.4945316, 293.7904663) -scale 0.4738497 -rotateXYZ -5.1532645 -53.8581543 -4.5492935
+	-offset (378.7660217, -117.7792892, 354.5684814) -scale 0.3457998 -rotateXYZ -18.3752613 -45.391861 7.1139941
+	-offset (442.6088867, 103.5360794, 245.6083984) -scale 0.3457998 -rotateXYZ 22.8577614 -58.9435844 -26.1263714
+	-offset (-259.8204956, -121.1672211, 438.0469971) -scale 1 -rotateXYZ -15.4618034 29.7552166 15.0341444
+	-offset (-38.7452507, -529.5811157, -238.303299) -scale 1 -rotateXYZ -114.2272415 3.8169985 -27.1639118
+	-offset (108.5361099, -483.071106, -83.9041367) -scale 0.2570001 -rotateXYZ -99.8535461 -12.4819794 15.979353
+	-offset (144.6508484, -475.9538269, 61.1060791) -scale 0.2570001 -rotateXYZ -82.6843033 -16.7750282 12.3120041
+	-offset (422.8822632, -107.1859665, -244.2984772) -scale 0.7680994 -rotateXYZ -156.3105774 -57.753933 131.2508087
+	-offset (209.2591095, 269.6608582, -365.6789246) -scale 0.7889996 -rotateXYZ 143.5939941 -24.7290821 -87.2277985
+	-offset (133.2604065, -186.9134827, -444.1902771) -scale 1 -rotateXYZ -157.178833 -15.4573631 114.4218597
+	-offset (280.280426, -103.0297241, -401.0333862) -scale 0.4754998 -rotateXYZ -165.5916901 -34.0945969 145.7271118
+	-offset (204.1565552, -394.2451477, -229.9801331) -scale 0.9124994 -rotateXYZ -120.2569046 -24.098938 16.222477
+	-offset (265.8240662, -360.9511108, 221.4765625) -scale 1.3953501 -rotateXYZ -58.4670372 -32.1169434 108.6293869
+	-offset (-235.2527008, 5.2573781, -441.1672668) -scale 1.2757502 -rotateXYZ 179.3172455 28.06707 168.7483673
+	-offset (556.8984375, 171.3529816, 16.049057) -scale 1 -rotateXYZ 84.6498108 -72.8268814 -91.1497803
+	-offset (544.2164307, 36.7159004, 17.9170818) -scale 1 -rotateXYZ 63.9900017 -85.7070007 -123.8861084
+	-offset (475.7865601, -207.9821625, 79.0844803) -scale 1 -rotateXYZ -69.1808548 -64.9359818 59.4480095
+	-offset (510.3267822, 72.3067856, -102.6974335) -scale 1 -rotateXYZ 144.8517151 -76.1735306 -116.7948761
+	-offset (160.1739655, -8.7980919, -533.7314453) -scale 1 -rotateXYZ -179.0556641 -16.7024269 -107.0991821
+	-offset (-39.0975266, -421.3979797, -379.2423706) -scale 1 -rotateXYZ -131.9859924 3.9451244 -113.9009628
+	-offset (-170.5581665, -465.5994263, -278.8005371) -scale 1 -rotateXYZ -120.9130859 17.447113 -118.5334091
+	-offset (-136.2649384, -432.9240112, -353.6547241) -scale 1 -rotateXYZ -129.2452545 13.6993399 -120.2244797
+	-offset (-182.666748, -541.4225464, -129.6511536) -scale 1 -rotateXYZ -103.4667053 18.1650162 -29.344923
+	-offset (-62.0996132, -530.2981567, -104.5187683) -scale 1 -rotateXYZ -101.1497879 6.5541406 -11.3430786
+	-offset (48.4486923, -538.7234497, 143.2960663) -scale 1 -rotateXYZ -75.1047211 -4.967124 -4.1282587
+	-offset (395.9516907, -160.6034546, 334.598877) -scale 1 -rotateXYZ -25.6405125 -46.8521042 1.8021812
+	-offset (-387.6041565, -121.0615311, -307.7143555) -scale 1 -rotateXYZ -158.5242615 49.5318909 -75.7208633
+	-offset (-364.1128235, -147.069809, -323.716217) -scale 1 -rotateXYZ -155.5669403 45.6811104 -150.3166504
+	-offset (58.5176697, -398.4868469, -317.3314514) -scale 1 -rotateXYZ -128.5317993 -6.5531597 -113.1448898
+	-offset (414.354126, -130.7478027, -247.4180908) -scale 1 -rotateXYZ -152.1460876 -55.9662743 132.5991821
+end
+uint32 terrainAtmosphereType 11
+bool terrainHazardsEnable true
+bool terrainOverrideMode true
+uint32 terrainPlayerGroundEffects 0x74c0e257
+keys terrainScriptAmbientEffects
+	0x57974AC6
+	0x74C0E257
+end
+unknown terrainScriptAmbientSoundEffects
+vector3 terrainScriptERLLevels (0.5, 0, 0)
+floats terrainScriptEffectIntensities
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	0.8597926
+	1
+	1
+	1
+	1
+	1
+	1
+	0.2994357
+	0.2462962
+	0.4573788
+	0.4573788
+	0.4573788
+	0.4573788
+	1
+	0.1051987
+	0.1051987
+	0.3
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	1
+	0.4357758
+	0.4357758
+	0.8393779
+	0.49676
+	0.3
+	0.3
+	0.8097456
+	0.8097456
+	0.8097456
+	0.8097456
+	1
+	0.406752
+	0.6384277
+	0.8097456
+	1
+	0.1132965
+	0.13
+	0.1531256
+end
+uint32s terrainScriptEffectSeeds
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xa3c04c3a
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+	0xad0f7937
+end
+floats terrainScriptEffectTimes
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+end
+floats terrainScriptEffectWaterLevels
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+	0.5
+end
+transforms terrainScriptModelTransforms
+	-offset (-35.6460762, -528.2614136, -240.4316864) -scale 0.7166998 -rotateXYZ -114.4722061 3.5144558 -14.1248999
+	-offset (348.6088562, -336.2546692, -150.4967804) -scale 1.05 -rotateXYZ -114.1117477 -43.4190826 37.6712532
+	-offset (410.6820984, -31.3428001, -283.4746094) -scale 1.05 -rotateXYZ -173.6906586 -55.2215004 85.0588531
+	-offset (432.8831482, 270.5724487, 17.0132484) -scale 1.05 -rotateXYZ 86.4023819 -57.9417877 177.9078827
+	-offset (2.1225533, 246.006546, -440.0690918) -scale 1.05 -rotateXYZ 150.7940369 -0.2410364 124.5407257
+	-offset (48.0582542, -272.7336426, -422.5979614) -scale 1.05 -rotateXYZ -147.1629944 -5.4578691 91.1824875
+	-offset (-347.2940674, -271.4828796, -254.8974457) -scale 1.05 -rotateXYZ -133.1955414 43.0029335 102.2453384
+	-offset (-10.0553331, -439.420105, 248.6082916) -scale 1.05 -rotateXYZ -60.5005112 1.1412516 111.8147964
+	-offset (451.9021912, 154.5957336, 173.8982086) -scale 1.05 -rotateXYZ 41.6362877 -62.7564697 24.9055729
+	-offset (129.4425354, 140.2743683, 462.1339111) -scale 1.05 -rotateXYZ 16.8845711 -15.0039206 41.3650665
+	-offset (-79.5254669, -138.1336823, 473.9143066) -scale 1.05 -rotateXYZ -16.250391 9.1518364 46.4504204
+	-offset (-371.7077332, 70.622673, 334.6296692) -scale 1.05 -rotateXYZ 11.9166727 47.3835297 49.9856262
+	-offset (-245.9636841, 396.1433411, 209.8661346) -scale 1.05 -rotateXYZ 62.0862236 28.7519188 71.7253647
+	-offset (-490.2209473, 78.628067, 59.1696777) -scale 1.05 -rotateXYZ 53.036293 78.6497269 58.5200005
+	-offset (-215.5338898, 395.0266724, -217.9428253) -scale 1.05 -rotateXYZ 118.8860855 25.5356216 115.0399704
+	-offset (-208.5770111, 151.3003235, -430.274353) -scale 1.05 -rotateXYZ 160.6265106 24.5751019 148.752243
+	-offset (-161.296524, -409.2424011, 237.7059021) -scale 1.05 -rotateXYZ -59.849762 18.8196392 -119.8671799
+	-offset (434.4831848, -146.589859, 223.937561) -scale 1.0499996 -rotateXYZ -33.2087822 -58.3661079 19.7741985
+	-offset (383.8646545, -66.157547, 327.3048401) -scale 1.0499996 -rotateXYZ -11.4271412 -48.9800987 1.533451
+	-offset (429.4757996, 91.1346741, 271.2086792) -scale 1.0499996 -rotateXYZ 18.573988 -56.3290253 -21.0707912
+	-offset (468.8921509, 54.5769653, 191.5368652) -scale 1.0499996 -rotateXYZ 15.9044933 -66.9867554 -28.1993885
+	-offset (257.151886, -236.0218811, -369.9262085) -scale 1.0499996 -rotateXYZ -147.4611664 -30.3714256 72.8014755
+	-offset (105.0428009, -288.578064, -403.0932617) -scale 1.0499996 -rotateXYZ -144.4009399 -11.9634409 31.1994591
+	-offset (241.0751495, 117.9713821, -427.9153748) -scale 1.0499996 -rotateXYZ 164.5870514 -28.5067959 -174.8431244
+	-offset (420.1162415, 279.4627075, -100.0797119) -scale 1.0499996 -rotateXYZ 109.7032089 -54.7559776 -28.8921928
+	-offset (-3.4192514, 202.3896637, 464.5800781) -scale 1.0499996 -rotateXYZ 23.5399303 0.3865847 -8.7323513
+	-offset (-360.161499, 13.5571384, 352.9468689) -scale 1.0499996 -rotateXYZ 2.1997437 45.5585632 -10.1132336
+	-offset (-275.5161438, 362.2654419, 224.0027008) -scale 1.0499996 -rotateXYZ 58.2699471 32.8972816 24.949213
+	-offset (-441.1697388, 21.5387516, -248.1921997) -scale 1.0499996 -rotateXYZ 175.0402679 60.5469208 124.5325851
+	-offset (-284.2256165, -350.2972412, -230.9245453) -scale 1.0499996 -rotateXYZ -123.3938293 34.1149254 -30.6303978
+	-offset (99.7169876, -466.3830872, -194.3911896) -scale 1.0499996 -rotateXYZ -112.6266708 -11.1640387 17.9388332
+	-offset (-106.7358093, -496.3409424, -1.579071) -scale 1.0499996 -rotateXYZ -90.182251 12.1362896 20.0523701
+	-offset (82.0103302, -416.9523315, 273.3499451) -scale 1.0499996 -rotateXYZ -56.7515488 -9.3410606 15.4552155
+end
+keys terrainScriptModels
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!syrup_resource1.prop
+	Adventure_roads~!organic_massiverock1_pile.prop
+	Adventure_roads~!organic_massiverock1.prop
+	Adventure_roads~!organic_massiverock1_pile.prop
+	Adventure_roads~!organic_massiverock1.prop
+	Adventure_roads~!organic_massiverock1.prop
+	Adventure_roads~!organic_massiverock1_pile.prop
+	Adventure_roads~!organic_massiverock1.prop
+	Adventure_roads~!organic_massiverock1_pile.prop
+	Adventure_roads~!organic_massiverock1.prop
+	Adventure_roads~!organic_massiverock1_pile.prop
+	Adventure_roads~!organic_massiverock1.prop
+	Adventure_roads~!organic_massiverock1_pile.prop
+	Adventure_roads~!organic_massiverock1.prop
+	Adventure_roads~!organic_massiverock1_pile.prop
+	Adventure_roads~!organic_massiverock1.prop
+	Adventure_roads~!organic_massiverock1_pile.prop
+end
+vector3 terrainScriptPlanetInfo (44, 44, 500)
+vector3 terrainScriptWTALevels (0.5, 0.5, 0.5)
+vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
+vector3 terrainThemeBeachColor (0.8862746, 0.7215686, 0.6509805)
+vector3 terrainThemeCliffColor (0.4575164, 0.4488017, 0.583878)
+keys terrainThemeFlora
+end
+int32s terrainThemeFloraBracketIndexes
+end
+floats terrainThemeFloraDensities
+end
+float terrainThemeFloraGlobalDensity 1
+vector3s terrainThemePlanetColors
+	(1, 1, 1)
+	(0.3411765, 0.5764706, 0.4117647)
+	(0.3019608, 0.4431373, 0.1411765)
+	(0.4431373, 0.2941177, 0.2039216)
+end
+floats terrainThemePlanetColorsList
+	0.3829388
+	0.4653445
+	0.7365294
+	1
+end
+vector3 terrainThemeWaterColor (0.0392157, 0.3647059, 0.8039216)
+uint32 terrainVersion 2
+uint32 terrainWaterType 11
+key visualStyle animations~
+

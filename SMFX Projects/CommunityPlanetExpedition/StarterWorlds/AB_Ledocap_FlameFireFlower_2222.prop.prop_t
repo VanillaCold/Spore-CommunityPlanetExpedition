@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Ledocap_FlameFireFlower)
+uint32 CreatureScenario hash(Ledocap_FlameFireFlower)
+bool FirstGroup true
+uint32 PlanetIcon hash(Ledocap_FlameFireFlower)
+uint32 SpaceScenario hash(Ledocap_FlameFireFlower)
+uint32 TribeScenario hash(Ledocap_FlameFireFlower)
+string16 planetscriptDescription "Ledocap_FlameFireFlower"
+uint32 terrainscript hash(Ledocap_FlameFireFlower)
+bool 0xEA288A88 false
