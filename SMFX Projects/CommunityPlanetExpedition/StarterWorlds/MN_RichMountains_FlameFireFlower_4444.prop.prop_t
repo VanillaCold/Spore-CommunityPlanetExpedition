@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(RichMountains_FlameFireFlower)
+uint32 CreatureScenario hash(RichMountains_FlameFireFlower)
+bool FirstGroup true
+uint32 PlanetIcon hash(RichMountains_FlameFireFlower)
+uint32 SpaceScenario hash(RichMountains_FlameFireFlower)
+uint32 TribeScenario hash(RichMountains_FlameFireFlower)
+string16 planetscriptDescription "RichMountains_FlameFireFlower"
+uint32 terrainscript hash(RichMountains_FlameFireFlower)
+bool 0xEA288A88 false

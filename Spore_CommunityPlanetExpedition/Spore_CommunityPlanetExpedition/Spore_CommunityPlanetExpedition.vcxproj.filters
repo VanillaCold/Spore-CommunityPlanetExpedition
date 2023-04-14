@@ -25,10 +25,16 @@
     <ClInclude Include="stdafx.h">
       <Filter>Internal</Filter>
     </ClInclude>
-    <ClInclude Include="PlanetScriptOverrider.h">
-      <Filter>Spore_CommunityPlanetExpedition\IUpdatables</Filter>
-    </ClInclude>
     <ClInclude Include="ExportTerrainScript.h">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportLVLFile.h">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportTerrainScript.h">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetType.h">
       <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
     </ClInclude>
   </ItemGroup>
@@ -39,10 +45,16 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Internal</Filter>
     </ClCompile>
-    <ClCompile Include="PlanetScriptOverrider.cpp">
-      <Filter>Spore_CommunityPlanetExpedition\IUpdatables</Filter>
-    </ClCompile>
     <ClCompile Include="ExportTerrainScript.cpp">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportLVLFile.cpp">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportTerrainScript.cpp">
+      <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetType.cpp">
       <Filter>Spore_CommunityPlanetExpedition\Cheats</Filter>
     </ClCompile>
   </ItemGroup>

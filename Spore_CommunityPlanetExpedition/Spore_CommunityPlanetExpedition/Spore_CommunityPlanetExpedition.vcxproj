@@ -100,11 +100,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ExportLVLFile.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="ExportTerrainScript.h">
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="PlanetScriptOverrider.h">
+    <ClInclude Include="ImportTerrainScript.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PlanetType.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -120,11 +128,19 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="ExportLVLFile.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="ExportTerrainScript.cpp">
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="PlanetScriptOverrider.cpp">
+    <ClCompile Include="ImportTerrainScript.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlanetType.cpp">
       <SubType>
       </SubType>
     </ClCompile>

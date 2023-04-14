@@ -77,7 +77,7 @@ void ExportTerrainScript::ParseLine(const ArgScript::Line& line)
 	//scenario->
 	path.sprintf(u"%ls%ls.prop", creationFolder.c_str(), Simulator::GetActivePlanetRecord()->mName.c_str());
 	intrusive_ptr<IO::FileStream> outputStream = new IO::FileStream(path.c_str());
-	outputStream->Open(IO::kAccessFlagReadWrite, IO::kCDCreateAlways);
+	outputStream->Open(IO::AccessFlags::Write, IO::CD::CreateAlways);
 	PlanetModel.mpTerrain->GetPropertyList()->Write(outputStream.get());
 	//outputStream->Write(buffer, size);
 	outputStream->Close();
@@ -96,10 +96,10 @@ void ExportTerrainScript::OnShopperAccept(const vector<ResourceKey>& selection)
 			if (mode == 1) name += u" - " + metadata->GetAuthor();
 			else name += u"_" + metadata->GetAuthor();
 
-			Resource::IPFRecord* pRecord;
+			Resource::IRecord* pRecord;
 			auto resource = ResourceKey(selection[i].instanceID, TypeIDs::adventure, selection[i].groupID);
-			auto dbpf = ResourceManager.GetDBPF(resource);
-			if (!dbpf || !dbpf->GetFile(resource, &pRecord)) {
+			DatabasePackedFilePtr dbpf = (Resource::DatabasePackedFile*)ResourceManager.FindDatabase(resource);
+			if (!dbpf || !dbpf->OpenRecord(resource, &pRecord)) {
 				App::ConsolePrintF("An error has occured - either the package doesn't exist or the terrain script doesn't exist.");
 				return;
 			}
@@ -118,12 +118,12 @@ void ExportTerrainScript::OnShopperAccept(const vector<ResourceKey>& selection)
 
 
 			pRecord->GetStream()->Read(buffer, size);
-			pRecord->Close();
+			pRecord->RecordClose();
 
 			string16 path;
 			path.sprintf(u"%ls%ls.0x366A930D", creationFolder.c_str(), name.c_str());
 			intrusive_ptr<IO::FileStream> outputStream = new IO::FileStream(path.c_str());
-			outputStream->Open(IO::kAccessFlagReadWrite, IO::kCDCreateAlways);
+			outputStream->Open(IO::AccessFlags::Write, IO::CD::CreateAlways);
 			outputStream->Write(buffer, size);
 			outputStream->Close();
 			delete[] buffer;

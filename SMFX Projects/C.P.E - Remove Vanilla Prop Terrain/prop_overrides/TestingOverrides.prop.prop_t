@@ -1,0 +1,9 @@
+string8s replacementList
+	"key 0x03B28C1B stampKeyOverride -override"
+	"vector3s 0x03B28C1C stampOverride -override"
+end
+
+vector3 stampOverride (0,0,0)
+key stampKeyOverride animations~
+#vector3 modelStampParams (45, 0, 0.12)
+#key modelStampTexture 0xB102A2D0

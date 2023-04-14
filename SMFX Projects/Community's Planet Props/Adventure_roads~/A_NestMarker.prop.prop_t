@@ -1,0 +1,15 @@
+key parent 0x15BA5969.prop
+string16 description "Player Nest Marker"
+#keys modelEffect
+#	0xFF2F9B23
+#end
+#float modelEffectRange 240
+key modelMeshHull animations~
+float modelScale 1
+bool modelUsesDeadColor false
+bool rockObstacleAllowed false
+#uint32 terrainScriptModelType hash(volcano)
+
+string8 markerType "marker CreatureArchetype -id kHerd~ AvatarSpecies"
+uint32 markerPropertyCount 10
+bool isMarker 1

@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(TheWitheringLandscape_ChocIce75)
+uint32 CreatureScenario hash(TheWitheringLandscape_ChocIce75)
+bool FirstGroup true
+uint32 PlanetIcon hash(TheWitheringLandscape_ChocIce75)
+uint32 SpaceScenario hash(TheWitheringLandscape_ChocIce75)
+uint32 TribeScenario hash(TheWitheringLandscape_ChocIce75)
+string16 planetscriptDescription "TheWitheringLandscape_ChocIce75"
+uint32 terrainscript hash(TheWitheringLandscape_ChocIce75)
+bool 0xEA288A88 false

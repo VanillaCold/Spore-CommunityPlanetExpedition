@@ -1,4 +1,4 @@
-key parent 0x15BA5969.prop
+#<key parent 0x15BA5969.prop
 string16 description "Test Stamp"
 keys modelEffect
 	CI_waterfall
@@ -9,3 +9,35 @@ float modelEffectRange 120000000
 #key modelPaintDecalTexture CPE_FireFlameFlower-Toxic.rw4
 bool rockObstacleAllowed false
 #uint32 terrainScriptModelType hash(volcano)
+#>
+
+key parent TerrainModelTemplate.prop
+string16 description "Arizona Massive Rock1"
+keys modelEffect
+	0xF0B9704F
+end
+float modelEffectRange 490
+floats modelLODDistances
+	480
+	1000
+	5000
+end
+vector3 modelLevelParams (70, 0, 1)
+key modelMeshHull PlanetProps_Models!CaveMouth.rw4
+key modelMeshLOD0 PlanetProps_Models!CaveMouth.rw4
+key modelMeshLOD1 PlanetProps_Models!CaveMouth.rw4
+key modelMeshLOD2 PlanetProps_Models!CaveMouth.rw4
+float modelScale 5
+colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
+vector3 modelPaintDecalParams (60, 0, 0.8)
+#key modelPaintDecalTexture decal_arizona_massive
+float modelPlacementSpacingRing 70
+uint32 modelSound hash(amb_arizona_lp)
+vector3 modelStampParams (60, 0, 0.1)
+key modelStampTexture stamp_arizona_massive
+bool modelUsesDeadColor true
+float obstacleBaseCollisionRadius 35
+float obstacleCanopyCollisionRadius 15
+float obstacleCollisionHeight 44
+float obstacleObjectExclusionRadius 45
+
