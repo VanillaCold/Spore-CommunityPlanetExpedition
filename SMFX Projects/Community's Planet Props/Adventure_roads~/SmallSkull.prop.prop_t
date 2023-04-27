@@ -13,6 +13,8 @@ string16 description "Small Skull by Dashik42"
 key modelMeshLOD0 PlanetProps_Models!SmallSkull_LOD0.rw4
 key modelMeshLOD1 PlanetProps_Models!SmallSkull_LOD1.rw4
 key modelMeshLOD2 PlanetProps_Models!SmallSkull_LOD2.rw4
+key modelMeshHull PlanetProps_Hulls!SmallSkull
+bool modelUseHullForBBox true
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
 vector3 modelPaintDecalParams (45, 0, 0.8)
 #key modelPaintDecalTexture 0x3CD176AB

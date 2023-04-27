@@ -85,8 +85,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 			if (isPreGenerated == false)
 			{
 				auto test = simulator_new<Simulator::cInteractiveOrnament>();
-				//void* gonzagoPhysics = STATIC_CALL_(Address(0xB3D410), void*);
-				//auto physTest = CALL(Address(0xB48870), void*, Args(void*, Simulator::cGameData*, bool), Args(gonzagoPhysics, test, false));
+
 
 				//test->Load(VehicleLocomotion::kVehicleLand, VehiclePurpose::kVehicleColony, mKey);
 
@@ -100,6 +99,10 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 				obj->SetModelKey(mKey);
 				obj->SetPosition(mTrans.GetOffset());
 				obj->SetOrientation(mTrans.GetRotation().ToQuaternion());
+
+				test->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
+				/*void* gonzagoPhysics = STATIC_CALL_(Address(0xB3D410), void*);
+				auto physTest = CALL(Address(0xB48870), void*, Args(void*, Simulator::cGameData*, bool), Args(gonzagoPhysics, test, false));*/
 				obj->SetScale(mTrans.GetScale());
 				obj->mbFixed = true;
 				obj->mbPickable = false;
