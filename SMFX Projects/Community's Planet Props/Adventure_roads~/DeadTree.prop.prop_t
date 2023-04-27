@@ -18,3 +18,5 @@ floats modelLODDistances
 	40000
 	200000
 end
+
+bool isSpatialStamp true

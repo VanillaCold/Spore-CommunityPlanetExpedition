@@ -26,3 +26,4 @@ float obstacleObjectExclusionRadius 45
 bool rockObstacleAllowed false
 #uint32 terrainScriptModelType hash(volcano)
 uint32 terrainScriptModelType hash(volcano)
+bool isSpatialStamp true

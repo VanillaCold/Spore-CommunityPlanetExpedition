@@ -18,7 +18,6 @@ SpatialPlanetCollisions::~SpatialPlanetCollisions()
 
 void SpatialPlanetCollisions::Update()
 {
-
 }
 
 void SpatialPlanetCollisions::ParseLine(const ArgScript::Line& line)
@@ -60,50 +59,68 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 		objects = vector<cSpatialObjectPtr>{};
 	}*/
 	objects = vector<cSpatialObjectPtr>{};
-	for each (ModelPtr model in sphere->mModels)
+	
+	auto propList = sphere->mpPropList;
+	bool isPreGenerated;
+	if (App::Property::GetBool(propList.get(), id("CPE-IsTerrainGenerated"), isPreGenerated) && !Simulator::IsScenarioMode())
+	{
+		App::ConsolePrintF("Pre-generated property is found!");
+	}
+	else
+	{
+		isPreGenerated = false;
+	}
+
+	for(int i = 0;i<sphere->mModels.size();i++)
 	{
 		
-
-		Transform mTrans = model->mTransform;
+		ModelPtr model = sphere->mModels[i];
+		Transform mTrans = sphere->mModelTransforms[i];
 		ResourceKey mKey = model->mpPropList->GetResourceKey();
 		bool isSpatial;
 
 		if (App::Property::GetBool(model->mpPropList.get(), id("isSpatialStamp"), isSpatial) && isSpatial == true)
 		{
 
-			auto test = simulator_new<Simulator::cInteractiveOrnament>();
-			//void* gonzagoPhysics = STATIC_CALL_(Address(0xB3D410), void*);
-			//auto physTest = CALL(Address(0xB48870), void*, Args(void*, Simulator::cGameData*, bool), Args(gonzagoPhysics, test, false));
-			
-			//test->Load(VehicleLocomotion::kVehicleLand, VehiclePurpose::kVehicleColony, mKey);
-		
-			//auto test = GameNounManager.CreateInstance(Simulator::GameNounIDs::kRock);
-			Simulator::cSpatialObject* obj = object_cast<Simulator::cSpatialObject>(test);
+			if (isPreGenerated == false)
+			{
+				auto test = simulator_new<Simulator::cInteractiveOrnament>();
+				//void* gonzagoPhysics = STATIC_CALL_(Address(0xB3D410), void*);
+				//auto physTest = CALL(Address(0xB48870), void*, Args(void*, Simulator::cGameData*, bool), Args(gonzagoPhysics, test, false));
 
-			test->Teleport(mTrans.GetOffset(),mTrans.GetRotation().ToQuaternion());
+				//test->Load(VehicleLocomotion::kVehicleLand, VehiclePurpose::kVehicleColony, mKey);
 
-			//cSpatialObjectPtr obj = simulator_new<Simulator::cSpatialObject>();
-			obj->SetModelKey(mKey);
-			obj->SetPosition(mTrans.GetOffset());
-			obj->SetOrientation(mTrans.GetRotation().ToQuaternion());
-			obj->SetScale(mTrans.GetScale());
-			obj->mbFixed = true;
-			obj->mbPickable = false;
-			obj->mbKeepPinnedToPlanet = true;
-			obj->mbIsTangible = true;
-			obj->mbIsGhost = false;
-		
+				//auto test = GameNounManager.CreateInstance(Simulator::GameNounIDs::kRock);
+				Simulator::cSpatialObject* obj = object_cast<Simulator::cSpatialObject>(test);
+				Transform* orientation;
+				size_t count;
+
+				test->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
+				//cSpatialObjectPtr obj = simulator_new<Simulator::cSpatialObject>();
+				obj->SetModelKey(mKey);
+				obj->SetPosition(mTrans.GetOffset());
+				obj->SetOrientation(mTrans.GetRotation().ToQuaternion());
+				obj->SetScale(mTrans.GetScale());
+				obj->mbFixed = true;
+				obj->mbPickable = false;
+				obj->mbKeepPinnedToPlanet = false;
+				obj->mbIsTangible = true;
+				obj->mbIsGhost = false;
+				obj->mbTransformDirty = true;
+				objects.push_back(obj);
+			}
+
 
 			model->mCollisionMode = Graphics::CollisionMode::BoundingBox;
 			model->mDefaultBBox = BoundingBox(Vector3(0, 0, 0), Vector3(0, 0, 0));
 			model->mDefaultBoundingRadius = 0;
 			model->mTransform.SetScale(0.00001);
 			model->mFlags -= Graphics::ModelFlags::kModelFlagVisible;
-		
-
-			objects.push_back(obj);
 		}
 	}
+	App::Property* prop = new App::Property();
+	prop->SetValueBool(true);
+	propList->SetProperty(id("CPE-IsTerrainGenerated"), prop);
 
 }
 

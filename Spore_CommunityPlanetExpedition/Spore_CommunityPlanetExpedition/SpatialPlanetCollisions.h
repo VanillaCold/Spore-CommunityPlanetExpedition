@@ -13,6 +13,7 @@ public:
 	~SpatialPlanetCollisions();
 
 	vector<cSpatialObjectPtr> objects;
+	vector<Quaternion> objRots;
 	void Update() override;
 
 	// Called when the cheat is invoked
