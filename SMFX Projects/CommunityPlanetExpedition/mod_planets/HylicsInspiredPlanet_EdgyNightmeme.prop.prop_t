@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "HylicsInspiredPlanet_EdgyNightmeme"
-key parent planetTerrainThemes3~!0xEB9DC013.prop #Hylics-Inspired Planet by EdgyNightmeme
+key parent planetTerrainThemes3~!EP1_Bard_01.prop #Hylics-Inspired Planet by EdgyNightmeme
 keys modelEffect
 	Patch1_lopsided_filter~
 	GO_lower_all_more~
@@ -95,49 +95,49 @@ keys modelEffect
 	0x323ADD3E
 	0x323ADD3E
 	0x323ADD3E
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
 	0x8F27BB00
 	0x3526FFD3
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0xFFCB97F9
 	0x3526FFD3
 	0x3526FFD3
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0xAA80DEB5
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0xAA80DEB5
-	0x6799B3E1
-	0x6799B3E1
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
 	0x323ADD3E
 	0x323ADD3E
-	0xE183AE3B
-	0xE183AE3B
-	0x6F75A856
-	0x6F75A856
-	0x6F75A856
-	0x6F75A856
-	0x6F75A856
-	0x6F75A856
-	0xD91DD623
-	0xD91DD623
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x3487B4AF
-	0x3487B4AF
-	0x3487B4AF
-	0x3487B4AF
-	0x1CAECD5B
-	0x6799B3E1
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_WrinkledNubs
+	EP1_TB_Mountain_WrinkledNubs
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Pebbled
 	0x323ADD3E
 	0x323ADD3E
 	0x323ADD3E
@@ -165,33 +165,33 @@ keys modelEffect
 	0x323ADD3E
 	0x323ADD3E
 	0x323ADD3E
-	0x479B0FF3
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x648FB51F
-	0x1CAECD5B
+	EP1_TB_Mountain_Striated
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Continents_Hilly
 	0x323ADD3E
 	0x323ADD3E
 	0x323ADD3E
 	0x323ADD3E
-	0x13CA1E28
-	0x648FB51F
+	EP1_TB_Oceans_Crater
+	EP1_TB_BasicTools_RaiseBrush
 	0x050CE38D
-	0xA082FECE
-	0x86247FF4
-	0x86247FF4
-	0xA082FECE
-	0x6799B3E1
-	0x6799B3E1
+	EP1_TB_Continents_Cute
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Cute
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
 	0x323ADD3E
 	0x323ADD3E
 	0xF6085DED
 	0x0EC9132A
 	0x0EC9132A
-	0x1CAECD5B
+	EP1_TB_Continents_Hilly
 	0x0EC9132A
 end
 uint32 modelEffectSeed 0xad0f7937
@@ -1229,15 +1229,15 @@ vector3 terrainThemeAirColor (1, 0.5058824, 0.7725491)
 vector3 terrainThemeBeachColor (1, 0.9843138, 0.5921569)
 vector3 terrainThemeCliffColor (0.2039216, 0.2352941, 0.4431373)
 keys terrainThemeFlora
-	floraModelsFLR~!FE_tentacles1_Sp1.flr
-	floraModelsFLR~!0x995AE743.flr
-	floraModelsFLR~!0xE1F4ACD3.flr
-	floraModelsFLR~!FE_tentacles2_Mp.flr
-	floraModelsFLR~!0x751618F1.flr
-	floraModelsFLR~!FE_tentacles1_Mp1.flr
-	floraModelsFLR~!0xE85B25E4.flr
-	floraModelsFLR~!0x076DDB1F.flr
-	floraModelsFLR~!0x076DE1E2.flr
+	flora_editorModel~!FE_tentacles1_Sp1.flr
+	flora_editorModel~!FE_domes1_S1.flr
+	flora_editorModel~!FE_crystalM1_Sp.flr
+	flora_editorModel~!FE_tentacles2_Mp.flr
+	flora_editorModel~!FE_bumpy1_Mp.flr
+	flora_editorModel~!FE_tentacles1_Mp1.flr
+	flora_editorModel~!FE_tentacles1_Lt6.flr
+	flora_editorModel~!0x076DDB1F.flr
+	flora_editorModel~!0x076DE1E2.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

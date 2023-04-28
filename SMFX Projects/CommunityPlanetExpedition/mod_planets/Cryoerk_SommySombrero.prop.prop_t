@@ -203,19 +203,19 @@ keys modelEffect
 	EP1_TB_Continents_Hilly
 	0xFFCB97F9
 	0xFFCB97F9
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
 	EP1_TB_Continents_Hilly
 	EP1_TB_Continents_Blob
 	EP1_TB_Continents_Hilly
 	EP1_TB_Continents_Hilly
 	EP1_TB_Continents_Pebbled
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
 	0x77842221
 	0xC751B730
 	0xC751B730
@@ -226,14 +226,14 @@ keys modelEffect
 	0xFDBB08EF
 	0x3AB84E8A
 	0x77842221
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
 	0xAA80DEB5
 	0xAA80DEB5
 	EP1_TB_BasicTools_RaiseBrush
-	0x1382F38B
+	EP1_TB_mountain_domes
 	EP1_TB_BasicTools_RaiseBrush
 	0xAA80DEB5
 	EP1_TB_BasicTools_RaiseBrush
@@ -269,15 +269,15 @@ keys modelEffect
 	EP1_TB_Continents_Terra
 	EP1_TB_Continents_Hilly
 	0x3AB84E8A
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
 	EP1_TB_BasicTools_LowerBrush
 	EP1_TB_BasicTools_LowerBrush
 	EP1_TB_BasicTools_LowerBrush
@@ -288,7 +288,7 @@ keys modelEffect
 	EP1_TB_BasicTools_LowerBrush
 	EP1_TB_BasicTools_LowerBrush
 	EP1_TB_BasicTools_LowerBrush
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0xC751B730
 	0xC751B730
 	0x8CAF63C4
@@ -339,7 +339,7 @@ keys modelEffect
 	EP1_TB_BasicTools_LowerBrush
 	EP1_TB_BasicTools_LowerBrush
 	0x3AB84E8A
-	0x1382F38B
+	EP1_TB_mountain_domes
 	EP1_TB_BasicTools_LevelPlatformBrush
 	0x77842221
 	EP1_TB_Continents_Blob
@@ -400,11 +400,11 @@ keys modelEffect
 	EP1_TB_River_Delta
 	EP1_TB_River_Delta
 	EP1_TB_River_Delta
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
 	0x77842221
 	0x77842221
 	0x77842221

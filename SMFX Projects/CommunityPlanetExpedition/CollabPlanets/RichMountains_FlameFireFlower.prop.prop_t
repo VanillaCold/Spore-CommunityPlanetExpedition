@@ -42,17 +42,17 @@ keys modelEffect
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
-	0xC5DB3D0E
-	0xC5DB3D0E
-	0xC5DB3D0E
-	0xC5DB3D0E
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Cylinders
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
@@ -64,7 +64,7 @@ keys modelEffect
 	0x3AB84E8A
 	0xB511D1BD
 	0x988B9F81
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
@@ -105,9 +105,9 @@ keys modelEffect
 	0x24DF4396
 	0x24DF4396
 	0x24DF4396
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
 	0x0D5F99A5
 	0x0D5F99A5
 	0x0D5F99A4
@@ -121,7 +121,7 @@ keys modelEffect
 	0x0D5F99A5
 	0x0EC9132A
 	0x0EC9132A
-	0xC2E26824
+	EP1_TB_River_Delta
 	0x4883A8D3
 	0x4883A8D3
 	0x4883A8D3
@@ -135,7 +135,7 @@ keys modelEffect
 	0x3AB84E8A
 	0x3AB84E8A
 	0x4750C19F
-	0x02ACA24D
+	EP1_TB_Oceans_Soft
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
@@ -185,18 +185,18 @@ keys modelEffect
 	0xCFD86CB7
 	0xFDBB08EF
 	0x3AB84E8A
-	0x14CECB39
-	0x14CECB39
-	0x14CECB39
+	EP1_TB_Valley_Soft
+	EP1_TB_Valley_Soft
+	EP1_TB_Valley_Soft
 	0x3526FFD3
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
 	0xCAC9A703
 	0xCAC9A703
 	0x24DF4396
@@ -208,15 +208,15 @@ keys modelEffect
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x3AB84E8A
-	0x355C82D4
-	0x14CECB39
-	0x1CF1724C
-	0x1CF1724C
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Soft
+	EP1_TB_Valley_Pebbles
+	EP1_TB_Valley_Pebbles
 	0x4750C19F
 	0x4750C19F
 	0x4750C19F
@@ -229,22 +229,22 @@ keys modelEffect
 	0x5E2E8F05
 	0x5E2E8F05
 	0x5E2E8F05
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0xFDBB08EF
 	0xFDBB08EF
 	0x3AB84E8A
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x0D5F99A7
 	0x7DF9161F
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0xEA40A545
-	0x648FB51F
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_Oceans_Terra
+	EP1_TB_BasicTools_RaiseBrush
 	0x24DF4396
-	0x648FB51F
-	0x648FB51F
-	0x8089E48A
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0xFDBB08EF
 	0xFDBB08EF
 	0x3AB84E8A
@@ -269,29 +269,29 @@ keys modelEffect
 	0xFDBB08EF
 	0x3AB84E8A
 	0x3AB84E8A
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x0D5F99A5
 	0x0D5F99A7
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x0D5F99A7
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x050CE38D
 	0x24DF4396
 	0x050CE38D
 	0x050CE38D
 	0xFDBB08EF
 	0x3AB84E8A
-	0xA68D930E
-	0xA68D930E
-	0x02ACA24D
-	0xACC943AA
-	0xACC943AA
-	0x479B0FF3
+	EP1_TB_Oceans_Ramped
+	EP1_TB_Oceans_Ramped
+	EP1_TB_Oceans_Soft
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Mountain_Striated
 	0x3AB84E8A
 	0x3AB84E8A
-	0x479B0FF3
-	0x8089E48A
+	EP1_TB_Mountain_Striated
+	EP1_TB_BasicTools_LevelPlatformBrush
 end
 uint32 modelEffectSeed 0xf88a5968
 transforms modelEffectTransforms
@@ -2064,7 +2064,7 @@ transforms terrainScriptModelTransforms
 	-offset (29.1828423, 500.6138916, -108.7095947) -scale 0.4939321 -rotateXYZ 102.251709 -3.260412 -2.3346043
 end
 keys terrainScriptModels
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!syrup_resource1.prop
 	Adventure_roads~!syrup_resource1.prop
 	Adventure_roads~!syrup_resource1.prop
@@ -2358,15 +2358,15 @@ vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
 vector3 terrainThemeBeachColor (0.8627452, 0.7294118, 0.6196079)
 vector3 terrainThemeCliffColor (0.5054467, 0.4488018, 0.4575164)
 keys terrainThemeFlora
-	floraModelsFLR~!FE_tentacles2_Sp2.flr
-	floraModelsFLR~!FE_tentacles1_Sp1.flr
-	floraModelsFLR~!0xE6F544D8.flr
-	floraModelsFLR~!0x751618F1.flr
-	floraModelsFLR~!FE_tentacles1_Mp1.flr
-	floraModelsFLR~!FE_tentacles2_Mp.flr
-	floraModelsFLR~!0xE85B25E4.flr
-	floraModelsFLR~!0x65302F19.flr
-	floraModelsFLR~!0x0775929D.flr
+	flora_editorModel~!FE_tentacles2_Sp2.flr
+	flora_editorModel~!FE_tentacles1_Sp1.flr
+	flora_editorModel~!FE_domes2_S3.flr
+	flora_editorModel~!FE_bumpy1_Mp.flr
+	flora_editorModel~!FE_tentacles1_Mp1.flr
+	flora_editorModel~!FE_tentacles2_Mp.flr
+	flora_editorModel~!FE_tentacles1_Lt6.flr
+	flora_editorModel~!FE_tentacles2_Lt4.flr
+	flora_editorModel~!0x0775929D.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

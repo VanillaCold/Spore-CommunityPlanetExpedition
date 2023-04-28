@@ -1,90 +1,90 @@
 key parent planetTerrainThemes~!ad_gear.prop #Flamuno by FlameFireFlower
 keys modelEffect
 	0x35D37172
-	0x02ACA24D
-	0x150826FB
-	0x150826FB
+	EP1_TB_Oceans_Soft
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
-	0x8089E48A
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0x8089E48A
-	0x8089E48A
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0x150826FB
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_Valley_Gorge
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
-	0xF6D8C25D
-	0xF6D8C25D
-	0x150826FB
-	0x150826FB
-	0x150826FB
-	0x150826FB
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
 	0x0EC9132A
-	0x8089E48A
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x4883A8D3
 	0x4883A8D3
 	0x4883A8D3
 	0x4883A8D3
 	0x4883A8D3
-	0x5E235D2E
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0x150826FB
-	0x150826FB
-	0x150826FB
+	EP1_TB_Valley_Cylinders
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
 	0x0EC9132A
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
 	0xEBC4C884
 	0x0EC9132A
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0x150826FB
-	0x150826FB
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x4750C19F
 	0x5E2E8F05
 	0x5E2E8F05
@@ -121,15 +121,15 @@ keys modelEffect
 	0x988B9F81
 	0x5E2E8F05
 	0x5E2E8F05
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x5E2E8F05
 	0x5E2E8F05
 	0x5E2E8F05
@@ -142,32 +142,32 @@ keys modelEffect
 	0xFDBB08EF
 	0xFDBB08EF
 	0x24DF4396
-	0x67633D6A
-	0x150826FB
+	EP1_TB_Valley_Ramped
+	EP1_TB_Valley_Gorge
 	0x0EC9132A
 	0x0EC9132A
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x8CAF63C4
 	0x5E2E8F05
 	0x5E2E8F05
-	0x479B0FF3
-	0x150826FB
+	EP1_TB_Mountain_Striated
+	EP1_TB_Valley_Gorge
 	0x0EC9132A
-	0x2D7AAB47
+	EP1_TB_Valley_Smooth
 	0x0EC9132A
 	0x50695227
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0xEBC4C884
-	0xF6D8C25D
-	0xF6D8C25D
-	0x150826FB
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_Valley_Gorge
 	0x0EC9132A
 	0x0EC9132A
-	0xF6D8C25D
-	0x7D2529EA
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x24DF4396
 	0x24DF4396
 	0x24DF4396
@@ -179,8 +179,8 @@ keys modelEffect
 	0x5E2E8F05
 	0xC751B730
 	0x4750C19F
-	0xD154A00E
-	0xD154A00E
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_RazorBack
 	0xAA80DEB5
 	0xB511D1BD
 	0xB511D1BD
@@ -194,18 +194,18 @@ keys modelEffect
 	0x24DF4396
 	0x24DF4396
 	0x24DF4396
-	0x13CA1E28
+	EP1_TB_Oceans_Crater
 	0x24DF4396
 	0x24DF4396
-	0x13CA1E28
+	EP1_TB_Oceans_Crater
 	0x0EC9132A
-	0xF6D8C25D
-	0x3F41C90D
-	0x15C9F956
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Continents_Blob
 	0xF6085DED
-	0xFF45D14C
-	0x479B0FF3
-	0xA5DDC9DF
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Striated
+	EP1_TB_BasicTools_Ramp
 	0x988B9F81
 	0x988B9F81
 	0x988B9F81
@@ -219,17 +219,17 @@ keys modelEffect
 	0x988B9F81
 	0x988B9F81
 	0x988B9F81
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x24DF4396
-	0xD154A00E
+	EP1_TB_Mountain_RazorBack
 	0x0D5F99A7
 	0x2FE03B54
 	0x2FE03B54
-	0xF6D8C25D
-	0x648FB51F
-	0x7D2529EA
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LowerBrush
 	0xAA80DEB5
 	0x24DF4396
 	0x24DF4396
@@ -1641,7 +1641,7 @@ keys terrainScriptModels
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!coral_massiverock1_pile.prop
 	Adventure_roads~!cr_feature_temple.prop
 	Adventure_roads~!fossil_massiverock1.prop
@@ -1652,7 +1652,7 @@ keys terrainScriptModels
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!cr_feature_meteorite.prop
 	Adventure_roads~!cr_feature_meteorite.prop
 	Adventure_roads~!cr_feature_meteorite.prop
@@ -1723,7 +1723,7 @@ keys terrainScriptModels
 	Adventure_roads~!potatoeye_massiverock1.prop
 	Adventure_roads~!potatoeye_massiverock1_pile.prop
 	Adventure_roads~!potatoeye_largerock1_pile.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!EP1_Road_Dirt_Plaza.prop
 	Adventure_roads~!EP1_Road_Dirt_Plaza.prop
 	Adventure_roads~!EP1_Road_Dirt_Plaza.prop
@@ -1741,15 +1741,15 @@ vector3 terrainThemeAirColor (0.1764706, 1, 0.7372549)
 vector3 terrainThemeBeachColor (1, 0.4588236, 0.4666667)
 vector3 terrainThemeCliffColor (0.4836602, 0.4705883, 0.422658)
 keys terrainThemeFlora
-	floraModelsFLR~!FE_tentacles3_Sp1.flr
-	floraModelsFLR~!FE_volcanoM1_Sp.flr
-	floraModelsFLR~!0x905C663A.flr
-	floraModelsFLR~!0x560AD6FD.flr
-	floraModelsFLR~!0xF8FFDA21.flr
-	floraModelsFLR~!0xF4F55AC7.flr
-	floraModelsFLR~!0x0770DF90.flr
-	floraModelsFLR~!0x07730CFE.flr
-	floraModelsFLR~!0xDF4A422E.flr
+	flora_editorModel~!FE_tentacles3_Sp1.flr
+	flora_editorModel~!FE_volcanoM1_Sp.flr
+	flora_editorModel~!FE_volcano2_Sp1.flr
+	flora_editorModel~!FE_cube1_Mp.flr
+	flora_editorModel~!FE_cube2_Mp1.flr
+	flora_editorModel~!FE_domes2_M2.flr
+	flora_editorModel~!0x0770DF90.flr
+	flora_editorModel~!0x07730CFE.flr
+	flora_editorModel~!FE_rivers3_Lt4.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

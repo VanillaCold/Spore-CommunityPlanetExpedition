@@ -1,25 +1,25 @@
 key parent planetTerrainThemes~!ad_gear.prop #Prisfalore by CellmiKazie
 keys modelEffect
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
@@ -45,8 +45,8 @@ keys modelEffect
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
-	0x7D2529EA
-	0x648FB51F
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_RaiseBrush
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
@@ -74,18 +74,18 @@ keys modelEffect
 	0xF6085DED
 	0xF6085DED
 	0xF6085DED
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0xC5DB3D0E
-	0xC5DB3D0E
-	0xC5DB3D0E
-	0xF6D8C25D
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_BasicTools_LevelBrush
 end
 uint32 modelEffectSeed 0x3e52ea74
 transforms modelEffectTransforms
@@ -573,15 +573,15 @@ vector3 terrainThemeAirColor (0.14, 0.27, 0.44)
 vector3 terrainThemeBeachColor (0.71, 0.91, 0.17)
 vector3 terrainThemeCliffColor (0.58, 0.56, 0.18)
 keys terrainThemeFlora
-	floraModelsFLR~!0x07798A1C.flr
-	floraModelsFLR~!FE_volcanoM3_Sp.flr
-	floraModelsFLR~!0x07798A1C.flr
-	floraModelsFLR~!0x0770A8CE.flr
-	floraModelsFLR~!0x0770A8CE.flr
-	floraModelsFLR~!0x0770A8CE.flr
-	floraModelsFLR~!0x0778BAE0.flr
-	floraModelsFLR~!0x077041D3.flr
-	floraModelsFLR~!0x077041D0.flr
+	flora_editorModel~!0x07798A1C.flr
+	flora_editorModel~!FE_volcanoM3_Sp.flr
+	flora_editorModel~!0x07798A1C.flr
+	flora_editorModel~!0x0770A8CE.flr
+	flora_editorModel~!0x0770A8CE.flr
+	flora_editorModel~!0x0770A8CE.flr
+	flora_editorModel~!0x0778BAE0.flr
+	flora_editorModel~!0x077041D3.flr
+	flora_editorModel~!0x077041D0.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

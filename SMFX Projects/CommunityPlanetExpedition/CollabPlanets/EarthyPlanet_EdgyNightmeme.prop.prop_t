@@ -1,4 +1,4 @@
-key parent planetTerrainThemes3~!0xEB9DC013.prop #EarthyPlanet by EdgyNightmeme
+key parent planetTerrainThemes3~!EP1_Bard_01.prop #EarthyPlanet by EdgyNightmeme
 keys modelEffect
 	GP_mountain_squiggles~
 	LP_max_squiggles~
@@ -15,11 +15,11 @@ keys modelEffect
 	0x0D5F99A7
 	0x0D5F99A7
 	0x0D5F99A7
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
@@ -29,27 +29,27 @@ keys modelEffect
 	0x0D5F99A5
 	0x0D5F99A5
 	0x0D5F99A5
-	0x3F41C90D
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
 	0x050CE38D
 	0x050CE38D
 	0xF6085DED
 	0x0D5F99A7
 	0xC751B730
-	0x3F41C90D
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A5
-	0xD91DD623
-	0xD154A00E
-	0xD154A00E
-	0xD154A00E
-	0x3F41C90D
+	EP1_TB_Mountain_WrinkledNubs
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_Ridges
 	0x050CE38D
 	0xC751B730
-	0x7D2529EA
-	0xF6D8C25D
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LevelBrush
 	0xC751B730
 	0x0D5F99A4
 	0x0D5F99A4
@@ -58,8 +58,8 @@ keys modelEffect
 	0x0D5F99A7
 	0x0D5F99A7
 	0x050CE38D
-	0xD154A00E
-	0xD154A00E
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_RazorBack
 	0xAA80DEB5
 	0xC751B730
 	0xC751B730
@@ -102,17 +102,17 @@ keys modelEffect
 	0x4883A8D3
 	0x4883A8D3
 	0x4883A8D3
-	0x6799B3E1
+	EP1_TB_Continents_Pebbled
 	0x0D5F99A4
 	0x0D5F99A5
 	0xC751B730
 	0x050CE38D
-	0x355C82D4
-	0x355C82D4
-	0x14CECB39
-	0x1CAECD5B
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Soft
+	EP1_TB_Continents_Hilly
 	0x0D5F99A4
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
 	0xC751B730
 	0x4883A8D3
 	0x4883A8D3
@@ -131,40 +131,40 @@ keys modelEffect
 	0x4883A8D3
 	0xC751B730
 	0x050CE38D
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
 	0x24DF4396
 end
 uint32 modelEffectSeed 0xad0f7937
@@ -1059,12 +1059,12 @@ transforms terrainScriptModelTransforms
 	-offset (-214.9776306, 49.8505936, -464.4926758) -scale 2.0089257 -rotateXYZ 173.8743134 24.7109528 171.86203
 end
 keys terrainScriptModels
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!potatoeye_resource_pile.prop
 	Adventure_roads~!potatoeye_resource_pile.prop
 	Adventure_roads~!potatoeye_resource_pile.prop
@@ -1104,15 +1104,15 @@ vector3 terrainThemeAirColor (0.9333334, 0.6941177, 0.3647059)
 vector3 terrainThemeBeachColor (0.9333334, 0.8078432, 0.6745098)
 vector3 terrainThemeCliffColor (0.1882353, 0.1882353, 0.1882353)
 keys terrainThemeFlora
-	floraModelsFLR~!0xEB3F48B2.flr
-	floraModelsFLR~!0x11889F8B.flr
-	floraModelsFLR~!0x5F15F5AF.flr
-	floraModelsFLR~!0x07730CF8.flr
-	floraModelsFLR~!0x07719001.flr
-	floraModelsFLR~!0x0772D72E.flr
-	floraModelsFLR~!0x07730CE5.flr
-	floraModelsFLR~!0x07730CE7.flr
-	floraModelsFLR~!0x07730CE3.flr
+	flora_editorModel~!FE_bumpy3_Sp1.flr
+	flora_editorModel~!FE_earthM1_S.flr
+	flora_editorModel~!FE_bumpy1_Sp.flr
+	flora_editorModel~!0x07730CF8.flr
+	flora_editorModel~!0x07719001.flr
+	flora_editorModel~!0x0772D72E.flr
+	flora_editorModel~!0x07730CE5.flr
+	flora_editorModel~!0x07730CE7.flr
+	flora_editorModel~!0x07730CE3.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

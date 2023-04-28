@@ -1,7 +1,7 @@
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "Player Nest Marker"
 #keys modelEffect
-#	0xFF2F9B23
+#	cr_feature_meteorite_b
 #end
 #float modelEffectRange 240
 key modelMeshHull animations~

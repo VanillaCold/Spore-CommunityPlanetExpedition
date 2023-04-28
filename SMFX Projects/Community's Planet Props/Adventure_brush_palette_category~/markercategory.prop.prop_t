@@ -1,7 +1,7 @@
-key paletteCategoryIcon ufotools~!0x75844E51.png #0xE6D8B938.png
-key paletteCategoryLayoutFile 0x32224E95
+key paletteCategoryIcon ufotools~!spg_main_planetscan.png #spg_terraformlan_lavaflow.png
+key paletteCategoryLayoutFile SculptPaletteSubcategory
 texts paletteCategoryName
 	"Planet Markers (Unsharable)"
 end
-key paletteCategoryParentCategory Adventure_brush_palette_category~!0xB200F474.prop
+key paletteCategoryParentCategory Adventure_brush_palette_category~!scenariomode_category_terraform.prop
 uint32 paletteCategorySequenceNumber 500

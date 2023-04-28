@@ -1,4 +1,4 @@
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "Magma Plaza by FireFlameFlower"
 keys modelEffect
 	FireFlameFlower-Magma

@@ -4,18 +4,18 @@ string16 planet_name "PlanetOfMountainsAndLoveTM_Chocice75"
 key parent planetTerrainThemes~!ad_gear.prop #Planet of Mountains and Love™ by Chocice75
 keys modelEffect
 	0x35D37172
-	0x1CAECD5B
-	0x1CAECD5B
-	0xE183AE3B
-	0xE183AE3B
-	0x86247FF4
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Landmass
 	0x0D5F99A5
 	0xAA80DEB5
-	0x3F41C90D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_Mountain_Ridges
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0xFFCB97F9
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0x8F27BB00
 	0x77842221
 	0xCFD86CB7
@@ -29,25 +29,25 @@ keys modelEffect
 	0x5E2E8F05
 	0x5E2E8F05
 	0x5E2E8F05
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
 	0x0D5F99A7
 	0x0D5F99A4
-	0x3487B4AF
+	EP1_TB_Continents_Terra
 	0xFDBB08EF
 	0x3AB84E8A
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
 	0x988B9F81
 	0x988B9F81
 	0x988B9F81
 	0x988B9F81
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0x58583726
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
 	0x0D5F99A5
 	0x988B9F81
 	0x988B9F81
@@ -60,7 +60,7 @@ keys modelEffect
 	0x050CE38D
 	0x0D5F99A4
 	0x0D5F99A5
-	0x1382F38B
+	EP1_TB_mountain_domes
 	Cracks~
 	Cracks~
 	Cracks~
@@ -69,27 +69,27 @@ keys modelEffect
 	Cracks~
 	Cracks~
 	Cracks~
-	0x1CAECD5B
-	0x1CAECD5B
-	0x6799B3E1
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Pebbled
 	0xF6085DED
-	0x3487B4AF
-	0x15C9F956
-	0xC2E26824
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Blob
+	EP1_TB_River_Delta
 	0xB2810213
 	BR_riftZone_medium~
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x15C9F956
-	0x15C9F956
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
 	0x4750C19F
 	0x5E2E8F05
 	0x3AB84E8A
@@ -103,14 +103,14 @@ keys modelEffect
 	0x4750C19F
 	0x5E2E8F05
 	0x5E2E8F05
-	0x1CAECD5B
-	0x1CAECD5B
-	0x15C9F956
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Blob
 	0xCAC9A703
 	0xFFCB97F9
 	0xAA80DEB5
-	0x3F41C90D
-	0x479B0FF3
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Striated
 	0x73257EB2
 	Cracks~
 	Cracks~
@@ -118,15 +118,15 @@ keys modelEffect
 	Cubic_hills_Uniform~
 	BR_spiral~
 	0x95925606
-	0xC5DB3D0E
+	EP1_TB_Mountain_Cylinders
 	0xAA80DEB5
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
 	Cracks~
 	0x3AB84E8A
 	0x0D5F99A7
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
 	0x0D5F99A4
 	Cracks~
 	0x4750C19F
@@ -143,38 +143,38 @@ keys modelEffect
 	0x3AB84E8A
 	0x8CAF63C4
 	0x8CAF63C4
-	0xD91DD623
-	0x3487B4AF
-	0x6799B3E1
-	0x6799B3E1
-	0x1CAECD5B
-	0x1CAECD5B
-	0x3487B4AF
-	0x6799B3E1
-	0xE183AE3B
-	0xE183AE3B
-	0x15C9F956
-	0x1CAECD5B
-	0x1CAECD5B
-	0x15C9F956
-	0x15C9F956
-	0x86247FF4
+	EP1_TB_Mountain_WrinkledNubs
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Landmass
 	0xF6085DED
-	0xE183AE3B
-	0x6799B3E1
-	0x86247FF4
-	0x1CAECD5B
-	0x1CAECD5B
-	0x6799B3E1
-	0x6799B3E1
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
 	Cracks~
 	Cracks~
 	Cracks~
@@ -186,95 +186,95 @@ keys modelEffect
 	Cracks~
 	Cracks~
 	Cracks~
-	0xD91DD623
+	EP1_TB_Mountain_WrinkledNubs
 	0xAA80DEB5
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
 	BR_riftZone_medium~
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0x24DF4396
-	0x3F41C90D
-	0xD91DD623
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_WrinkledNubs
 	0xFFCB97F9
 	0x8F27BB00
 	0x77842221
 	0x3AB84E8A
 	0xFDBB08EF
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x8CAF63C4
 	0xFDBB08EF
 	0xCAC9A703
 	0xAA80DEB5
-	0x479B0FF3
-	0x02ACA24D
-	0xC2E26824
+	EP1_TB_Mountain_Striated
+	EP1_TB_Oceans_Soft
+	EP1_TB_River_Delta
 	0x70D9A21E
 	0xFFCB97F9
-	0xC5DB3D0E
-	0x15C9F956
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Continents_Blob
 	0x050CE38D
-	0x3F41C90D
-	0xFF45D14C
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ramps
 	0x77842221
 	0x4750C19F
-	0xD154A00E
+	EP1_TB_Mountain_RazorBack
 	0x0D5F99A5
 	0x4E4B07AD
-	0x479B0FF3
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_Mountain_Striated
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x8CAF63C4
-	0xC5DB3D0E
+	EP1_TB_Mountain_Cylinders
 	0x0D5F99A5
 	0xAA80DEB5
 	0x0D5F99A5
 	0x0D5F99A5
 	0xC751B730
 	0x050CE38D
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
 	0xFDBB08EF
 	0x8CAF63C4
 	0x323ADD3E
 	0xCFD86CB7
 	Cubic_hills_Uniform~
 	BR_riftZone_medium~
-	0x8169684B
-	0x8169684B
-	0x8169684B
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
 	0x0D5F99A4
-	0x648FB51F
-	0xF6D8C25D
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LevelBrush
 	BR_island_cog_large~
-	0x479B0FF3
-	0xD91DD623
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_WrinkledNubs
 	0x0D5F99A4
-	0xC5DB3D0E
-	0x3F41C90D
-	0x479B0FF3
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Striated
 	0x8CAF63C4
 	0xAA80DEB5
 	0x0D5F99A4
 	0xAA80DEB5
-	0xD154A00E
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x3AB84E8A
 	0x3AB84E8A
 	0x77842221
@@ -284,44 +284,44 @@ keys modelEffect
 	0x3AB84E8A
 	0xC751B730
 	0x3AB84E8A
-	0x648FB51F
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x8CAF63C4
 	0x3AB84E8A
-	0x648FB51F
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0x1382F38B
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_mountain_domes
 	0x3AB84E8A
 	0xFDBB08EF
 	0xFDBB08EF
@@ -331,7 +331,7 @@ keys modelEffect
 	0xC751B730
 	0xC751B730
 	0x3AB84E8A
-	0x3487B4AF
+	EP1_TB_Continents_Terra
 	0x3AB84E8A
 end
 uint32 modelEffectSeed 0x3e52ea74
@@ -2212,15 +2212,15 @@ vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
 vector3 terrainThemeBeachColor (0.8392158, 0.7450981, 0.5803922)
 vector3 terrainThemeCliffColor (0.4941177, 0.3764706, 0.509804)
 keys terrainThemeFlora
-	floraModelsFLR~!0xD4826D20.flr
-	floraModelsFLR~!0xE9F884D9.flr
-	floraModelsFLR~!0x2D483307.flr
-	floraModelsFLR~!0x751618F1.flr
-	floraModelsFLR~!FE_tentacles2_Mp.flr
-	floraModelsFLR~!0x6996F035.flr
-	floraModelsFLR~!0x0CFF5165.flr
-	floraModelsFLR~!0x4328021B.flr
-	floraModelsFLR~!0xCD94503C.flr
+	flora_editorModel~!FE_layers2_Sp1.flr
+	flora_editorModel~!FE_bumpy2a_Sp2.flr
+	flora_editorModel~!FE_layers1_Sp1.flr
+	flora_editorModel~!FE_bumpy1_Mp.flr
+	flora_editorModel~!FE_tentacles2_Mp.flr
+	flora_editorModel~!FE_starter2_Mp1.flr
+	flora_editorModel~!FE_scraped2_Lt3.flr
+	flora_editorModel~!FE_layers1_Lt6.flr
+	flora_editorModel~!FE_scraped3_Lt3.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

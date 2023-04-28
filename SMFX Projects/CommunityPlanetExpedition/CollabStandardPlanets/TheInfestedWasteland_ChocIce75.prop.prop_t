@@ -1,4 +1,4 @@
-key parent planetTerrainThemes3~!0xF57CD91A.prop #The Infested Wasteland by Chocice75
+key parent planetTerrainThemes3~!EP1_Warrior_01.prop #The Infested Wasteland by Chocice75
 keys modelEffect
 	GO_high_dense_variation~
 	GO_high_dense_variation~
@@ -302,88 +302,88 @@ keys modelEffect
 	BR_raise~
 	BR_raise~
 	BR_raise~
-	0x80E86228
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
 	0x90648308
 	0x90648308
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0xAC21997C
 	0xAC21997C
 	0xAC21997C
 	0xAC21997C
 	0xAC21997C
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x8089E48A
-	0x8089E48A
-	0xA5DDC9DF
-	0x8089E48A
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_Ramp
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
 	0x24DF4396
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x24DF4396
-	0xFF45D14C
-	0xD154A00E
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_RazorBack
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
 	0x24DF4396
-	0x479B0FF3
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0xA5DDC9DF
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x8089E48A
-	0x648FB51F
+	EP1_TB_Mountain_Striated
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_Ramp
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_RaiseBrush
 	0x24DF4396
-	0x648FB51F
-	0x3F41C90D
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Mountain_Ridges
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x24DF4396
 	LP_Grob_Signature~
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseBrush
 	0x8F27BB00
 	0x24DF4396
 	0x4750C19F
@@ -2570,7 +2570,7 @@ keys terrainScriptModels
 	Adventure_roads~!fossil_massiverock1.prop
 	Adventure_roads~!fossil_massiverock2.prop
 	Adventure_roads~!fossil_massiverock2.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!syrup_resource1.prop
 	Adventure_roads~!syrup_resource1.prop
 	Adventure_roads~!syrup_resource1.prop
