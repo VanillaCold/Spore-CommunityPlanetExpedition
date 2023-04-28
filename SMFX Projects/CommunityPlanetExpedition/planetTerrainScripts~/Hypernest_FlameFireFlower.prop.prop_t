@@ -66,8 +66,8 @@ keys modelEffect
 	EP1_TB_Valley_Gorge
 	EP1_TB_Valley_Gorge
 	EP1_TB_Valley_Smooth
-	0x1CF1724C
-	0x1CF1724C
+	EP1_TB_Valley_Pebbles
+	EP1_TB_Valley_Pebbles
 	EP1_TB_Valley_Soft
 	EP1_TB_Valley_Soft
 	EP1_TB_Valley_Soft
@@ -177,7 +177,7 @@ keys modelEffect
 	0x2FE03B54
 	0x2FE03B54
 	0x878A3866
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0xCAC9A703
 	0xFFCB97F9
 	0x878A3866

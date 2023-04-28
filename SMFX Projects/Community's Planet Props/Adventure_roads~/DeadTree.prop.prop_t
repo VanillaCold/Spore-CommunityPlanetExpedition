@@ -1,4 +1,4 @@
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "Dead Tree by FlameFireFlower"
 key modelMeshLOD0 PlanetProps_Models!DeadTree
 key modelMeshHull PlanetProps_Hulls!DeadTree

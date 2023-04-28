@@ -3,23 +3,23 @@ keys modelEffect
 	0x0D5F99A7
 	0x0D5F99A7
 	0x0D5F99A4
-	0x02ACA24D
+	EP1_TB_Oceans_Soft
 	0x95925606
 	0xFFCB97F9
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
-	0x15C9F956
-	0x3F41C90D
-	0xC5DB3D0E
-	0xD91DD623
-	0xD91DD623
-	0xD91DD623
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0x6799B3E1
+	EP1_TB_Continents_Blob
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_WrinkledNubs
+	EP1_TB_Mountain_WrinkledNubs
+	EP1_TB_Mountain_WrinkledNubs
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_Continents_Pebbled
 	0xF6085DED
 	0xF6085DED
 	0xF6085DED
@@ -28,49 +28,49 @@ keys modelEffect
 	0xF6085DED
 	0xF6085DED
 	0xF6085DED
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
 	0x4E4B07AD
 	0x4E4B07AD
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0xC5DB3D0E
-	0xD91DD623
-	0xD91DD623
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_WrinkledNubs
+	EP1_TB_Mountain_WrinkledNubs
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
-	0xD154A00E
-	0xD154A00E
-	0xD154A00E
-	0xD154A00E
-	0xD154A00E
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0x02ACA24D
-	0x13CA1E28
-	0x150826FB
-	0x67B637F1
-	0x1CF1724C
-	0x67633D6A
-	0x2CCB40D2
-	0x150826FB
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Mountain_RazorBack
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Soft
+	EP1_TB_Oceans_Crater
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Crystal
+	EP1_TB_Valley_Pebbles
+	EP1_TB_Valley_Ramped
+	EP1_TB_Valley_Swirl
+	EP1_TB_Valley_Gorge
 	0xCAC9A703
 	0xCAC9A703
 	0xCAC9A703

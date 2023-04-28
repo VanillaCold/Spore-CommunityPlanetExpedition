@@ -1,4 +1,4 @@
-key parent planetTerrainThemes3~!0x14E98A17.prop # Islands, by Dinoking
+key parent planetTerrainThemes3~!EP1_Ecologist.prop # Islands, by Dinoking
 keys modelEffect
 	GO_high_dense_variation~
 	GO_high_dense_variation~
@@ -134,7 +134,7 @@ keys modelEffect
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
-	0xF6D8C25D
+	EP1_TB_BasicTools_LevelBrush
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
@@ -155,13 +155,13 @@ keys modelEffect
 	0x0D5F99A5
 	0x0D5F99A5
 	0x0D5F99A5
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
 	0x050CE38D
 	0x2068FE92
-	0x55FFFCB8
-	0x02ACA24D
-	0xEA40A545
-	0x8D804504
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Soft
+	EP1_TB_Oceans_Terra
+	EP1_TB_Oceans_Rift
 end
 uint32 modelEffectSeed 0xad0f7937
 transforms modelEffectTransforms
@@ -1032,7 +1032,7 @@ transforms terrainScriptModelTransforms
 	-offset (282.95578, 438.3630981, 45.4691238) -scale 1.0000005 -rotateXYZ 84.0782166 -32.7019882 -46.8418159
 end
 keys terrainScriptModels
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!cr_feature_easterhead.prop
 	Adventure_roads~!0xD3BAF4F6.prop
 	Adventure_roads~!0xD3BAF4F6.prop
@@ -1048,7 +1048,7 @@ keys terrainScriptModels
 	Adventure_roads~!0xBC60313C.prop
 	Adventure_roads~!0xCB8DDA91.prop
 	Adventure_roads~!0x6D3A43E0.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!0xEEF4A15B.prop
 	Adventure_roads~!0xEEF4A15B.prop
 	Adventure_roads~!0xEEF4A15B.prop
@@ -1066,15 +1066,15 @@ vector3 terrainThemeAirColor (0.59, 0.69, 0.32)
 vector3 terrainThemeBeachColor (0.8, 0.63, 0.26)
 vector3 terrainThemeCliffColor (0.44, 0.43, 0.14)
 keys terrainThemeFlora
-	floraModelsFLR~!0x0778BADC.flr
-	floraModelsFLR~!0xAA189FBD.flr
-	floraModelsFLR~!0x07730D00.flr
-	floraModelsFLR~!0x0774E759.flr
-	floraModelsFLR~!0x0775854A.flr
-	floraModelsFLR~!0xA5EDCF7D.flr
-	floraModelsFLR~!0x103D452D.flr
-	floraModelsFLR~!0x0774D425.flr
-	floraModelsFLR~!0x0774D425.flr
+	flora_editorModel~!0x0778BADC.flr
+	flora_editorModel~!FE_mesa3_Sp1.flr
+	flora_editorModel~!0x07730D00.flr
+	flora_editorModel~!0x0774E759.flr
+	flora_editorModel~!0x0775854A.flr
+	flora_editorModel~!FE_mountains2_Mp.flr
+	flora_editorModel~!FE_earthM1_Lt5.flr
+	flora_editorModel~!0x0774D425.flr
+	flora_editorModel~!0x0774D425.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

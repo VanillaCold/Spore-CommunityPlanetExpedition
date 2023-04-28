@@ -1,0 +1,12 @@
+key parent Adventure_brushes~!TemplateBrush.prop
+texts spaceToolDescription
+	"Triangular Holes - Chocice75"
+end
+key spaceToolImageID ScenarioEditor!EP1_Icon_TB_hills_barnacle.png
+float terraformBrushIntensityDefault 0.2
+float terraformBrushSizeDefault 0.3
+vector2 terraformBrushIntensityRange (-1, 1)
+vector2 terraformBrushSizeRange (0.25, 1)
+key terraformMarkerModelID 0x079A8EE7!ep1_tericon_category_hills.prop
+#key terraformToolPreviewEffect 0x0AFC2585
+key toolGenericEffectID choc-triangleholes #choc-triangleholes

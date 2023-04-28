@@ -21,10 +21,10 @@ keys modelEffect
 	EP1_TB_Continents_TechMesa
 	EP1_TB_Continents_TechMesa
 	EP1_TB_Continents_TechMesa
-	0x80E86228
-	0x80E86228
-	0x80E86228
-	0x80E86228
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_RaiseSquareBrush
 	EP1_TB_Continents_TechMesa
 	EP1_TB_Continents_TechMesa
 	EP1_TB_Continents_TechMesa
@@ -76,12 +76,12 @@ keys modelEffect
 	0x2FE03B54
 	0x2FE03B54
 	0x58583726
-	0x095AAF19
-	0x095AAF19
-	0x095AAF19
-	0x80E86228
-	0x80E86228
-	0x80E86228
+	EP1_TB_BasicTools_LowerSquareBrush
+	EP1_TB_BasicTools_LowerSquareBrush
+	EP1_TB_BasicTools_LowerSquareBrush
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_RaiseSquareBrush
 	EP1_TB_BasicTools_Ramp
 	0x4E4B07AD
 	EP1_TB_River_Aquaduct
@@ -90,9 +90,9 @@ keys modelEffect
 	EP1_TB_River_Aquaduct
 	EP1_TB_River_Aquaduct
 	EP1_TB_River_Aquaduct
-	0x80E86228
-	0x80E86228
-	0x80E86228
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_RaiseSquareBrush
 	0x25315FF9
 	0xCB4244C1
 	0x3526FFD3

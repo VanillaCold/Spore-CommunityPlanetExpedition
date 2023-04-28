@@ -1,4 +1,4 @@
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "Wall Segment by Maxis"
 key modelMeshLOD0 MaxisPlanetProps_Models!WallSegment
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)

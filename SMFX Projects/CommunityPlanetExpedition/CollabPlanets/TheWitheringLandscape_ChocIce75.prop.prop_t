@@ -1,11 +1,11 @@
 key parent planetTerrainThemes~!ad_gear.prop #The Withering Landscape by Chocice75
 keys modelEffect
 	0x35D37172
-	0x1CAECD5B
-	0x1CAECD5B
-	0x15C9F956
-	0xE183AE3B
-	0x15C9F956
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Blob
 	Cubic_hills_Uniform~
 	Cracks~
 	Cracks~
@@ -13,43 +13,43 @@ keys modelEffect
 	0x4883A8D3
 	0xCAC9A703
 	0x0D5F99A7
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x7D2529EA
-	0x7D2529EA
-	0x479B0FF3
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_Mountain_Striated
 	0x77842221
 	BR_spiral~
-	0xC2E26824
+	EP1_TB_River_Delta
 	0x3AB84E8A
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0xAA80DEB5
 	0xAA80DEB5
 	0x8CAF63C4
 	0x3AB84E8A
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
 	0x70D9A21E
 	0x0EC9132A
-	0x6799B3E1
-	0x1CAECD5B
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Hilly
 	0x4883A8D3
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x4750C19F
 	0x24DF4396
 	0xC751B730
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x1409A351
 	0xEBC4C884
 	0x1409A351
 	0x1409A351
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0xFDBB08EF
 	0x3AB84E8A
 	0x3AB84E8A
@@ -58,15 +58,15 @@ keys modelEffect
 	0xFDBB08EF
 	0x8CAF63C4
 	0xFDBB08EF
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x4750C19F
 	0xFDBB08EF
-	0x6799B3E1
-	0x1CAECD5B
-	0x3487B4AF
-	0x6799B3E1
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Pebbled
 	0x0D5F99A5
 	0x0D5F99A4
 	0xAA80DEB5
@@ -89,66 +89,66 @@ keys modelEffect
 	0x0D5F99A5
 	0x0D5F99A5
 	0x0D5F99A5
-	0x1CAECD5B
-	0x6799B3E1
-	0x3487B4AF
-	0x15C9F956
-	0x15C9F956
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
 	0x0D5F99A5
-	0x8D804504
-	0x6799B3E1
-	0x86247FF4
-	0x648FB51F
-	0x648FB51F
+	EP1_TB_Oceans_Rift
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Landmass
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
 	Cracks~
 	Cracks~
 	Cracks~
 	Cracks~
 	Cracks~
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0x2955AABF
-	0xD91DD623
+	EP1_TB_Mountain_WrinkledNubs
 	0x4883A8D3
 	0x3AB84E8A
 	0x4750C19F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x7D2529EA
-	0x7D2529EA
-	0xC2E26824
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_River_Delta
 	0x70D9A21E
 	0x568E89EF
 	0x0D5F99A5
-	0x479B0FF3
-	0x7D2529EA
-	0xFF45D14C
+	EP1_TB_Mountain_Striated
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_Mountain_Ramps
 	0x0D5F99A5
 	0x3AB84E8A
 	0xFDBB08EF
 	0xFDBB08EF
 	0xFDBB08EF
 	0x0D5F99A7
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
 	BR_riftZone_medium~
 	0x3AB84E8A
 	0xFDBB08EF
 	0x4750C19F
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x0D5F99A7
 	0x0D5F99A7
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x0D5F99A4
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
 	0x3AB84E8A
 	0x4750C19F
 	BR_spiral~
 	0x0D5F99A4
-	0x479B0FF3
-	0x7D2529EA
+	EP1_TB_Mountain_Striated
+	EP1_TB_BasicTools_LowerBrush
 	0x0D5F99A7
 	0xFDBB08EF
 	0xFDBB08EF
@@ -1341,7 +1341,7 @@ keys terrainScriptModels
 	Adventure_roads~!cr_feature_obelisk.prop
 	Adventure_roads~!cr_feature_obelisk.prop
 	Adventure_roads~!spg_alien_citywalls_destroyed_01.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!cr_feature_meteorite.prop
 	Adventure_roads~!0xCB8DDA91.prop
 	Adventure_roads~!EP1_Road_Dirt_Plaza.prop
@@ -1507,15 +1507,15 @@ vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
 vector3 terrainThemeBeachColor (0.8392158, 0.7450981, 0.5803922)
 vector3 terrainThemeCliffColor (0.4836602, 0.4705883, 0.422658)
 keys terrainThemeFlora
-	floraModelsFLR~!0xF48FF54C.flr
-	floraModelsFLR~!0x7642C0FB.flr
-	floraModelsFLR~!0x103D452D.flr
-	floraModelsFLR~!0x9E7C4693.flr
-	floraModelsFLR~!0x5D524B0A.flr
-	floraModelsFLR~!0x0774E75C.flr
-	floraModelsFLR~!0xD1B4BB56.flr
-	floraModelsFLR~!0x4F96CC8F.flr
-	floraModelsFLR~!0x905C663A.flr
+	flora_editorModel~!FE_crystal1_Lt7.flr
+	flora_editorModel~!FE_rivers2_Lt8.flr
+	flora_editorModel~!FE_earthM1_Lt5.flr
+	flora_editorModel~!FE_cube3_Mp2.flr
+	flora_editorModel~!FE_crystal1_Mp.flr
+	flora_editorModel~!0x0774E75C.flr
+	flora_editorModel~!FE_volcano1_Sp2.flr
+	flora_editorModel~!FE_mountains1_Sp1.flr
+	flora_editorModel~!FE_volcano2_Sp1.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

@@ -1,4 +1,4 @@
-#<key parent 0x15BA5969.prop
+#<key parent TerrainModelTemplate.prop
 string16 description "Test Stamp"
 keys modelEffect
 	CI_waterfall
@@ -42,10 +42,10 @@ float obstacleCollisionHeight 44
 float obstacleObjectExclusionRadius 45#>
 
 
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "MangroveTree by FlameFireFlower"
 #keys modelEffect
-#	0xFF2F9B23
+#	cr_feature_meteorite_b
 #end
 #float modelEffectRange 240
 floats modelLODDistances
@@ -61,7 +61,7 @@ vector3 modelPaintDecalParams (45, 0, 0.8)
 #key modelPaintDecalTexture 0x3CD176AB
 float modelScale 2.5
 vector3 modelStampParams (45, 0, 0.12)
-#key modelStampTexture 0xB102A2D0
+#key modelStampTexture feature_meteorite_stamp
 bool modelUsesDeadColor false
 bool rockObstacleAllowed false
 uint32 terrainScriptModelType hash(volcano)

@@ -1,7 +1,7 @@
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "EP1 Plaza Old 03"
 keys modelEffect
-	0xCFDEE568
+	EP1_TB_Road_Plaza_Old_03
 end
 float modelEffectRange 500
 colorRGB modelPaintDecalColor (0.5, 0.5, 0.5)

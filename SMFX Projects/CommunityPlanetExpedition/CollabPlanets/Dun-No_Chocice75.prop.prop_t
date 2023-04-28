@@ -2,12 +2,12 @@ key parent planetTerrainThemes~!ad_gear.prop #Dun-No by Chocice75
 keys modelEffect
 	0x35D37172
 	0x35D37172
-	0x1CAECD5B
-	0x1CAECD5B
-	0xE183AE3B
-	0x6799B3E1
-	0x6799B3E1
-	0x3F41C90D
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Mountain_Ridges
 	Cracks~
 	Cracks~
 	Cracks~
@@ -23,50 +23,50 @@ keys modelEffect
 	0x4883A8D3
 	0x050CE38D
 	0x0D5F99A7
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x648FB51F
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_RaiseBrush
 	0x988B9F81
-	0xA80BC699
+	EP1_TB_Continents_TechMesa
 	0xCB4244C1
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x4FCA7BB7
 	0x988B9F81
 	0x24DF4396
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x1382F38B
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_mountain_domes
 	0xCAC9A703
 	0x0D5F99A7
 	0x0D5F99A4
-	0x479B0FF3
-	0xC2E26824
+	EP1_TB_Mountain_Striated
+	EP1_TB_River_Delta
 	0x1409A351
 	0xEBC4C884
 	0x1409A351
 	0xEBC4C884
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0xFDBB08EF
 	0x24DF4396
-	0x1382F38B
+	EP1_TB_mountain_domes
 	0x5E2E8F05
 	0x5E2E8F05
 	0xFDBB08EF
 	0xFDBB08EF
 	0xC751B730
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
 	0xFDBB08EF
 	0x0EC9132A
 	0xFDBB08EF
 	0x3AB84E8A
-	0x1CAECD5B
-	0xE183AE3B
-	0x6799B3E1
-	0x648FB51F
-	0x1CAECD5B
-	0x6799B3E1
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Pebbled
 	Cracks~
 	Cracks~
 	Cracks~
@@ -74,33 +74,33 @@ keys modelEffect
 	Cracks~
 	Cracks~
 	0x0D5F99A4
-	0x7D2529EA
-	0x648FB51F
-	0x648FB51F
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
 	Cracks~
 	0xFDBB08EF
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x4750C19F
 	0x988B9F81
 	0x24DF4396
 	0xFDBB08EF
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
 	0x5E2E8F05
-	0x3F41C90D
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_Mountain_Ridges
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x0D5F99A7
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x3AB84E8A
 	0x4883A8D3
 	0x4883A8D3
-	0x15C9F956
+	EP1_TB_Continents_Blob
 	0x4883A8D3
 	0xFDBB08EF
-	0xC2E26824
-	0x9E7D469C
+	EP1_TB_River_Delta
+	EP1_TB_River_Crystal
 	0x1409A351
 	0x0EC9132A
 	0xEBC4C884
@@ -115,9 +115,9 @@ keys modelEffect
 	0x0D5F99A4
 	0xFDBB08EF
 	0x8CAF63C4
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 end
 uint32 modelEffectSeed 0x3e52ea74
 transforms modelEffectTransforms
@@ -974,7 +974,7 @@ transforms terrainScriptModelTransforms
 end
 keys terrainScriptModels
 	Adventure_roads~!syrup_resource1.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
 	Adventure_roads~!cr_feature_footprint.prop
 	Adventure_roads~!0xCB8DDA91.prop
@@ -1157,7 +1157,7 @@ keys terrainScriptModels
 	Adventure_roads~!0x27E1B89B.prop
 	Adventure_roads~!0x62C7FDA8.prop
 	Adventure_roads~!0x62C7FDA8.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!0x9776F0D1.prop
 	Adventure_roads~!0xCB8DDA91.prop
 	Adventure_roads~!0x6D3A43E0.prop
@@ -1219,15 +1219,15 @@ vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
 vector3 terrainThemeBeachColor (0.8392158, 0.7450981, 0.5803922)
 vector3 terrainThemeCliffColor (0.4836602, 0.4705883, 0.422658)
 keys terrainThemeFlora
-	floraModelsFLR~!0x2D483307.flr
-	floraModelsFLR~!0xA5EDCF7D.flr
-	floraModelsFLR~!0x58C59458.flr
-	floraModelsFLR~!0xEACA02CD.flr
-	floraModelsFLR~!0x380AA723.flr
-	floraModelsFLR~!0x5D524B0A.flr
-	floraModelsFLR~!0xAB5B03F9.flr
-	floraModelsFLR~!0xBF9ED88D.flr
-	floraModelsFLR~!0xFD05797B.flr
+	flora_editorModel~!FE_layers1_Sp1.flr
+	flora_editorModel~!FE_mountains2_Mp.flr
+	flora_editorModel~!FE_bumpy1_Lt6.flr
+	flora_editorModel~!FE_crystal2_Sp.flr
+	flora_editorModel~!FE_cube1_Sp.flr
+	flora_editorModel~!FE_crystal1_Mp.flr
+	flora_editorModel~!FE_domes1_M1.flr
+	flora_editorModel~!FE_volcano1_Lt2.flr
+	flora_editorModel~!FE_bumpy3_Lt3.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

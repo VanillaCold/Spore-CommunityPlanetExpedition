@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "LapisLazuliPlanet_EdgyNightmeme"
-key parent planetTerrainThemes3~!0xEB9DC013.prop #Lapis Lazuli Planet by EdgyNightmeme
+key parent planetTerrainThemes3~!EP1_Bard_01.prop #Lapis Lazuli Planet by EdgyNightmeme
 keys modelEffect
 	Patch1_eaten_dunes~
 	Patch1_eaten_dunes~
@@ -45,12 +45,12 @@ keys modelEffect
 	0x0D5F99A5
 	0x0D5F99A5
 	0x0D5F99A5
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
@@ -64,11 +64,11 @@ keys modelEffect
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
-	0x15C9F956
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Blob
 	0xFDBB08EF
 	0xFDBB08EF
 	0xFDBB08EF
@@ -79,24 +79,24 @@ keys modelEffect
 	0xFDBB08EF
 	0xFDBB08EF
 	0xFDBB08EF
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0x55FFFCB8
-	0xE183AE3B
-	0xE183AE3B
-	0xE183AE3B
-	0x3487B4AF
-	0xEA40A545
-	0x55FFFCB8
-	0xE183AE3B
-	0xE183AE3B
-	0xE183AE3B
-	0xE183AE3B
-	0xE183AE3B
-	0x02ACA24D
-	0x02ACA24D
-	0x8D804504
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Terra
+	EP1_TB_Oceans_Terra
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Oceans_Soft
+	EP1_TB_Oceans_Soft
+	EP1_TB_Oceans_Rift
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
@@ -735,15 +735,15 @@ vector3 terrainThemeAirColor (0.0509804, 0.1803922, 1)
 vector3 terrainThemeBeachColor (0.0509804, 0.1803922, 1)
 vector3 terrainThemeCliffColor (1, 1, 1)
 keys terrainThemeFlora
-	floraModelsFLR~!0xE9F884D9.flr
-	floraModelsFLR~!0x8875AEC7.flr
-	floraModelsFLR~!0x4F96CC8F.flr
-	floraModelsFLR~!0x0770A8CF.flr
-	floraModelsFLR~!FE_tentacles2_Mp.flr
-	floraModelsFLR~!0x751618F1.flr
-	floraModelsFLR~!0x07730CD8.flr
-	floraModelsFLR~!0xCD94503C.flr
-	floraModelsFLR~!0x0775929D.flr
+	flora_editorModel~!FE_bumpy2a_Sp2.flr
+	flora_editorModel~!FE_crystal3_Sp1.flr
+	flora_editorModel~!FE_mountains1_Sp1.flr
+	flora_editorModel~!0x0770A8CF.flr
+	flora_editorModel~!FE_tentacles2_Mp.flr
+	flora_editorModel~!FE_bumpy1_Mp.flr
+	flora_editorModel~!0x07730CD8.flr
+	flora_editorModel~!FE_scraped3_Lt3.flr
+	flora_editorModel~!0x0775929D.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

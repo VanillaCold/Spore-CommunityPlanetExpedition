@@ -1,4 +1,4 @@
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "Alien Skeleton by Maxis"
 key modelMeshLOD0 MaxisPlanetProps_Models!AlienSkeleton
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
