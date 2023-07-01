@@ -4,9 +4,9 @@ texts spaceToolDescription
 end
 key spaceToolImageID adventureImages_1~!Terrain23.png
 float terraformBrushIntensityDefault 0.5
-vector2 terraformBrushIntensityRange (0.25, 1)
+vector2 terraformBrushIntensityRange (0.125, 5)
 float terraformBrushSizeDefault 1
-vector2 terraformBrushSizeRange (0.25, 10)
+vector2 terraformBrushSizeRange (0.125, 50)
 key terraformMarkerModelID 0x079A8EE7!NewTest
 key terraformModelID A_EpicMarker
 #key terraformToolPreviewEffect A_NestLarge

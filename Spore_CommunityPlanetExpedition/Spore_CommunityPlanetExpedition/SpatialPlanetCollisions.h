@@ -2,11 +2,13 @@
 
 #include <Spore\BasicIncludes.h>
 #include <Spore/Simulator/cInteractiveOrnament.h>
+#include <Spore/App/IMessageListener.h>
 
 class SpatialPlanetCollisions
 	: public ArgScript::ICommand
 	, public App::IUpdatable
 	, public DefaultRefCounted
+	, public App::DefaultMessageListener
 {
 public:
 	SpatialPlanetCollisions();
@@ -23,6 +25,8 @@ public:
 	const char* GetDescription(ArgScript::DescriptionMode mode) const override;
 
 	void PlanetModelsToSpatialObjects(Terrain::cTerrainSphere* sphere);
+
+	bool HandleMessage(uint32_t messageID, void* pMessage) override;
 
 	static SpatialPlanetCollisions* Get();
 

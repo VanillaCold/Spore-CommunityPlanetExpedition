@@ -30,9 +30,12 @@ void SpatialPlanetCollisions::ParseLine(const ArgScript::Line& line)
 	}
 	else
 	{
-		cVehiclePtr test = simulator_new<Simulator::cVehicle>();
-		test->Load(VehicleLocomotion::kVehicleLand, VehiclePurpose::kVehicleColony, GameNounManager.GetAvatar()->GetModelKey());
-		test->Teleport(GameNounManager.GetAvatar()->GetPosition(),GameNounManager.GetAvatar()->GetOrientation());
+		for (int i = 0;i<objects.size();i++)
+		{
+			cSpatialObjectPtr spatial = objects[i];
+			Vector3 pos = spatial->GetPosition();
+			spatial->Teleport(pos, objRots[i]);
+		}
 	}
 	// This method is called when your cheat is invoked.
 	// Put your cheat code here.
@@ -99,6 +102,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 				obj->SetModelKey(mKey);
 				obj->SetPosition(mTrans.GetOffset());
 				obj->SetOrientation(mTrans.GetRotation().ToQuaternion());
+				objRots.push_back(mTrans.GetRotation().ToQuaternion());
 
 				test->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
 				/*void* gonzagoPhysics = STATIC_CALL_(Address(0xB3D410), void*);
@@ -118,13 +122,31 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 			model->mDefaultBBox = BoundingBox(Vector3(0, 0, 0), Vector3(0, 0, 0));
 			model->mDefaultBoundingRadius = 0;
 			model->mTransform.SetScale(0.00001);
-			model->mFlags -= Graphics::ModelFlags::kModelFlagVisible;
+			model->mFlags &= ~Graphics::ModelFlags::kModelFlagVisible;
 		}
 	}
 	App::Property* prop = new App::Property();
 	prop->SetValueBool(true);
 	propList->SetProperty(id("CPE-IsTerrainGenerated"), prop);
+}
 
+bool SpatialPlanetCollisions::HandleMessage(uint32_t messageID, void* message) {
+	if (messageID == id("SpatialPlanetMessage"))
+	{
+		MessageManager.MessageSend(id("SpatialPlanetMessage2"),new void*());
+		return true;
+	}
+	if (messageID == id("SpatialPlanetMessage2"))
+	{
+		for (int i = 0; i < objects.size(); i++)
+		{
+			cSpatialObjectPtr spatial = objects[i];
+			Vector3 pos = spatial->GetPosition();
+			spatial->Teleport(pos, objRots[i]);
+		}
+		return true;
+	}
+	return false;
 }
 
 SpatialPlanetCollisions* SpatialPlanetCollisions::Get()

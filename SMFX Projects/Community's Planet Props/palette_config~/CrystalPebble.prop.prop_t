@@ -4,9 +4,9 @@ texts spaceToolDescription
 end
 key spaceToolImageID PlanetProps_PNGs!CrystalPebble.png
 float terraformBrushIntensityDefault 0.5
-vector2 terraformBrushIntensityRange (0.25, 1)
+vector2 terraformBrushIntensityRange (0.125, 5)
 float terraformBrushSizeDefault 1
-vector2 terraformBrushSizeRange (0.25, 10)
+vector2 terraformBrushSizeRange (0.125, 50)
 key terraformMarkerModelID 0x079A8EE7!ep1_tericon_category_roads.prop
 key terraformModelID CrystalPebble
 #key terraformToolPreviewEffect EP1_TB_Road_Plaza_Decorative_01_Cursor
