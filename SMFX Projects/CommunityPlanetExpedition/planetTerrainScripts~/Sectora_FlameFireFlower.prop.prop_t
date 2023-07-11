@@ -1,3 +1,6 @@
+#Description added through Python script
+
+string16 planet_name "Sectora_FlameFireFlower"
 key parent planetTerrainThemes~!ad_gear.prop
 keys modelEffect
 	0x35D37172
@@ -1835,3 +1838,4 @@ vector3 terrainThemeWaterColor (0.2588235, 0.3333333, 0.8039216)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
+

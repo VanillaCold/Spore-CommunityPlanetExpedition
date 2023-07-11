@@ -8,7 +8,7 @@ class SpatialPlanetCollisions
 	: public ArgScript::ICommand
 	, public App::IUpdatable
 	, public DefaultRefCounted
-	, public App::DefaultMessageListener
+	//, public App::DefaultMessageListener
 {
 public:
 	SpatialPlanetCollisions();
@@ -16,6 +16,9 @@ public:
 
 	vector<cSpatialObjectPtr> objects;
 	vector<Quaternion> objRots;
+	
+	float gameTimer = 0;
+
 	void Update() override;
 
 	// Called when the cheat is invoked
@@ -26,7 +29,7 @@ public:
 
 	void PlanetModelsToSpatialObjects(Terrain::cTerrainSphere* sphere);
 
-	bool HandleMessage(uint32_t messageID, void* pMessage) override;
+	//bool HandleMessage(uint32_t messageID, void* pMessage) override;
 
 	static SpatialPlanetCollisions* Get();
 

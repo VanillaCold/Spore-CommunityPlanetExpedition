@@ -7,6 +7,7 @@
 SpatialPlanetCollisions::SpatialPlanetCollisions()
 {
 	sInstance = this;
+	gameTimer = 0;
 	//App::AddUpdateFunction(this);
 }
 
@@ -18,6 +19,19 @@ SpatialPlanetCollisions::~SpatialPlanetCollisions()
 
 void SpatialPlanetCollisions::Update()
 {
+	if (gameTimer > 0  && !Simulator::IsLoadingGameMode() && GameNounManager.GetAvatar())
+	{
+		gameTimer-= 1/GameTimeManager.GetSpeed();
+		if (gameTimer < 2)
+		{
+			for (int i = 0; i < objects.size(); i++)
+			{
+				cSpatialObjectPtr spatial = objects[i];
+				Vector3 pos = spatial->GetPosition();
+				spatial->Teleport(pos, objRots[i]);
+			}
+		}
+	}
 }
 
 void SpatialPlanetCollisions::ParseLine(const ArgScript::Line& line)
@@ -35,6 +49,7 @@ void SpatialPlanetCollisions::ParseLine(const ArgScript::Line& line)
 			cSpatialObjectPtr spatial = objects[i];
 			Vector3 pos = spatial->GetPosition();
 			spatial->Teleport(pos, objRots[i]);
+			gameTimer = 5;
 		}
 	}
 	// This method is called when your cheat is invoked.
@@ -72,6 +87,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 	else
 	{
 		isPreGenerated = false;
+		gameTimer = 150;
 	}
 
 	for(int i = 0;i<sphere->mModels.size();i++)
@@ -130,7 +146,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 	propList->SetProperty(id("CPE-IsTerrainGenerated"), prop);
 }
 
-bool SpatialPlanetCollisions::HandleMessage(uint32_t messageID, void* message) {
+/*bool SpatialPlanetCollisions::HandleMessage(uint32_t messageID, void* message) {
 	if (messageID == id("SpatialPlanetMessage"))
 	{
 		MessageManager.MessageSend(id("SpatialPlanetMessage2"),new void*());
@@ -147,7 +163,7 @@ bool SpatialPlanetCollisions::HandleMessage(uint32_t messageID, void* message) {
 		return true;
 	}
 	return false;
-}
+}*/
 
 SpatialPlanetCollisions* SpatialPlanetCollisions::Get()
 {

@@ -8,16 +8,20 @@ for i in range(0,len(filenames)):
     pname = filenames[i][0:len(filenames[i])-12]
 
     file =open('planetTerrainScripts~/'+filenames[i], 'r')
-    
-    filelist = "#Description added through Python script\n"
-    filelist += '\nstring16 planet_name "'+pname+'"\n'
-    
-    filelist += file.read()+"\n"
-    file.close()
-    
-    print(pname)
-    
-    file_test = open('planetTerrainScripts~/'+filenames[i], 'w')
+    fileList = file.read()
+    print(fileList[0])
+    letter = fileList[0]
 
-    file_test.write(filelist)
-    file_test.close()
+    if (letter != '#'):
+        filelist = "#Description added through Python script\n"
+        filelist += '\nstring16 planet_name "'+pname+'"\n'
+        
+        filelist += fileList+"\n"
+        file.close()
+        
+        print(pname)
+        
+        file_test = open('planetTerrainScripts~/'+filenames[i], 'w')
+
+        file_test.write(filelist)
+        file_test.close()
