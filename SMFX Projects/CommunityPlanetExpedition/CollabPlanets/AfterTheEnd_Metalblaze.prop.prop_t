@@ -1,4 +1,4 @@
-key parent planetTerrainThemes3~!0x90C12347.prop #AfterTheEnd by Metalblaze
+key parent planetTerrainThemes3~!EP1_Zealot_01.prop #AfterTheEnd by Metalblaze
 keys modelEffect
 	Patch1_lopsided_filter~
 	GO_raise_all_more~
@@ -27,43 +27,43 @@ keys modelEffect
 	BR_invert_coral_solid2~
 	BR_invert_coral_solid2~
 	BR_invert_coral_solid2~
-	0x7D2529EA
-	0x7D2529EA
-	0x8169684B
-	0x8169684B
-	0x8169684B
-	0x8169684B
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0x8169684B
-	0x8169684B
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x24DF4396
 	0x24DF4396
 	0x24DF4396
 	0x24DF4396
 	0x24DF4396
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
-	0xC2E26824
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
+	EP1_TB_River_Delta
 	0x24DF4396
-	0x8169684B
-	0x8169684B
-	0x8169684B
-	0x8169684B
-	0xC2E26824
-	0x8169684B
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
+	EP1_TB_River_Pools
+	EP1_TB_River_Delta
+	EP1_TB_River_Pools
 	0x0D5F99A7
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
 	0x24DF4396
 	0x0D5F99A7
 	0x0D5F99A7
@@ -71,16 +71,16 @@ keys modelEffect
 	0x0D5F99A7
 	0x0D5F99A7
 	0x0D5F99A7
-	0x9E7D469C
-	0x9E7D469C
-	0x9E7D469C
-	0x9E7D469C
-	0x7D2529EA
-	0x7D2529EA
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
+	EP1_TB_River_Crystal
+	EP1_TB_River_Crystal
+	EP1_TB_River_Crystal
+	EP1_TB_River_Crystal
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
 end
 uint32 modelEffectSeed 0xad0f7937
 transforms modelEffectTransforms
@@ -653,7 +653,7 @@ keys terrainScriptModels
 	Adventure_roads~!organic_massiverock1.prop
 	Adventure_roads~!organic_largerock1_pile.prop
 	Adventure_roads~!organic_largerock1_pile.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!fossil_massiverock1_pile.prop
 	Adventure_roads~!fossil_massiverock2_pile.prop
 	Adventure_roads~!organic_largerock1_pile.prop
@@ -673,8 +673,8 @@ keys terrainScriptModels
 	Adventure_roads~!organic_largerock1_pile.prop
 	Adventure_roads~!organic_largerock1_pile.prop
 	Adventure_roads~!organic_largerock1_pile.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!cr_feature_meteorite.prop
 	Adventure_roads~!cr_feature_ufocrash.prop
 	Adventure_roads~!organic_largerock1_pile.prop
@@ -691,7 +691,7 @@ keys terrainScriptModels
 	Adventure_roads~!organic_largerock1_pile.prop
 	Adventure_roads~!organic_largerock1_pile.prop
 	Adventure_roads~!organic_largerock1_pile.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!cr_feature_meteorite.prop
 	Adventure_roads~!organic_massiverock1_pile.prop
 	Adventure_roads~!organic_massiverock1_pile.prop
@@ -757,7 +757,7 @@ keys terrainScriptModels
 	Adventure_roads~!organic_massiverock1.prop
 	Adventure_roads~!organic_massiverock1.prop
 	Adventure_roads~!organic_massiverock1.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!organic_largerock1_pile.prop
 	Adventure_roads~!organic_massiverock1.prop
 	Adventure_roads~!organic_massiverock1.prop
@@ -796,13 +796,13 @@ vector3 terrainThemeAirColor (0.8039216, 0.5568628, 0.0392157)
 vector3 terrainThemeBeachColor (0.1254902, 0.1098039, 0.0941177)
 vector3 terrainThemeCliffColor (0.2470588, 0.1843137, 0.1882353)
 keys terrainThemeFlora
-	floraModelsFLR~!0x077A17AF.flr
-	floraModelsFLR~!0x07718FFD.flr
-	floraModelsFLR~!0x07718FFD.flr
-	floraModelsFLR~!0x07718FFD.flr
-	floraModelsFLR~!0x905C663A.flr
-	floraModelsFLR~!0x905C663A.flr
-	floraModelsFLR~!0x905C663A.flr
+	flora_editorModel~!0x077A17AF.flr
+	flora_editorModel~!0x07718FFD.flr
+	flora_editorModel~!0x07718FFD.flr
+	flora_editorModel~!0x07718FFD.flr
+	flora_editorModel~!FE_volcano2_Sp1.flr
+	flora_editorModel~!FE_volcano2_Sp1.flr
+	flora_editorModel~!FE_volcano2_Sp1.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

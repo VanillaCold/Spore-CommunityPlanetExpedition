@@ -3,7 +3,7 @@
 string16 planet_name "Emedesia_LucasTheGreatYT"
 key parent planetTerrainThemes~!ad_gear.prop #Emedesia by LucasTheGreatYT
 keys modelEffect
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseBrush
 	0xAD902F93
 	0x4750C19F
 	0x4750C19F
@@ -118,15 +118,15 @@ keys modelEffect
 	0x4750C19F
 	0x4750C19F
 	0x4750C19F
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
@@ -192,19 +192,19 @@ keys modelEffect
 	0x0D5F99A7
 	0x0D5F99A7
 	0x0D5F99A7
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
 	0x0D5F99A7
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
 	0x0D5F99A7
 end
 uint32 modelEffectSeed 0x3e52ea74
@@ -1425,15 +1425,15 @@ vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
 vector3 terrainThemeBeachColor (1, 0.7450981, 0.5921569)
 vector3 terrainThemeCliffColor (0.5764706, 0.4313726, 0.3411765)
 keys terrainThemeFlora
-	floraModelsFLR~!0xAA189FBD.flr
-	floraModelsFLR~!0x20E31DE6.flr
-	floraModelsFLR~!0x18BEB5E9.flr
-	floraModelsFLR~!0xB96E83EA.flr
-	floraModelsFLR~!0xA5EDCF7D.flr
-	floraModelsFLR~!0xEAE7CBCA.flr
-	floraModelsFLR~!0xF48FF54C.flr
-	floraModelsFLR~!0xFD05797B.flr
-	floraModelsFLR~!0xE1339DC6.flr
+	flora_editorModel~!FE_mesa3_Sp1.flr
+	flora_editorModel~!FE_crystalGreen3_Sp1.flr
+	flora_editorModel~!FE_mountains3_Sp1.flr
+	flora_editorModel~!FE_bumpyGranite2_Mp.flr
+	flora_editorModel~!FE_mountains2_Mp.flr
+	flora_editorModel~!FE_layers3_Mp.flr
+	flora_editorModel~!FE_crystal1_Lt7.flr
+	flora_editorModel~!FE_bumpy3_Lt3.flr
+	flora_editorModel~!FE_earthM3_Lt8.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

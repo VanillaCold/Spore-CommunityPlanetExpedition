@@ -1,0 +1,12 @@
+key parent Adventure_brushes~!TemplateBrush.prop
+texts spaceToolDescription
+	"Waterfall"
+end
+key spaceToolImageID ci_thumbs~!EP1_EffectObject_Waterfall.png #PlanetProps_PNGs!BoneHand.png
+float terraformBrushIntensityDefault 0.5
+vector2 terraformBrushIntensityRange (0.25, 1)
+float terraformBrushSizeDefault 1
+vector2 terraformBrushSizeRange (0.25, 10)
+key terraformMarkerModelID 0x079A8EE7!ep1_tericon_category_roads.prop
+key terraformModelID CI_waterfall
+#key terraformToolPreviewEffect EP1_TB_Road_Plaza_Decorative_01_Cursor

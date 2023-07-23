@@ -1,35 +1,35 @@
 #Description added through Python script
 
 string16 planet_name "LifeStar_ChocIce75"
-key parent planetTerrainThemes~!ad_gear.prop #Life Star by Chocice75
+key parent planetTerrainThemes2~!customTheme.prop #Life Star by Chocice75
 keys modelEffect
-	0x9BA5339D
-	0x9BA5339D
-	0x9BA5339D
-	0x9BA5339D
-	0x9BA5339D
-	0x9BA5339D
-	0x9BA5339D
-	0x9BA5339D
-	0x9BA5339D
-	0x13CA1E28
+	EP1_TB_Valley_Tech
+	EP1_TB_Valley_Tech
+	EP1_TB_Valley_Tech
+	EP1_TB_Valley_Tech
+	EP1_TB_Valley_Tech
+	EP1_TB_Valley_Tech
+	EP1_TB_Valley_Tech
+	EP1_TB_Valley_Tech
+	EP1_TB_Valley_Tech
+	EP1_TB_Oceans_Crater
 	0x878A3866
-	0x150826FB
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0xF6D8C25D
+	EP1_TB_Valley_Gorge
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LevelBrush
 	0x90648308
-	0x648FB51F
-	0x7D2529EA
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x4750C19F
 	0x77842221
-	0x648FB51F
-	0x648FB51F
-	0x2D7AAB47
-	0x7D2529EA
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Valley_Smooth
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_RaiseBrush
 	0xCB4244C1
 	BR_spiral~
 	0xFDBB08EF
@@ -43,13 +43,13 @@ keys modelEffect
 	0xFDBB08EF
 	0x8CAF63C4
 	0x5E2E8F05
-	0x1382F38B
-	0x1382F38B
-	0x648FB51F
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_BasicTools_RaiseBrush
 	0xCB4244C1
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseBrush
 	0x0D5F99A7
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseBrush
 	0x0D5F99A5
 	0x0D5F99A5
 	0x0D5F99A4
@@ -59,42 +59,42 @@ keys modelEffect
 	0x0D5F99A7
 	0x0D5F99A7
 	0x3526FFD3
-	0x7D2529EA
-	0x6F75A856
-	0x6F75A856
-	0x648FB51F
-	0x648FB51F
-	0x6F75A856
-	0x6F75A856
-	0x648FB51F
-	0x648FB51F
-	0x6F75A856
-	0x6F75A856
-	0x6F75A856
-	0x6F75A856
-	0x6F75A856
-	0x6F75A856
-	0x648FB51F
-	0x648FB51F
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x4FCA7BB7
 	0x4FCA7BB7
 	0x4FCA7BB7
 	0x4FCA7BB7
 	0x4FCA7BB7
-	0xA80BC699
-	0x648FB51F
+	EP1_TB_Continents_TechMesa
+	EP1_TB_BasicTools_RaiseBrush
 	0x24DF4396
 	0x3AB84E8A
 	BR_spiral~
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
 	0x8F27BB00
-	0x150826FB
-	0x150826FB
-	0x150826FB
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
+	EP1_TB_Valley_Gorge
 end
 uint32 modelEffectSeed 0xf88a5968
 transforms modelEffectTransforms
@@ -756,9 +756,9 @@ keys terrainScriptModels
 	Adventure_roads~!0x310FB542.prop
 	Adventure_roads~!crystal_largerock1_pile.prop
 	Adventure_roads~!0x57C28D48.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!0x57C28D48.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!organic_massiverock1.prop
 	Adventure_roads~!syrup_resource1.prop
 	Adventure_roads~!organic_massiverock1_pile.prop
@@ -775,8 +775,8 @@ keys terrainScriptModels
 	Adventure_roads~!EP1_Road_Tech_Plaza.prop
 	Adventure_roads~!syrup_resource1.prop
 	Adventure_roads~!0x57C28D48.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!0x57C28D48.prop
 	Adventure_roads~!0x266C8507.prop
 	Adventure_roads~!EP1_Special_ClearFlora.prop
@@ -821,7 +821,7 @@ keys terrainScriptModels
 	Adventure_roads~!0xF1F1D290.prop
 	Adventure_roads~!EP1_Road_Tech_Plaza.prop
 	Adventure_roads~!tentacle_massiverock1.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!0xF1F1D290.prop
 	Adventure_roads~!syrup_resource1.prop
 	Adventure_roads~!syrup_resource1.prop
@@ -857,15 +857,15 @@ vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
 vector3 terrainThemeBeachColor (0.8235295, 0.6901962, 0.5333334)
 vector3 terrainThemeCliffColor (0.4836602, 0.4270153, 0.3921569)
 keys terrainThemeFlora
-	floraModelsFLR~!0x9F3CA1C0.flr
-	floraModelsFLR~!0x3C729D58.flr
-	floraModelsFLR~!0x929EC5CD.flr
-	floraModelsFLR~!0xF4F55AC7.flr
-	floraModelsFLR~!0x5506C658.flr
-	floraModelsFLR~!0xF8FFDA21.flr
-	floraModelsFLR~!0x6A0ABBE9.flr
-	floraModelsFLR~!0x891AAD10.flr
-	floraModelsFLR~!0x07762D1D.flr
+	flora_editorModel~!FE_bumpyGranite3_Sp1.flr
+	flora_editorModel~!FE_rivers2_Sp.flr
+	flora_editorModel~!FE_cube3_Sp2.flr
+	flora_editorModel~!FE_domes2_M2.flr
+	flora_editorModel~!FE_crystal2_Mp1.flr
+	flora_editorModel~!FE_cube2_Mp1.flr
+	flora_editorModel~!FE_domes3_Lt.flr
+	flora_editorModel~!FE_scallops2_Lt3.flr
+	flora_editorModel~!0x07762D1D.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

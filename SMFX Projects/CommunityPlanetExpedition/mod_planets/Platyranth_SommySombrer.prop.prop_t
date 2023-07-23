@@ -4,108 +4,108 @@ string16 planet_name "Platyranth_SommySombrer"
 key parent planetTerrainThemes~!ad_gear.prop #Platyranth by SommySombrer
 keys modelEffect
 	0x35D37172
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0xF6085DED
 	0xF6085DED
 	0x4883A8D3
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0xF6085DED
 	0xF6085DED
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x7D2529EA
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x54132ECF
 	0x54132ECF
 	0x54132ECF
@@ -128,28 +128,28 @@ keys modelEffect
 	0x54132ECF
 	0x54132ECF
 	0x54132ECF
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
@@ -168,24 +168,24 @@ keys modelEffect
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x3AB84E8A
 	0xFDBB08EF
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0xFDBB08EF
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0xFDBB08EF
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0xFDBB08EF
 	0x3AB84E8A
 	0x3AB84E8A
@@ -198,83 +198,83 @@ keys modelEffect
 	0x3AB84E8A
 	0x3AB84E8A
 	0x3AB84E8A
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0x3AB84E8A
 	0x3AB84E8A
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
 	0x3AB84E8A
 	0xFDBB08EF
 	0x3AB84E8A
-	0x3AB84E8A
-	0x3AB84E8A
-	0xFDBB08EF
-	0xFDBB08EF
-	0x3AB84E8A
-	0xFDBB08EF
-	0xFDBB08EF
-	0xFDBB08EF
-	0xFDBB08EF
-	0xFDBB08EF
 	0x3AB84E8A
 	0x3AB84E8A
 	0xFDBB08EF
 	0xFDBB08EF
 	0x3AB84E8A
-	0x3AB84E8A
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	0xFDBB08EF
+	0xFDBB08EF
+	0xFDBB08EF
+	0xFDBB08EF
+	0xFDBB08EF
 	0x3AB84E8A
 	0x3AB84E8A
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	0xFDBB08EF
+	0xFDBB08EF
+	0x3AB84E8A
+	0x3AB84E8A
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	0x3AB84E8A
+	0x3AB84E8A
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	0xCFD86CB7
 	0xCFD86CB7
 	0xCFD86CB7
 	0xCFD86CB7
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x7D2529EA
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
@@ -282,91 +282,91 @@ keys modelEffect
 	0xAA80DEB5
 	0x3AB84E8A
 	0x3AB84E8A
-	0xF6D8C25D
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x2D7AAB47
-	0xEEC6A442
-	0xEEC6A442
-	0xEEC6A442
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_Valley_Smooth
+	EP1_TB_Valley_Cracked
+	EP1_TB_Valley_Cracked
+	EP1_TB_Valley_Cracked
 	0x54132ECF
 	0x54132ECF
 	0x54132ECF
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x7D2529EA
-	0xF6D8C25D
-	0xF6D8C25D
-	0xF6D8C25D
-	0xEA40A545
-	0xF6D8C25D
-	0x8089E48A
-	0x8089E48A
-	0x648FB51F
-	0x648FB51F
-	0x55FFFCB8
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_Oceans_Terra
+	EP1_TB_BasicTools_LevelBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Oceans_Alpine
 	0x54132ECF
 	0x54132ECF
 	0x54132ECF
 	0x54132ECF
-	0x2D7AAB47
-	0x2D7AAB47
-	0x2D7AAB47
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_Valley_Smooth
+	EP1_TB_Valley_Smooth
+	EP1_TB_Valley_Smooth
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	0x54132ECF
 	0x54132ECF
 	0x54132ECF
@@ -448,9 +448,9 @@ keys modelEffect
 	0x988B9F81
 	0x988B9F81
 	0x988B9F81
-	0x8089E48A
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 end
 uint32 modelEffectSeed 0x3e52ea74
 transforms modelEffectTransforms
@@ -2817,15 +2817,15 @@ vector3 terrainThemeAirColor (0.3803922, 0.509804, 0.6862745)
 vector3 terrainThemeBeachColor (0.9058824, 0.8274511, 0.7803922)
 vector3 terrainThemeCliffColor (0.8039216, 0.3176471, 0.2588235)
 keys terrainThemeFlora
-	floraModelsFLR~!FE_volcanoM2_Sp.flr
-	floraModelsFLR~!0xD1B4BB56.flr
-	floraModelsFLR~!FE_volcanoM1_Sp.flr
-	floraModelsFLR~!FE_volcanoM2_Mp.flr
-	floraModelsFLR~!0x07730CDD.flr
-	floraModelsFLR~!0xF4F55AC7.flr
-	floraModelsFLR~!0x07719008.flr
-	floraModelsFLR~!0x07730CD8.flr
-	floraModelsFLR~!0x07719008.flr
+	flora_editorModel~!FE_volcanoM2_Sp.flr
+	flora_editorModel~!FE_volcano1_Sp2.flr
+	flora_editorModel~!FE_volcanoM1_Sp.flr
+	flora_editorModel~!FE_volcanoM2_Mp.flr
+	flora_editorModel~!0x07730CDD.flr
+	flora_editorModel~!FE_domes2_M2.flr
+	flora_editorModel~!0x07719008.flr
+	flora_editorModel~!0x07730CD8.flr
+	flora_editorModel~!0x07719008.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

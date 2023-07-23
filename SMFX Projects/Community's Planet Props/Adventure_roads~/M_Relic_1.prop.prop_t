@@ -1,4 +1,4 @@
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "Relic Jar"
 key modelMeshLOD0 sg_rare_relics_01
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
@@ -17,3 +17,4 @@ float modelPlacementSpacingRing 70
 float obstacleObjectExclusionRadius 45
 bool rockObstacleAllowed false
 uint32 terrainScriptModelType hash(volcano)
+bool isSpatialStamp true

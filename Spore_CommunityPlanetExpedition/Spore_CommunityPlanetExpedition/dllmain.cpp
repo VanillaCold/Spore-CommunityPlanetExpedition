@@ -4,6 +4,8 @@
 #include <Spore\Terrain\cTerrainSphere.h>
 #include "ExportLVLFile.h"
 #include "PlanetType.h"
+#include "SpatialPlanetCollisions.h"
+#include <Spore\App\ScenarioMode.h>
 
 void Initialize()
 {
@@ -19,6 +21,7 @@ void Initialize()
 	CheatManager.AddCheat("ExportTerrainScript", new ExportTerrainScript());
 	CheatManager.AddCheat("ExportLVLFile", new ExportLVLFile());
 	CheatManager.AddCheat("PlanetTerrainType", new PlanetType());
+	CheatManager.AddCheat("SpatialPlanetCollisions", new SpatialPlanetCollisions());
 }
 
 member_detour(TerrainSphereGenerate_detour, Terrain::cTerrainSphere, void(int*, int*, bool, bool, float)) {
@@ -29,22 +32,47 @@ member_detour(TerrainSphereGenerate_detour, Terrain::cTerrainSphere, void(int*, 
 
 
 		original_function(this, unused0, unused1, unk, generateSingleStep, generateTimeLimit);
-
-		string16 planetName;
-
-		if (!App::Property::GetString16(this->mpPropList.get(), id("planet_name"), planetName))
+		
+		if (Simulator::IsCreatureGame() || (Simulator::IsScenarioMode() && ScenarioMode.mMode == App::cScenarioMode::Mode::PlayMode))
 		{
-			planetName = u"Vanilla Planet";
+			string16 planetName;
+	
+			if (!App::Property::GetString16(this->mpPropList.get(), id("planet_name"), planetName))
+			{
+				planetName = u"Vanilla Planet";
+			}
+
+			string name; 
+			name.assign_convert(planetName);
+
+			name = "Planet type is: " + name;
+
+
+			if (this->mNumModels != 0)
+			{
+				SpatialPlanetCollisions::Get()->PlanetModelsToSpatialObjects(this);
+				//do stuff
+			}
 		}
 
-		string name; 
-		name.assign_convert(planetName);
 
-		name = "Planet type is: " + name;
-
-		App::ConsolePrintF(name.c_str());
 
 		//PlanetScriptOverrider::OverrideRegularScripts(this->mpPropList);
+	}
+};
+
+static_detour(DetourTest, void* (int))
+{
+	void* detoured(int arg1)
+	{
+		if (arg1)
+		{
+			original_function(arg1);
+		}
+		else
+		{
+			return (void*)nullptr;
+		}
 	}
 };
 
@@ -56,7 +84,7 @@ void Dispose()
 void AttachDetours()
 {
 	TerrainSphereGenerate_detour::attach(GetAddress(Terrain::Sphere::cTerrainSphere, Generate));
-	
+	//DetourTest::attach(Address(0x00bd9b30));
 	// Call the attach() method on any detours you want to add
 	// For example: cViewer_SetRenderType_detour::attach(GetAddress(cViewer, SetRenderType));
 }

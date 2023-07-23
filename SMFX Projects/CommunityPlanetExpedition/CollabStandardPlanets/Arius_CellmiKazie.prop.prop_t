@@ -1,49 +1,49 @@
 key parent planetTerrainThemes~!ad_gear.prop #Arius by CellmiKazie
 keys modelEffect
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
-	0xACC943AA
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
+	EP1_TB_Oceans_Landmass
 	0xCAC9A703
 	0xFFCB97F9
-	0x3F41C90D
-	0xFF45D14C
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Ridges
 	0xAA80DEB5
-	0x479B0FF3
-	0xC5DB3D0E
-	0xC5DB3D0E
-	0xC5DB3D0E
-	0xC5DB3D0E
-	0x479B0FF3
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Striated
 	0x0D5F99A5
-	0xFF45D14C
-	0xFF45D14C
-	0xFF45D14C
-	0xFF45D14C
-	0xFF45D14C
-	0xFF45D14C
-	0xFF45D14C
-	0x479B0FF3
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Ramps
+	EP1_TB_Mountain_Striated
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
 	0xAA80DEB5
-	0x3F41C90D
-	0x3F41C90D
-	0x3F41C90D
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_Ridges
 	0x4E4B07AD
 	0x0D5F99A4
 	0x0D5F99A4
@@ -51,7 +51,7 @@ keys modelEffect
 	0x0D5F99A4
 	0x0D5F99A4
 	0x70D9A21E
-	0xC2E26824
+	EP1_TB_River_Delta
 end
 uint32 modelEffectSeed 0x3e52ea74
 transforms modelEffectTransforms

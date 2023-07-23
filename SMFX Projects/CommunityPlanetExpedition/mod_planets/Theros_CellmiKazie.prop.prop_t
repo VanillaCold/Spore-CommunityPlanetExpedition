@@ -34,7 +34,7 @@ keys modelEffect
 	0x0D5F99A7
 	0xAA80DEB5
 	EP1_TB_Mountain_Striated
-	0x754DDCBE
+	EP1_TB_BasicTools_LevelSquareBrush
 	EP1_TB_Mountain_Striated
 	0xAA80DEB5
 	0xAA80DEB5
@@ -69,7 +69,7 @@ keys modelEffect
 	EP1_TB_Continents_Cute
 	EP1_TB_Continents_Nibbled
 	EP1_TB_Continents_Terra
-	0x1382F38B
+	EP1_TB_mountain_domes
 	EP1_TB_Mountain_Striated
 	EP1_TB_Mountain_Ridges
 	EP1_TB_Mountain_Ridges

@@ -1,22 +1,22 @@
 #Description added through Python script
 
 string16 planet_name "OrganizedPlanet_EdgyNightmeme"
-key parent planetTerrainThemes~!ad_gear.prop #Organized Planet by EdgyNightmeme
+key parent planetTerrainThemes2~!customTheme.prop #Organized Planet by EdgyNightmeme
 keys modelEffect
 	CC_cube_planet~
 	0x1DC12A1F
-	0x13CA1E28
-	0x13CA1E28
-	0x13CA1E28
-	0x13CA1E28
+	EP1_TB_Oceans_Crater
+	EP1_TB_Oceans_Crater
+	EP1_TB_Oceans_Crater
+	EP1_TB_Oceans_Crater
 	0x35D37172
 	0x73257EB2
 	0x73257EB2
 	0x73257EB2
 	0x73257EB2
-	0x80E86228
-	0xA5DDC9DF
-	0xA5DDC9DF
+	EP1_TB_BasicTools_RaiseSquareBrush
+	EP1_TB_BasicTools_Ramp
+	EP1_TB_BasicTools_Ramp
 	0x0D5F99A4
 	0x0D5F99A4
 	0x0D5F99A4
@@ -29,27 +29,27 @@ keys modelEffect
 	0x4E4B07AD
 	0x4E4B07AD
 	0x4E4B07AD
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
-	0x55FFFCB8
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
+	EP1_TB_Oceans_Alpine
 	0x73257EB2
 	0x73257EB2
 	0x73257EB2
 	0x73257EB2
 	0x4E4B07AD
-	0x355C82D4
-	0x355C82D4
-	0x355C82D4
-	0x355C82D4
-	0x355C82D4
-	0x355C82D4
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Alpine
 	0x050CE38D
 	0x050CE38D
 	0x050CE38D
@@ -396,14 +396,14 @@ transforms terrainScriptModelTransforms
 	-offset (-417.9114075, 413.717926, 411.5014648) -scale 1.05 -rotateXYZ 45.1538849 35.6098595 -171.0120239
 end
 keys terrainScriptModels
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!potatoeye_resource_pile.prop
 	Adventure_roads~!potatoeye_resource_pile.prop
 	Adventure_roads~!potatoeye_resource_pile.prop
@@ -441,15 +441,15 @@ vector3 terrainThemeAirColor (1, 1, 1)
 vector3 terrainThemeBeachColor (0, 0, 0)
 vector3 terrainThemeCliffColor (1, 1, 1)
 keys terrainThemeFlora
-	floraModelsFLR~!0x8875AEC7.flr
-	floraModelsFLR~!0x5FA23008.flr
-	floraModelsFLR~!0xCD94503C.flr
-	floraModelsFLR~!0x905C663A.flr
-	floraModelsFLR~!0x8C9D0727.flr
-	floraModelsFLR~!0x829AB8F3.flr
-	floraModelsFLR~!0xAA189FBD.flr
-	floraModelsFLR~!0x0770DF8E.flr
-	floraModelsFLR~!0xBF9ED88D.flr
+	flora_editorModel~!FE_crystal3_Sp1.flr
+	flora_editorModel~!FE_crystal3_Mp.flr
+	flora_editorModel~!FE_scraped3_Lt3.flr
+	flora_editorModel~!FE_volcano2_Sp1.flr
+	flora_editorModel~!FE_volcano2_Mp2.flr
+	flora_editorModel~!FE_volcano2_Lt3.flr
+	flora_editorModel~!FE_mesa3_Sp1.flr
+	flora_editorModel~!0x0770DF8E.flr
+	flora_editorModel~!FE_volcano1_Lt2.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

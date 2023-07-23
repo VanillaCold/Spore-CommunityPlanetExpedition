@@ -1,80 +1,80 @@
 #Description added through Python script
 
 string16 planet_name "SpiralWorld_FlameFireFlower"
-key parent planetTerrainThemes~!ad_gear.prop #Spiral World by FlameFireFlower
+key parent planetTerrainThemes2~!customTheme.prop #Spiral World by FlameFireFlower
 keys modelEffect
-	0x3487B4AF
-	0x86247FF4
-	0x3487B4AF
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
 	0xF6085DED
-	0x86247FF4
-	0x3487B4AF
-	0x15C9F956
-	0x86247FF4
-	0x3487B4AF
-	0x3487B4AF
-	0x86247FF4
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
 	0xF6085DED
-	0x3487B4AF
-	0x86247FF4
-	0x3487B4AF
-	0x648FB51F
-	0x648FB51F
-	0x15C9F956
-	0x3487B4AF
-	0x86247FF4
-	0x86247FF4
-	0x3487B4AF
-	0x86247FF4
-	0x3487B4AF
-	0x15C9F956
-	0xE183AE3B
-	0x86247FF4
-	0xE183AE3B
-	0x3487B4AF
-	0x86247FF4
-	0x3487B4AF
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
 	0xF6085DED
-	0x3487B4AF
-	0x3487B4AF
-	0x15C9F956
-	0x3487B4AF
-	0x86247FF4
-	0x3487B4AF
-	0xE183AE3B
-	0x86247FF4
-	0x3487B4AF
-	0x86247FF4
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
 	0xF6085DED
-	0x3487B4AF
-	0x86247FF4
-	0x86247FF4
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Landmass
 	0xF6085DED
-	0x3487B4AF
-	0x86247FF4
-	0xE183AE3B
-	0x3487B4AF
-	0x15C9F956
-	0x86247FF4
-	0x3487B4AF
-	0x3487B4AF
-	0xE183AE3B
-	0x15C9F956
-	0x3487B4AF
-	0x86247FF4
-	0xE183AE3B
-	0x86247FF4
-	0x3487B4AF
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x6799B3E1
-	0x6799B3E1
-	0x1CAECD5B
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Blob
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Nibbled
+	EP1_TB_Continents_Landmass
+	EP1_TB_Continents_Terra
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Hilly
 	0x3AB84E8A
 	0x3AB84E8A
 	0xCFD86CB7
@@ -84,12 +84,12 @@ keys modelEffect
 	0x5E2E8F05
 	0x5E2E8F05
 	0x5E2E8F05
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x6799B3E1
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Pebbled
 	0x0D5F99A5
 	0x0D5F99A4
 	0x0D5F99A7
@@ -102,83 +102,83 @@ keys modelEffect
 	0x0D5F99A5
 	0x0D5F99A5
 	0x0D5F99A4
-	0x3F41C90D
-	0xD154A00E
+	EP1_TB_Mountain_Ridges
+	EP1_TB_Mountain_RazorBack
 	0x0D5F99A5
 	0x77842221
 	0x77842221
-	0x13CA1E28
+	EP1_TB_Oceans_Crater
 	0x24DF4396
 	0x24DF4396
 	0x24DF4396
 	0x050CE38D
-	0x14CECB39
-	0x14CECB39
-	0x355C82D4
-	0x355C82D4
-	0x355C82D4
-	0x14CECB39
-	0x5E235D2E
-	0xF9E23518
-	0x355C82D4
-	0x1CF1724C
-	0x67633D6A
-	0x67633D6A
-	0x67633D6A
-	0xC5DB3D0E
-	0x6799B3E1
-	0x6799B3E1
-	0x6799B3E1
-	0x6799B3E1
-	0x6799B3E1
-	0x6799B3E1
-	0x6799B3E1
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x1CAECD5B
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
+	EP1_TB_Valley_Soft
+	EP1_TB_Valley_Soft
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Soft
+	EP1_TB_Valley_Cylinders
+	EP1_TB_Valley_HexRamp
+	EP1_TB_Valley_Alpine
+	EP1_TB_Valley_Pebbles
+	EP1_TB_Valley_Ramped
+	EP1_TB_Valley_Ramped
+	EP1_TB_Valley_Ramped
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Continents_Hilly
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
 	0x95925606
 	0x95925606
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x1382F38B
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
 	BR_riftZone_medium~
 	BR_riftZone_medium~
 	BR_riftZone_medium~
@@ -186,11 +186,11 @@ keys modelEffect
 	BR_riftZone_medium~
 	BR_riftZone_medium~
 	BR_riftZone_medium~
-	0x648FB51F
-	0x648FB51F
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 	Cubic_hills_Uniform~
 	Cubic_hills_Uniform~
 	Cubic_hills_Uniform~
@@ -198,27 +198,27 @@ keys modelEffect
 	Cubic_hills_Uniform~
 	Cubic_hills_Uniform~
 	BR_spiral~
-	0x13CA1E28
+	EP1_TB_Oceans_Crater
 	0xC751B730
-	0x14CECB39
-	0x355C82D4
-	0x6799B3E1
-	0x6799B3E1
-	0x1382F38B
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x648FB51F
-	0x1382F38B
-	0x1382F38B
-	0x648FB51F
-	0x648FB51F
-	0x1382F38B
+	EP1_TB_Valley_Soft
+	EP1_TB_Valley_Alpine
+	EP1_TB_Continents_Pebbled
+	EP1_TB_Continents_Pebbled
+	EP1_TB_mountain_domes
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_mountain_domes
+	EP1_TB_mountain_domes
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_BasicTools_RaiseBrush
+	EP1_TB_mountain_domes
 	0x95925606
 	0x3AB84E8A
 	0x3AB84E8A
@@ -227,12 +227,12 @@ keys modelEffect
 	0x050CE38D
 	0x050CE38D
 	0x050CE38D
-	0xC5DB3D0E
-	0x6F75A856
-	0x479B0FF3
+	EP1_TB_Mountain_Cylinders
+	EP1_TB_Mountain_Caterpillar
+	EP1_TB_Mountain_Striated
 	0x0D5F99A4
 	0x0D5F99A4
-	0x648FB51F
+	EP1_TB_BasicTools_RaiseBrush
 	0xEFE7251D
 	0xEFE7251D
 	0xEFE7251D
@@ -244,18 +244,18 @@ keys modelEffect
 	0xCAC9A703
 	0xCAC9A703
 	0x3526FFD3
-	0x150826FB
-	0xA082FECE
-	0xA082FECE
-	0xA082FECE
+	EP1_TB_Valley_Gorge
+	EP1_TB_Continents_Cute
+	EP1_TB_Continents_Cute
+	EP1_TB_Continents_Cute
 	0x24DF4396
 	0xAA80DEB5
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
-	0x7D2529EA
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
+	EP1_TB_BasicTools_LowerBrush
 end
 uint32 modelEffectSeed 0x3e52ea74
 transforms modelEffectTransforms
@@ -1633,7 +1633,7 @@ transforms terrainScriptModelTransforms
 	-offset (421.4163818, -313.3517151, 76.8193817) -scale 1.0499998 -rotateXYZ -76.2254333 -52.5628052 -29.3895683
 end
 keys terrainScriptModels
-	Adventure_roads~!0x03031E72.prop
+	Adventure_roads~!EP1_Hazard_LavaPit.prop
 	Adventure_roads~!tentacle_massiverock1.prop
 	Adventure_roads~!tentacle_massiverock1.prop
 	Adventure_roads~!tentacle_massiverock2.prop
@@ -1718,15 +1718,15 @@ vector3 terrainThemeAirColor (0.2588235, 0.6784315, 1)
 vector3 terrainThemeBeachColor (0.9333334, 0.7058824, 0.6196079)
 vector3 terrainThemeCliffColor (0.5708061, 0.4270153, 0.4618736)
 keys terrainThemeFlora
-	floraModelsFLR~!0x4F96CC8F.flr
-	floraModelsFLR~!FE_volcanoM3_Sp.flr
-	floraModelsFLR~!FE_volcanoM2_Sp.flr
-	floraModelsFLR~!FE_volcanoM2_Mp.flr
-	floraModelsFLR~!0x690ABA3B.flr
-	floraModelsFLR~!0x0770DF8D.flr
-	floraModelsFLR~!0xD3A8E592.flr
-	floraModelsFLR~!0xB689B784.flr
-	floraModelsFLR~!0x0774D424.flr
+	flora_editorModel~!FE_mountains1_Sp1.flr
+	flora_editorModel~!FE_volcanoM3_Sp.flr
+	flora_editorModel~!FE_volcanoM2_Sp.flr
+	flora_editorModel~!FE_volcanoM2_Mp.flr
+	flora_editorModel~!FE_domes3_M1.flr
+	flora_editorModel~!0x0770DF8D.flr
+	flora_editorModel~!FE_mushroom1_Lt7.flr
+	flora_editorModel~!FE_mushroom3_Lt7.flr
+	flora_editorModel~!0x0774D424.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

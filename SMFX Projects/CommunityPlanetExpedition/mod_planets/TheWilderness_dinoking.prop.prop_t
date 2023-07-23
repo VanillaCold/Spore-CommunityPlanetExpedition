@@ -352,27 +352,27 @@ keys modelEffect
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
-	0xEA40A545
+	EP1_TB_Oceans_Terra
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
-	0x3487B4AF
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0x479B0FF3
-	0xE183AE3B
-	0xC2E26824
+	EP1_TB_Continents_Terra
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Mountain_Striated
+	EP1_TB_Continents_Nibbled
+	EP1_TB_River_Delta
 	0x0EC9132A
 	0x0EC9132A
 	0x0EC9132A
@@ -2730,15 +2730,15 @@ vector3 terrainThemeAirColor (0.254902, 0.67451, 1)
 vector3 terrainThemeBeachColor (0.9882354, 0.7058824, 0.4941177)
 vector3 terrainThemeCliffColor (0.6187364, 0.4226581, 0.3529412)
 keys terrainThemeFlora
-	floraModelsFLR~!0x103D452D.flr
-	floraModelsFLR~!0x07730CFE.flr
-	floraModelsFLR~!0x8759F183.flr
-	floraModelsFLR~!0xB96E83EA.flr
-	floraModelsFLR~!0x0774F221.flr
-	floraModelsFLR~!0x2F1337FF.flr
-	floraModelsFLR~!0x0778BADC.flr
-	floraModelsFLR~!0x0778B0EF.flr
-	floraModelsFLR~!0x0778B0EF.flr
+	flora_editorModel~!FE_earthM1_Lt5.flr
+	flora_editorModel~!0x07730CFE.flr
+	flora_editorModel~!FE_scraped1_Lt2.flr
+	flora_editorModel~!FE_bumpyGranite2_Mp.flr
+	flora_editorModel~!0x0774F221.flr
+	flora_editorModel~!FE_earthM1_Mp.flr
+	flora_editorModel~!0x0778BADC.flr
+	flora_editorModel~!0x0778B0EF.flr
+	flora_editorModel~!0x0778B0EF.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

@@ -1,0 +1,135 @@
+
+marker CreatureArchetype -id kHerd~ avatar
+	position (366.076874, -321.183685, 34.616291)
+	orientation (0.444040, 0.517083, -0.007769, 0.731706)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (390.355408, 59.363384, 307.113190)
+	orientation (-0.077557, 0.432444, -0.023840, 0.898003)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (349.553436, 376.174591, 60.590145)
+	orientation (-0.488363, 0.450457, -0.002758, 0.747384)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-489.070038, 98.036430, 1.390419)
+	orientation (-0.116150, -0.696502, -0.023074, 0.707716)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-381.363068, 259.043854, 188.043320)
+	orientation (-0.298898, -0.470980, -0.025868, 0.829559)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (136.969208, -407.743805, -245.662628)
+	orientation (-0.364042, 0.784502, -0.498970, -0.055307)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (-140.289185, -426.764740, 206.622482)
+	orientation (-0.015054, -0.539293, 0.806902, 0.240513)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (230.980850, 352.198334, 327.254578)
+	orientation (0.230205, 0.374480, 0.897819, 0.026297)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (260.630920, -126.856567, -412.012726)
+	orientation (-0.051208, 0.952005, -0.146451, 0.263849)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ AvatarSpecies
+	position (67.394905, -19.672729, -501.761963)
+	orientation (-0.062762, 0.995609, -0.023619, 0.065314)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
+	position (361.362061, 335.265930, -145.171768)
+	orientation (-0.542295, 0.589211, 0.002395, 0.598949)
+
+	propertyCount 10
+end
+
+
+marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
+	position (-58.585426, 470.604950, -113.498383)
+	orientation (-0.783367, -0.052098, 0.035561, 0.618351)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
+	position (-287.563019, 159.440826, 370.084869)
+	orientation (-0.175098, -0.309123, 0.008521, 0.934725)
+
+	propertyCount 10
+end
+
+marker CreatureArchetype -id kHerd~ NPC_Epic_Predator
+	position (-425.498962, -161.508087, -300.014252)
+	orientation (-0.294860, 0.829605, -0.010086, -0.474038)
+
+	propertyCount 10
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (405.473846, -259.590729, -77.968445)
+	orientation (0.416331, 0.637651, 0.005805, 0.648102)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (401.744293, -265.624969, -73.246735)
+	orientation (0.632432, -0.418578, 0.651784, -0.000309)
+end
+
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (353.927734, 239.562302, -262.182465)
+	orientation (-0.487841, 0.723510, 0.000873, 0.488410)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-211.746033, 433.059387, -75.492165)
+	orientation (-0.656823, -0.382025, -0.046785, 0.648422)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-218.620468, 428.414246, -85.397461)
+	orientation (-0.659264, -0.390870, -0.040646, 0.641045)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn4
+	position (-419.054413, -159.961182, -309.592072)
+	orientation (-0.324363, 0.823899, 0.004838, -0.464710)
+end
+
+marker InteractiveOrnament -id kInteractiveOrnament~ SkeletonPartUnlockColumn3
+	position (-424.137299, -174.291672, -294.706635)
+	orientation (0.596216, 0.644093, -0.434793, -0.201559)
+end

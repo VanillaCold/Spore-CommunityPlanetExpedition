@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "Shanth_oturtle"
-key parent planetTerrainThemes~!ad_gear.prop
+key parent planetTerrainThemes2~!customTheme.prop
 keys modelEffect
 	0x4FCA7BB7
 	EP1_TB_River_Aquaduct

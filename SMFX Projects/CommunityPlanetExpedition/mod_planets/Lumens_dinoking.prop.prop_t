@@ -152,8 +152,8 @@ keys modelEffect
 	BR_raise_to_low_land~
 	BR_raise_to_low_land~
 	GO_lower_all~
-	0x8089E48A
-	0x8089E48A
+	EP1_TB_BasicTools_LevelPlatformBrush
+	EP1_TB_BasicTools_LevelPlatformBrush
 	Cracks~
 end
 uint32 modelEffectSeed 0x743de72b
@@ -1225,15 +1225,15 @@ vector3 terrainThemeAirColor (0, 0, 0)
 vector3 terrainThemeBeachColor (0.8627452, 0.9215687, 1)
 vector3 terrainThemeCliffColor (0.4618737, 0.4400872, 0.291939)
 keys terrainThemeFlora
-	floraModelsFLR~!0xCD94503C.flr
-	floraModelsFLR~!0x17665FDE.flr
-	floraModelsFLR~!0x17665FDE.flr
-	floraModelsFLR~!0x0770A8CF.flr
-	floraModelsFLR~!0x07798A1D.flr
-	floraModelsFLR~!0x077041D4.flr
-	floraModelsFLR~!0x07798A1C.flr
-	floraModelsFLR~!0xD4826D20.flr
-	floraModelsFLR~!0x2D483307.flr
+	flora_editorModel~!FE_scraped3_Lt3.flr
+	flora_editorModel~!FE_tentacles3_Lt2.flr
+	flora_editorModel~!FE_tentacles3_Lt2.flr
+	flora_editorModel~!0x0770A8CF.flr
+	flora_editorModel~!0x07798A1D.flr
+	flora_editorModel~!0x077041D4.flr
+	flora_editorModel~!0x07798A1C.flr
+	flora_editorModel~!FE_layers2_Sp1.flr
+	flora_editorModel~!FE_layers1_Sp1.flr
 end
 int32s terrainThemeFloraBracketIndexes
 	0

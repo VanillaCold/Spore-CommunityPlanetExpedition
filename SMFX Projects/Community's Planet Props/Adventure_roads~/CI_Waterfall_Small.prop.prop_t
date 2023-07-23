@@ -1,4 +1,4 @@
-key parent 0x15BA5969.prop
+key parent TerrainModelTemplate.prop
 string16 description "Waterfall Small"
 keys modelEffect
 	CI_Waterfall_Small
@@ -9,3 +9,5 @@ float modelEffectRange 120000000
 #key modelPaintDecalTexture CPE_FireFlameFlower-Toxic.rw4
 bool rockObstacleAllowed false
 #uint32 terrainScriptModelType hash(volcano)
+
+bool isSpatialStamp true
