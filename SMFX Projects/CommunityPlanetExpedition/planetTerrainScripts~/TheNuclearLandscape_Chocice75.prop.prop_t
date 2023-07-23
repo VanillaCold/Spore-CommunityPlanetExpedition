@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "TheNuclearLandscape_Chocice75"
-key parent planetTerrainThemes~!ad_gear.prop #The Nuclear Landscape by Chocice75
+key parent planetTerrainThemes2~!customTheme.prop #The Nuclear Landscape by Chocice75
 keys modelEffect
 	0x35D37172
 	0x35D37172

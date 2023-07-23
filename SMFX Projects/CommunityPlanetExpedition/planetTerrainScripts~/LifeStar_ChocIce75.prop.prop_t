@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "LifeStar_ChocIce75"
-key parent planetTerrainThemes~!ad_gear.prop #Life Star by Chocice75
+key parent planetTerrainThemes2~!customTheme.prop #Life Star by Chocice75
 keys modelEffect
 	EP1_TB_Valley_Tech
 	EP1_TB_Valley_Tech

@@ -1,6 +1,6 @@
 string8s replacementList
-	"key 0x03B28C1B stampKeyOverride -override"
-	"vector3s 0x03B28C1C stampOverride -override"
+	"key 0x03B28C1B stampKeyOverride"
+	"vector3s 0x03B28C1C stampOverride"
 end
 
 vector3 stampOverride (0,0,0)

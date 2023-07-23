@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "OrganizedPlanet_EdgyNightmeme"
-key parent planetTerrainThemes~!ad_gear.prop #Organized Planet by EdgyNightmeme
+key parent planetTerrainThemes2~!customTheme.prop #Organized Planet by EdgyNightmeme
 keys modelEffect
 	CC_cube_planet~
 	0x1DC12A1F

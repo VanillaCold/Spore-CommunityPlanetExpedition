@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "Flamuno_FlameFireFlower"
-key parent planetTerrainThemes~!ad_gear.prop #Flamuno by FlameFireFlower
+key parent planetTerrainThemes2~!customTheme.prop #Flamuno by FlameFireFlower
 keys modelEffect
 	0x35D37172
 	EP1_TB_Oceans_Soft

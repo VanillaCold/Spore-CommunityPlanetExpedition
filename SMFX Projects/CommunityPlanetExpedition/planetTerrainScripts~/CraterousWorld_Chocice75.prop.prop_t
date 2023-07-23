@@ -1,6 +1,3 @@
-#Description added through Python script
-
-string16 planet_name "CraterousWorld_Chocice75"
 key parent planetTerrainThemes~!ad_gear.prop # CraterousWorld by ChocIce75
 keys modelEffect
 	0x35D37172
@@ -2998,5 +2995,3 @@ vector3 terrainThemeWaterColor (0.1607843, 0.3607842, 0.7529413)
 uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
-bool 0xBC043C24 true
-

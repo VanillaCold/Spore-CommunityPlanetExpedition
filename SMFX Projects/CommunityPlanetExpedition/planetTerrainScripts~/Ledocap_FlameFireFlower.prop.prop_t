@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "Ledocap_FlameFireFlower"
-key parent planetTerrainThemes~!ad_gear.prop #Ledocap by FlameFireFlower
+key parent planetTerrainThemes2~!customTheme.prop #Ledocap by FlameFireFlower
 keys modelEffect
 	0x35D37172
 	EP1_TB_Continents_Nibbled

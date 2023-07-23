@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "TheWitheringLandscape_ChocIce75"
-key parent planetTerrainThemes~!ad_gear.prop #The Withering Landscape by Chocice75
+key parent planetTerrainThemes2~!customTheme.prop #The Withering Landscape by Chocice75
 keys modelEffect
 	0x35D37172
 	EP1_TB_Continents_Hilly

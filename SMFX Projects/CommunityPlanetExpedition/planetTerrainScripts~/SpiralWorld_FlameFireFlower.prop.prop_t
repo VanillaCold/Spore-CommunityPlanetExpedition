@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "SpiralWorld_FlameFireFlower"
-key parent planetTerrainThemes~!ad_gear.prop #Spiral World by FlameFireFlower
+key parent planetTerrainThemes2~!customTheme.prop #Spiral World by FlameFireFlower
 keys modelEffect
 	EP1_TB_Continents_Terra
 	EP1_TB_Continents_Landmass

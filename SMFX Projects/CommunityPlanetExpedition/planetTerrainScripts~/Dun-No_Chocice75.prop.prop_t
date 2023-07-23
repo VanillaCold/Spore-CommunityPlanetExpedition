@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "Dun-No_Chocice75"
-key parent planetTerrainThemes~!ad_gear.prop #Dun-No by Chocice75
+key parent planetTerrainThemes2~!customTheme.prop #Dun-No by Chocice75
 keys modelEffect
 	0x35D37172
 	0x35D37172

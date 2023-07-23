@@ -19,7 +19,7 @@ SpatialPlanetCollisions::~SpatialPlanetCollisions()
 
 void SpatialPlanetCollisions::Update()
 {
-	if (gameTimer > 0  && !Simulator::IsLoadingGameMode() && GameNounManager.GetAvatar())
+	if (gameTimer > 0  && !Simulator::IsLoadingGameMode() && (Simulator::IsCreatureGame() || Simulator::IsScenarioMode()) && GameNounManager.GetAvatar())
 	{
 		gameTimer-= 1/GameTimeManager.GetSpeed();
 		if (gameTimer < 2)
@@ -76,6 +76,12 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 		}
 		objects = vector<cSpatialObjectPtr>{};
 	}*/
+
+	if (!Simulator::IsScenarioMode() && !Simulator::IsCreatureGame())
+	{
+		return;
+	}
+
 	objects = vector<cSpatialObjectPtr>{};
 	
 	auto propList = sphere->mpPropList;
@@ -103,8 +109,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 
 			if (isPreGenerated == false)
 			{
-				auto test = simulator_new<Simulator::cInteractiveOrnament>();
-
+				auto test = GameNounManager.CreateInstance(Simulator::kRock);
 
 				//test->Load(VehicleLocomotion::kVehicleLand, VehiclePurpose::kVehicleColony, mKey);
 
@@ -113,14 +118,14 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 				Transform* orientation;
 				size_t count;
 
-				test->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
+				obj->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
 				//cSpatialObjectPtr obj = simulator_new<Simulator::cSpatialObject>();
 				obj->SetModelKey(mKey);
 				obj->SetPosition(mTrans.GetOffset());
 				obj->SetOrientation(mTrans.GetRotation().ToQuaternion());
 				objRots.push_back(mTrans.GetRotation().ToQuaternion());
 
-				test->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
+				obj->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
 				/*void* gonzagoPhysics = STATIC_CALL_(Address(0xB3D410), void*);
 				auto physTest = CALL(Address(0xB48870), void*, Args(void*, Simulator::cGameData*, bool), Args(gonzagoPhysics, test, false));*/
 				obj->SetScale(mTrans.GetScale());
