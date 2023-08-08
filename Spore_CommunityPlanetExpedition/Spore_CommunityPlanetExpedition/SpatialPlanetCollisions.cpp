@@ -8,7 +8,7 @@ SpatialPlanetCollisions::SpatialPlanetCollisions()
 {
 	sInstance = this;
 	gameTimer = 0;
-	//App::AddUpdateFunction(this);
+	App::AddUpdateFunction(this);
 }
 
 
@@ -48,7 +48,16 @@ void SpatialPlanetCollisions::ParseLine(const ArgScript::Line& line)
 		{
 			cSpatialObjectPtr spatial = objects[i];
 			Vector3 pos = spatial->GetPosition();
+			
+			spatial->mbFixed = true;
+			spatial->mbPickable = false;
+			spatial->mbKeepPinnedToPlanet = false;
+			spatial->mbIsTangible = true;
+			spatial->mbIsGhost = false;
+			spatial->mbTransformDirty = false;
+			
 			spatial->Teleport(pos, objRots[i]);
+			
 			gameTimer = 5;
 		}
 	}
@@ -110,31 +119,26 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 			if (isPreGenerated == false)
 			{
 				auto test = GameNounManager.CreateInstance(Simulator::kRock);
-
-				//test->Load(VehicleLocomotion::kVehicleLand, VehiclePurpose::kVehicleColony, mKey);
-
-				//auto test = GameNounManager.CreateInstance(Simulator::GameNounIDs::kRock);
 				Simulator::cSpatialObject* obj = object_cast<Simulator::cSpatialObject>(test);
-				Transform* orientation;
 				size_t count;
+				Vector3 rot = mTrans.GetRotation().ToEuler();
 
-				obj->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
-				//cSpatialObjectPtr obj = simulator_new<Simulator::cSpatialObject>();
+				if ((Math::Quaternion::FromEuler(rot)) == Math::Quaternion(0, 0, 0, 0))
+				{
+					SporeDebugPrint("WE GOT ANOTHER ONE");
+					SporeDebugPrint("Object number %i", i)
+				}
 				obj->SetModelKey(mKey);
-				obj->SetPosition(mTrans.GetOffset());
-				obj->SetOrientation(mTrans.GetRotation().ToQuaternion());
-				objRots.push_back(mTrans.GetRotation().ToQuaternion());
-
-				obj->Teleport(mTrans.GetOffset(), mTrans.GetRotation().ToQuaternion());
-				/*void* gonzagoPhysics = STATIC_CALL_(Address(0xB3D410), void*);
-				auto physTest = CALL(Address(0xB48870), void*, Args(void*, Simulator::cGameData*, bool), Args(gonzagoPhysics, test, false));*/
+				obj->Teleport(mTrans.GetOffset(), Math::Quaternion::FromEuler(rot));
+				objRots.push_back(Math::Quaternion::FromEuler(rot));
 				obj->SetScale(mTrans.GetScale());
 				obj->mbFixed = true;
 				obj->mbPickable = false;
 				obj->mbKeepPinnedToPlanet = false;
 				obj->mbIsTangible = true;
 				obj->mbIsGhost = false;
-				obj->mbTransformDirty = true;
+				obj->mbTransformDirty = false;
+				obj->Teleport(mTrans.GetOffset(), Math::Quaternion::FromEuler(rot));
 				objects.push_back(obj);
 			}
 
