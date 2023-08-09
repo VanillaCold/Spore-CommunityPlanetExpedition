@@ -36,5 +36,9 @@ keys palettePagePartItems
 	Adventure_Brushes~!M_Relic_7
 	Adventure_Brushes~!M_Relic_8
 	Adventure_Brushes~!M_Relic_9
+	Adventure_Brushes~!M_HutFish
+	Adventure_Brushes~!M_HutHeal
+	Adventure_Brushes~!M_HutGather
+
 end
 key palettePagePartParentPage MaxisPage2
