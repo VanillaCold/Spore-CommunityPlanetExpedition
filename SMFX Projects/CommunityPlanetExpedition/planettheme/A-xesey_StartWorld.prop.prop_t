@@ -1,0 +1,38 @@
+key parent planetTerrainThemes3~!AllPlanets.prop
+string16 description "Gameplay Theme"
+key planetFruitDistributeEffect 0x7F0E297F
+key planetFruitModel Fruit_Normal_01.prop
+keys planetStaticRocks
+	crg_Shitaake_LargeRock2.prop
+end
+bool terrainAllowUnderwaterModels true
+keys terrainScriptAmbientEffects
+	0x57974AC6
+	0xF20E833C
+end
+keys terrainScriptAmbientSoundEffects
+	planet_ambience_marsh
+end
+vector3s terrainScriptPlanetInfoSelect
+	(10, 10, 500)
+end
+vector3 terrainScriptWTALevels (0.5, 0.5, 0.5)
+key terrainThemeAboveDetail1 0xA5AB24F5
+key terrainThemeAboveDetail2 0xCB000A4F
+key terrainThemeAboveDetailNoise 0xC5D262E4
+key terrainThemeBelow 0xAF13021D
+key terrainThemeCliff cliff_base
+keys terrainThemeFlora
+	flora_editorModel~!0x076F13CC.flr
+	flora_editorModel~!FE_crystalGreen2_Sp.flr
+	flora_editorModel~!FE_mushroom3_Sp.flr
+	flora_editorModel~!FE_starter3_Mp.flr
+	flora_editorModel~!FE_crystal1_Mp.flr
+	flora_editorModel~!0x0775854B.flr
+	flora_editorModel~!FE_mesa1_Lt8.flr
+	flora_editorModel~!FE_domes3_Lt.flr
+	flora_editorModel~!FE_crystal2_Lt6.flr
+end
+uint32 terrainAtmosphereType 6
+uint32 terrainWaterType 6
+int32 weatherCloudType 4

@@ -1,0 +1,9 @@
+uint32 CivScenario hash(A-xesey_StartWorld)
+uint32 CreatureScenario hash(A-xesey_StartWorld)
+bool FirstGroup true
+uint32 PlanetIcon hash(A-xesey_StartWorld)
+uint32 SpaceScenario hash(A-xesey_StartWorld)
+uint32 TribeScenario hash(A-xesey_StartWorld)
+string16 planetscriptDescription "A-xesey_StartWorld"
+uint32 terrainscript hash(A-xesey_StartWorld)
+bool 0xEA288A88 false
