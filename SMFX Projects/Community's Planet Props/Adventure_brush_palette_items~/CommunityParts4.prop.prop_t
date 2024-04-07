@@ -36,5 +36,7 @@ keys palettePagePartItems
 	Adventure_Brushes~!S_RTriangle-Chocice75
 	Adventure_Brushes~!CaveRise
 	Adventure_Brushes~!CaveTriSplit
+	Adventure_Brushes~!FlowerCluster
+	Adventure_Brushes~!FlowerSingle
 end
 key palettePagePartParentPage communitypage4

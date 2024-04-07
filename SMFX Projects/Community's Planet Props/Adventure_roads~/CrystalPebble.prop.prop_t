@@ -1,6 +1,6 @@
 key parent TerrainModelTemplate.prop
 string16 description "Crystal (Pebble) by FlameFireFlower"
-key modelMeshLOD0 PlanetProps_Models!CrystalPebble
+key modelMeshLOD0 PlanetProps_Models!CrystalPebble.rw4
 key modelMeshHull PlanetProps_Hulls!CrystalPebble
 bool modelUseHullForBBox true
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
@@ -21,3 +21,5 @@ floats modelLODDistances
 end
 bool isSpatialStamp true
 
+bool useImpreciseCollisions true
+float maxSizeForImpreciseCollisions 1.2

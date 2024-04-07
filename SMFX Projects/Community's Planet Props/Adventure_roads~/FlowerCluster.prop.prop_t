@@ -1,5 +1,5 @@
 key parent TerrainModelTemplate.prop
-string16 description "CoastalArch(Grey) by Chocice75"
+string16 description "FlowerCluster by FlameFireFlower"
 #keys modelEffect
 #	cr_feature_meteorite_b
 #end
@@ -9,20 +9,16 @@ floats modelLODDistances
 	4000
 	20000
 end
-#vector3 modelLevelParams (40, 0, 0.5)
-key modelMeshHull PlanetProps_Hulls!CoastalArch.rw4
-key modelMeshLOD0 PlanetProps_Models!CoastalArch_2.rw4
-bool modelUseHullForBBox true
+key modelMeshHull PlanetProps_Hulls!FlowerCluster.rw4
+key modelMeshLOD0 PlanetProps_Models!FlowerCluster.rw4
 colorRGB modelPaintDecalColor (1.5, 1.5, 1.5)
 vector3 modelPaintDecalParams (45, 0, 0.8)
 #key modelPaintDecalTexture 0x3CD176AB
 float modelScale 2.5
-#vector3 modelStampParams (45, 0, 0.12)
 #key modelStampTexture feature_meteorite_stamp
 bool modelUsesDeadColor false
 bool rockObstacleAllowed false
 uint32 terrainScriptModelType hash(volcano)
+bool modelUseHullForBBox true
+bool modelUseHullForPicking true
 bool isSpatialStamp true
-
-bool useImpreciseCollisions true
-float maxSizeForImpreciseCollisions 1.5

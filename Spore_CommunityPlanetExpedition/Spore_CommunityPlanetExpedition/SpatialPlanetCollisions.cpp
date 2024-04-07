@@ -8,7 +8,7 @@ SpatialPlanetCollisions::SpatialPlanetCollisions()
 {
 	sInstance = this;
 	gameTimer = 0;
-	App::AddUpdateFunction(this);
+	//App::AddUpdateFunction(this);
 }
 
 
@@ -22,7 +22,7 @@ void SpatialPlanetCollisions::Update()
 	if (gameTimer > 0  && !Simulator::IsLoadingGameMode() && (Simulator::IsCreatureGame() || Simulator::IsScenarioMode()) && GameNounManager.GetAvatar())
 	{
 		gameTimer-= 1/GameTimeManager.GetSpeed();
-		if (gameTimer < 2)
+		if (floor(gameTimer) == 0)
 		{
 			for (int i = 0; i < objects.size(); i++)
 			{
@@ -58,7 +58,7 @@ void SpatialPlanetCollisions::ParseLine(const ArgScript::Line& line)
 			
 			spatial->Teleport(pos, objRots[i]);
 			
-			gameTimer = 5;
+			//gameTimer = 15;
 		}
 	}
 	// This method is called when your cheat is invoked.
@@ -102,7 +102,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 	else
 	{
 		isPreGenerated = false;
-		gameTimer = 150;
+		gameTimer = 10;
 	}
 
 	for(int i = 0;i<sphere->mModels.size();i++)
@@ -118,16 +118,45 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 
 			if (isPreGenerated == false)
 			{
-				auto test = GameNounManager.CreateInstance(Simulator::kRock);
+				Simulator::cGameData* test = nullptr;
+				bool useImprecise;
+				if (!App::Property::GetBool(model->mpPropList.get(),id("useImpreciseCollisions"),useImprecise) && useImprecise)
+				{
+					test = GameNounManager.CreateInstance(Simulator::kRock);
+				}
+				else
+				{
+					float maxSize = 0;
+					if (App::Property::GetFloat(model->mpPropList.get(), id("maxSizeForImpreciseCollisions"), maxSize))
+					{
+						if (maxSize > model->mTransform.GetScale())
+						{
+							test = GameNounManager.CreateInstance(Simulator::kObstacle);
+						}
+						else
+						{
+							test = GameNounManager.CreateInstance(Simulator::kRock);
+						}
+					}
+					else
+					{
+						test = GameNounManager.CreateInstance(Simulator::kObstacle);
+					}
+				}
+
 				Simulator::cSpatialObject* obj = object_cast<Simulator::cSpatialObject>(test);
 				size_t count;
 				Vector3 rot = mTrans.GetRotation().ToEuler();
 
+#ifdef DEBUG
+
 				if ((Math::Quaternion::FromEuler(rot)) == Math::Quaternion(0, 0, 0, 0))
 				{
 					SporeDebugPrint("WE GOT ANOTHER ONE");
-					SporeDebugPrint("Object number %i", i)
+					SporeDebugPrint("Object number %i", i);
 				}
+#endif // DEBUG
+
 				obj->SetModelKey(mKey);
 				obj->Teleport(mTrans.GetOffset(), Math::Quaternion::FromEuler(rot));
 				objRots.push_back(Math::Quaternion::FromEuler(rot));
@@ -139,6 +168,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 				obj->mbIsGhost = false;
 				obj->mbTransformDirty = false;
 				obj->Teleport(mTrans.GetOffset(), Math::Quaternion::FromEuler(rot));
+
 				objects.push_back(obj);
 			}
 
