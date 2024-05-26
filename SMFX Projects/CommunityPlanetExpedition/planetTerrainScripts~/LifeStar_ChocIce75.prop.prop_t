@@ -921,3 +921,8 @@ uint32 terrainVersion 2
 uint32 terrainWaterType 11
 key visualStyle animations~
 
+key terrainThemeAboveDetail1 0x0!be_tech_04__diffuse.rw4
+key terrainThemeAboveDetail2 0x0!be_tech_04__diffuse.rw4
+key terrainThemeAboveDetailNoise 0x0!be_tech_04__diffuse.rw4
+key terrainThemeBelow 0x0!be_tech_04__diffuse.rw4
+key terrainThemeCliff cliff_base

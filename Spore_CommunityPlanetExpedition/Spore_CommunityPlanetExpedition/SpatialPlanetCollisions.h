@@ -16,7 +16,7 @@ public:
 
 	vector<cSpatialObjectPtr> objects;
 	vector<Quaternion> objRots;
-	
+
 	float gameTimer = 0;
 
 	void Update() override;

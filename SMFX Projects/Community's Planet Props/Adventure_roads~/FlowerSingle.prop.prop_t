@@ -24,4 +24,5 @@ uint32 terrainScriptModelType hash(volcano)
 bool modelUseHullForBBox true
 bool isSpatialStamp true
 
-int32 shapeType 4
+bool useImpreciseCollisions true
+float maxSizeForImpreciseCollisions 2

@@ -1,0 +1,10 @@
+#Generated through Python script
+uint32 CivScenario hash(Hypernest_FlameFireFlower)
+uint32 CreatureScenario hash(Hypernest_FlameFireFlower)
+bool FirstGroup true
+uint32 PlanetIcon hash(Hypernest_FlameFireFlower)
+uint32 SpaceScenario hash(Hypernest_FlameFireFlower)
+uint32 TribeScenario hash(Hypernest_FlameFireFlower)
+string16 planetscriptDescription "Hypernest_FlameFireFlower"
+uint32 terrainscript hash(Hypernest_FlameFireFlower)
+bool 0xEA288A88 false

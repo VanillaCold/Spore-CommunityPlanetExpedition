@@ -107,7 +107,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 
 	for(int i = 0;i<sphere->mModels.size();i++)
 	{
-		
+		//break;
 		ModelPtr model = sphere->mModels[i];
 		Transform mTrans = sphere->mModelTransforms[i];
 		ResourceKey mKey = model->mpPropList->GetResourceKey();
@@ -119,10 +119,12 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 			if (isPreGenerated == false)
 			{
 				Simulator::cGameData* test = nullptr;
+				uint32_t definitionID = 0;
+				test = GameNounManager.CreateInstance(Simulator::kRock);
 				bool useImprecise;
 				if (!App::Property::GetBool(model->mpPropList.get(),id("useImpreciseCollisions"),useImprecise) && useImprecise)
 				{
-					test = GameNounManager.CreateInstance(Simulator::kRock);
+					definitionID = id("CPE_DefaultCollisions");
 				}
 				else
 				{
@@ -131,16 +133,16 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 					{
 						if (maxSize > model->mTransform.GetScale())
 						{
-							test = GameNounManager.CreateInstance(Simulator::kObstacle);
+							definitionID = id("CPE_ImpreciseCollisions");
 						}
 						else
 						{
-							test = GameNounManager.CreateInstance(Simulator::kRock);
+							definitionID = id("CPE_DefaultCollisions");
 						}
 					}
 					else
 					{
-						test = GameNounManager.CreateInstance(Simulator::kObstacle);
+						definitionID = id("CPE_DefaultCollisions");
 					}
 				}
 
@@ -156,6 +158,21 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 					SporeDebugPrint("Object number %i", i);
 				}
 #endif // DEBUG
+
+
+				struct DefinitionStruct //We define a struct here, as the actual one isn't in the SDK yet.
+				{
+					uint32_t nounID;
+					uint32_t definitionID;
+					const Vector3& position = Vector3(0, 0, 0);
+					PropertyListPtr propList;
+				}definition;
+
+				PropManager.GetPropertyList(definitionID, GroupIDs::NounDefinitions, definition.propList);
+				definition.definitionID = definitionID;
+				definition.nounID = Simulator::GameNounIDs::kInteractiveOrnament;
+
+				test->SetDefinitionID((int)&definition,0,0);
 
 				obj->SetModelKey(mKey);
 				obj->Teleport(mTrans.GetOffset(), Math::Quaternion::FromEuler(rot));

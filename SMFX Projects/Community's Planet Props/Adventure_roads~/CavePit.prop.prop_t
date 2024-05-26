@@ -19,4 +19,5 @@ float modelScale 2.5
 bool modelUsesDeadColor false
 bool rockObstacleAllowed false
 uint32 terrainScriptModelType hash(volcano)
+
 bool isSpatialStamp true

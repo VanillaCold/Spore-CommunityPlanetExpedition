@@ -1,0 +1,10 @@
+key parent definitions~!ep1_template_staticObject.prop
+texts interactableObjectName
+	(0x47103B46!0x01807b83) "ep1_altarreligious.prop (NOT LOCALIZED)"
+end
+int32 interactiveOrnamentType 7
+uint32 materialType 11
+int32 shapeType 6
+string8 nounDefinition_ResourceDescription "CPE_Test"
+key nounDefinition_ResourceKey Adventure_Roads~!MangroveTree
+int32 interactableObjectPhysicsPropertyListId hash(CPE_DefaultCollisions)
