@@ -1,7 +1,7 @@
 #Description added through Python script
 
 string16 planet_name "Arkilago_FlameFireFlower"
-key parent planetTerrainThemes2~!customTheme.prop #Arkilago by FlameFireFlower
+key parent planetTerrainThemes~!ad_gear.prop #Arkilago by FlameFireFlower
 keys modelEffect
 	0x35D37172
 	EP1_TB_BasicTools_RaiseBrush

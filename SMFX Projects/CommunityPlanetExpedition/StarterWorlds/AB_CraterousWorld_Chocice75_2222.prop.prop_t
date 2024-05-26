@@ -1,5 +1,5 @@
 #Generated through Python script
-uint32 CivScenario hash(CraterousWorld_Chocice75)
+uint32 CivScenario hash(CraterousWorld_Chocice75__Civ)
 uint32 CreatureScenario hash(CraterousWorld_Chocice75)
 bool FirstGroup true
 uint32 PlanetIcon hash(CraterousWorld_Chocice75)
