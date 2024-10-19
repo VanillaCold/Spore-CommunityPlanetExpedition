@@ -29,9 +29,39 @@ member_detour(TerrainSphereGenerate_detour, Terrain::cTerrainSphere, void(int*, 
 		bool generateSingleStep = false, float generateTimeLimit = 10.0f) {
 		//PlanetScriptOverrider::OverrideRegularScripts(this->mpPropList);
 
-
-
 		original_function(this, unused0, unused1, unk, generateSingleStep, generateTimeLimit);
+
+		if (mpPropList->HasProperty(0xB6929C92) && mpPropList->HasProperty(id("planet_name"))) //terrainThemePlanetColorsList
+		{
+			//colours
+			vector<Vector3> colours;
+			vector<float> elevations;
+
+			Vector3 waterColour;
+			Vector3 cliffColour;
+			Vector3 atmosColour;
+			Vector3 beachColour;
+
+			App::Property::GetVector3(mpPropList.get(), 0x968C496A, waterColour);
+			App::Property::GetVector3(mpPropList.get(), 0xB6929C94, cliffColour);
+			App::Property::GetVector3(mpPropList.get(), 0x968C496B, atmosColour);
+			App::Property::GetVector3(mpPropList.get(), 0xB6929C95, beachColour);
+
+			App::Property::GetArrayVector3(mpPropList.get(), 0xB6929C93, colours);
+			App::Property::GetArrayFloat(mpPropList.get(), 0xB6929C92, elevations);
+
+			mpTerrainStateMgr->SetUserColorEnabled(true);
+			this->mAllowUnderwaterObjects = true;
+
+			mpTerrainStateMgr->ApplyTerrainUserElevationColor(elevations, colours);
+
+			mpTerrainStateMgr->ApplyTerrainUserCliffColor(cliffColour);
+			mpTerrainStateMgr->ApplyTerrainUserBeachColor(beachColour);
+			mpTerrainStateMgr->ApplyTerrainUserWaterColor(waterColour);
+			mpTerrainStateMgr->ApplyTerrainUserAtmosphereColor(atmosColour);
+			mpTerrainStateMgr->SetUserColorEnabled(true);
+
+		}
 		
 		if (Simulator::IsCreatureGame() || (Simulator::IsScenarioMode() && ScenarioMode.mMode == App::cScenarioMode::Mode::PlayMode))
 		{
@@ -40,34 +70,6 @@ member_detour(TerrainSphereGenerate_detour, Terrain::cTerrainSphere, void(int*, 
 			if (!App::Property::GetString16(this->mpPropList.get(), id("planet_name"), planetName))
 			{
 				planetName = u"Vanilla Planet";
-			}
-			if (mpPropList->HasProperty(0xB6929C92) && planetName != u"Vanilla Planet") //terrainThemePlanetColorsList
-			{
-				//colours
-				vector<Vector3> colours;
-				vector<float> elevations;
-
-				Vector3 waterColour;
-				Vector3 cliffColour;
-				Vector3 atmosColour;
-				Vector3 beachColour;
-
-				App::Property::GetVector3(mpPropList.get(), 0x968C496A, waterColour);
-				App::Property::GetVector3(mpPropList.get(), 0xB6929C94, cliffColour);
-				App::Property::GetVector3(mpPropList.get(), 0x968C496B, atmosColour);
-				App::Property::GetVector3(mpPropList.get(), 0xB6929C95, beachColour);
-
-				App::Property::GetArrayVector3(mpPropList.get(), 0xB6929C93, colours);
-				App::Property::GetArrayFloat(mpPropList.get(), 0xB6929C92, elevations);
-
-				mpTerrainStateMgr->SetUserColorEnabled(true);
-				mpTerrainStateMgr->ApplyTerrainUserElevationColor(elevations, colours);
-
-				mpTerrainStateMgr->ApplyTerrainUserCliffColor(cliffColour);
-				mpTerrainStateMgr->ApplyTerrainUserBeachColor(beachColour);
-				mpTerrainStateMgr->ApplyTerrainUserWaterColor(waterColour);
-				mpTerrainStateMgr->ApplyTerrainUserAtmosphereColor(atmosColour);
-
 			}
 
 
