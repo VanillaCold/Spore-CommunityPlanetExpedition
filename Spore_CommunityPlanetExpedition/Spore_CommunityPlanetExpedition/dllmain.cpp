@@ -92,18 +92,15 @@ member_detour(TerrainSphereGenerate_detour, Terrain::cTerrainSphere, void(int*, 
 	}
 };
 
-static_detour(DetourTest, void* (int))
-{
-	void* detoured(int arg1)
-	{
-		if (arg1)
-		{
-			original_function(arg1);
+//This code is made by Emd, to help with custom colours not appearing on planet impostors
+// Going outside the planet calls SetUserColorEnabled(false), so we detour to ensure we don't lose the custom colors
+member_detour(cTerrainStateMgr_SetUserColorEnabled__detour, Terrain::cTerrainStateMgr, void(bool)) {
+	void detoured(bool enabled) {
+		if (!enabled && mpTerrain->GetPropertyList()) {
+			// User custom color elevations
+			enabled = mpTerrain->GetPropertyList()->HasProperty(0xB6929C92);
 		}
-		else
-		{
-			return (void*)nullptr;
-		}
+		original_function(this, enabled);
 	}
 };
 
@@ -115,6 +112,8 @@ void Dispose()
 void AttachDetours()
 {
 	TerrainSphereGenerate_detour::attach(GetAddress(Terrain::Sphere::cTerrainSphere, Generate));
+
+	cTerrainStateMgr_SetUserColorEnabled__detour::attach(GetAddress(Terrain::cTerrainStateMgr, SetUserColorEnabled));
 	//DetourTest::attach(Address(0x00bd9b30));
 	// Call the attach() method on any detours you want to add
 	// For example: cViewer_SetRenderType_detour::attach(GetAddress(cViewer, SetRenderType));
