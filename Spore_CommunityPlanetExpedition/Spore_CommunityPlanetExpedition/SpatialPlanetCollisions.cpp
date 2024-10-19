@@ -97,7 +97,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 	bool isPreGenerated;
 	if (App::Property::GetBool(propList.get(), id("CPE-IsTerrainGenerated"), isPreGenerated) && !Simulator::IsScenarioMode())
 	{
-		App::ConsolePrintF("Pre-generated property is found!");
+		ModAPI::Log("Pre-generated property is found!");
 	}
 	else
 	{
@@ -170,7 +170,7 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 
 				PropManager.GetPropertyList(definitionID, GroupIDs::NounDefinitions, definition.propList);
 				definition.definitionID = definitionID;
-				definition.nounID = Simulator::GameNounIDs::kInteractiveOrnament;
+				definition.nounID = Simulator::GameNounIDs::kRock;
 
 				test->SetDefinitionID((int)&definition,0,0);
 
@@ -187,6 +187,10 @@ void SpatialPlanetCollisions::PlanetModelsToSpatialObjects(Terrain::cTerrainSphe
 				obj->Teleport(mTrans.GetOffset(), Math::Quaternion::FromEuler(rot));
 
 				objects.push_back(obj);
+			}
+			else
+			{
+				ModAPI::Log("Already generated!");
 			}
 
 

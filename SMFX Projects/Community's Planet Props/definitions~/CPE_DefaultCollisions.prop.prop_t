@@ -3,6 +3,9 @@ texts interactableObjectName
 	(0x47103B46!0x01807b83) "ep1_altarreligious.prop (NOT LOCALIZED)"
 end
 int32 interactiveOrnamentType 7
+float interactableObjectDefaultScale 1
+float interactableObjectMaxScale 4000
+float interactableObjectMinScale 0.000025
 uint32 materialType 11
 int32 shapeType 6
 string8 nounDefinition_ResourceDescription "CPE_Test"
